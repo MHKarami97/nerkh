@@ -2,16 +2,12 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// Repo is served from https://nerkh.mhkarami97.ir (custom domain -> GitHub Pages root),
-// so the base path is '/'. If you ever drop the custom domain and use the default
-// https://<user>.github.io/nerkh/ URL instead, change base to '/nerkh/'.
 export default defineConfig({
   base: '/',
   plugins: [
     vue(),
     VitePWA({
       registerType: 'prompt',
-      includeAssets: ['favicon.svg', 'robots.txt'],
       manifest: {
         name: 'نرخ | قیمت لحظه‌ای دلار، طلا، سکه و رمزارز',
         short_name: 'نرخ',
@@ -24,9 +20,12 @@ export default defineConfig({
         start_url: '/',
         scope: '/',
         icons: [
-          { src: '/icons/icon.svg', sizes: '192x192', type: 'image/svg+xml', purpose: 'any' },
-          { src: '/icons/icon.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'any' },
-          { src: '/icons/icon-maskable.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'maskable' }
+          { src: 'icons/icon-48.png', sizes: '48x48', type: 'image/png' },
+          { src: 'icons/icon-72.png', sizes: '72x72', type: 'image/png' },
+          { src: 'icons/icon-96.png', sizes: '96x96', type: 'image/png' },
+          { src: 'icons/icon-144.png', sizes: '144x144', type: 'image/png' },
+          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
         ]
       },
       workbox: {
