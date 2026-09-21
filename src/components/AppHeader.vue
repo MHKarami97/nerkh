@@ -30,7 +30,7 @@ const updatedAgoLabel = computed(() => {
 <template>
   <header class="container app-header">
     <div class="app-header__row">
-      <img src="/icons/icon.svg" alt="نرخ" class="app-header__logo" />
+      <img src="/icons/icon-96.png" alt="نرخ" class="app-header__logo" />
       <h1 class="app-header__title">نرخ</h1>
 
       <div class="app-header__search-wrap">

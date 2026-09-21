@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "نرخ لحظه‌ای دلار، طلا، سکه و رمزارز - Vue 3 PWA",
+  "description": "نرخ لحظه‌ای دلار، طلا، سکه و رمزارز",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
