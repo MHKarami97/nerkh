@@ -2,8 +2,9 @@ name: Refresh Market Data Mirror
 
 # Runs every 5 minutes, calls the market data source(s) server-side (no
 # browser CORS restrictions here), normalizes the payload, and commits
-# public/data/latest.json. This file is the same-origin "mirror" fallback
-# consumed by src/services/providers/MirrorProvider.js.
+# public/data/latest.json plus today's public/data/history/{date}.json
+# snapshot. These are the same-origin "mirror" and "history" data
+# consumed by MirrorProvider and services/history.js on the client.
 on:
   schedule:
     - cron: '*/5 * * * *'
@@ -33,14 +34,14 @@ jobs:
       - name: Fetch and normalize market data
         run: node scripts/fetch-market-data.mjs
 
-      - name: Commit updated snapshot if changed
+      - name: Commit updated snapshot/history if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- public/data/latest.json; then
+          git add public/data/latest.json public/data/history
+          if git diff --cached --quiet; then
             echo "No data changes, skipping commit."
           else
-            git add public/data/latest.json
-            git commit -m "chore(data): refresh market snapshot [skip ci]"
+            git commit -m "chore(data): refresh market snapshot + history [skip ci]"
             git push
           fi
