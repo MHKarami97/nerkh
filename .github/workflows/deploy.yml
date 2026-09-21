@@ -36,7 +36,7 @@ jobs:
         # was generated. Once you run `npm install` locally once and commit
         # the refreshed lockfile, feel free to switch this back to `npm ci`
         # for faster/stricter installs.
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
