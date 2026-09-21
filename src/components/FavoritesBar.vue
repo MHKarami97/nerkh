@@ -1,10 +1,12 @@
 <script setup>
 /**
- * Horizontal, always-visible strip of the user's favorited assets,
- * rendered above the main content whenever there's at least one favorite.
+ * Favorited assets, rendered above the main content whenever there's at
+ * least one favorite. Uses the same responsive grid as every other
+ * category section (not a horizontal scroll strip) so it looks and
+ * behaves consistently on mobile too.
  */
 import { useMarketStore } from '../stores/market.js'
-import AssetCard from './AssetCard.vue'
+import CategorySection from './CategorySection.vue'
 
 const store = useMarketStore()
 </script>
@@ -12,10 +14,8 @@ const store = useMarketStore()
 <template>
   <section style="margin-top: 10px;">
     <h2 class="section-title" style="margin-top:0;">مورد علاقه‌ها</h2>
-    <div class="scroll-row">
-      <div v-for="asset in store.favoriteAssets" :key="asset.symbol" style="min-width:200px;">
-        <AssetCard :asset="asset" is-favorite @toggle-favorite="store.toggleFavorite" />
-      </div>
+    <div class="grid">
+      <CategorySection :assets="store.favoriteAssets" flat />
     </div>
   </section>
 </template>
