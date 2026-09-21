@@ -46,31 +46,29 @@ export const useMarketStore = defineStore('market', {
       const pinnedInCategory = PINNED_SYMBOLS.some(
         (symbol) => state.assetsBySymbol[symbol] && state.assetsBySymbol[symbol].category === category
       )
-      const moreCount = (state.assetsBySymbol && Object.values(state.assetsBySymbol).some(
+      const hasMore = Object.values(state.assetsBySymbol).some(
         (a) => a.category === category && !PINNED_SYMBOL_SET.has(a.symbol)
-      ))
-      return pinnedInCategory || moreCount
+      )
+      return pinnedInCategory || hasMore
     },
 
-    /**
-     * What a given category block should render right now: while
-     * searching, every matching asset in that category (pinned or not);
-     * otherwise the pinned slice, plus the "more" slice if the user
-     * expanded it.
-     */
-    visibleAssetsForCategory() {
+    /** Pinned assets belonging to one category — the part that's always visible. */
+    pinnedForCategory() {
+      return (category) => this.pinnedAssets.filter((a) => a.category === category)
+    },
+
+    /** Non-pinned assets belonging to one category — revealed by "show more". */
+    extraForCategory() {
+      return (category) => this.moreAssetsByCategory[category] || []
+    },
+
+    /** Every asset (pinned or not) in a category that matches the active search query. */
+    searchResultsForCategory() {
       return (category) => {
         const query = this.search.trim().toLowerCase()
-        const pinnedInCategory = this.pinnedAssets.filter((a) => a.category === category)
-        const moreInCategory = this.moreAssetsByCategory[category] || []
-
-        if (query) {
-          return [...pinnedInCategory, ...moreInCategory].filter(
-            (a) => a.label.toLowerCase().includes(query) || a.symbol.toLowerCase().includes(query)
-          )
-        }
-
-        return this.expandedCategories[category] ? [...pinnedInCategory, ...moreInCategory] : pinnedInCategory
+        const combined = [...this.pinnedForCategory(category), ...this.extraForCategory(category)]
+        if (!query) return combined
+        return combined.filter((a) => a.label.toLowerCase().includes(query) || a.symbol.toLowerCase().includes(query))
       }
     },
   },
@@ -103,7 +101,10 @@ export const useMarketStore = defineStore('market', {
     async toggleFavorite(symbol) {
       const isFavorite = this.favorites.includes(symbol)
       this.favorites = isFavorite ? this.favorites.filter((s) => s !== symbol) : [...this.favorites, symbol]
-      await setFavorites(this.favorites)
+      // IndexedDB's structured-clone algorithm cannot serialize a Vue
+      // reactive Proxy directly (causes "DataCloneError: ... could not be
+      // cloned"). Spreading into a plain array before persisting avoids it.
+      await setFavorites([...this.favorites])
     },
   },
 })

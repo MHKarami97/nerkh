@@ -12,4 +12,9 @@ export const router = createRouter({
     { path: '/', name: 'home', component: HomeView },
     { path: '/asset/:symbol', name: 'asset-detail', component: AssetDetailView },
   ],
+  // Always start a new page at the top instead of keeping whatever scroll
+  // position the previous page was at.
+  scrollBehavior(to, from, savedPosition) {
+    return savedPosition || { top: 0 }
+  },
 })

@@ -319,3 +319,62 @@ button, input {
   font-size: 0.8rem;
   color: var(--text-muted);
 }
+
+
+/* Per-category "show more" expand/collapse animation: grid-template-rows
+   0fr -> 1fr is the standard CSS-only trick for animating auto height. */
+.expand-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows 0.28s ease;
+}
+
+.expand-wrap.is-open {
+  grid-template-rows: 1fr;
+}
+
+.expand-wrap__inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Route transition: fade + slight rise instead of an instant hard cut. */
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.page-fade-enter-from {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.page-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+
+/* Chart range tabs on the asset detail page */
+.range-tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.range-tabs__btn {
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.range-tabs__btn.is-active {
+  background: var(--accent);
+  color: #fff;
+  border-color: transparent;
+}

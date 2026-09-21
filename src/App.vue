@@ -2,7 +2,7 @@
 /**
  * Root shell: wires the store, market service lifecycle, and lays out the
  * always-visible header/footer around whichever page the router is
- * showing (home grid or an asset's detail/chart page).
+ * showing. Route changes fade/slide instead of cutting instantly.
  */
 import { onBeforeUnmount, onMounted } from 'vue'
 import { useMarketStore } from './stores/market.js'
@@ -27,7 +27,11 @@ onBeforeUnmount(() => {
 
 <template>
   <AppHeader />
-  <RouterView />
+  <router-view v-slot="{ Component }">
+    <transition name="page-fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
   <AppFooter />
   <UpdateToast />
 </template>

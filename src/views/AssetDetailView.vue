@@ -1,8 +1,8 @@
 <script setup>
 /**
- * Detail page for a single asset: current price + a day chart built from
- * the historical snapshots the fetch-data workflow appends every ~5
- * minutes (see services/history.js).
+ * Detail page for a single asset: current price + a chart with selectable
+ * range (day/week from fine-grained snapshots, month/year from the daily
+ * summary file — see services/history.js for how each is sourced).
  */
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -12,6 +12,8 @@ import { formatDisplayPrice } from '../utils/priceDisplay.js'
 import { CATEGORY_COLORS, CATEGORY_ICONS } from '../services/categories.js'
 import SparklineChart from '../components/SparklineChart.vue'
 
+const RANGE_LABELS = { day: 'روز', week: 'هفته', month: 'ماه', year: 'سال' }
+
 const route = useRoute()
 const router = useRouter()
 const store = useMarketStore()
@@ -20,17 +22,18 @@ const symbol = computed(() => route.params.symbol)
 const asset = computed(() => store.assetsBySymbol[symbol.value])
 const display = computed(() => (asset.value ? formatDisplayPrice(asset.value) : null))
 
+const range = ref('day')
 const points = ref([])
 const isLoading = ref(true)
 
 async function loadHistory() {
   isLoading.value = true
-  points.value = await getSymbolHistory(symbol.value, 1)
+  points.value = await getSymbolHistory(symbol.value, range.value)
   isLoading.value = false
 }
 
 onMounted(loadHistory)
-watch(symbol, loadHistory)
+watch([symbol, range], loadHistory)
 </script>
 
 <template>
@@ -50,8 +53,22 @@ watch(symbol, loadHistory)
         <span style="color:var(--text-muted);">{{ display.unit }}</span>
       </div>
 
-      <h2 class="section-title" style="margin-top:0;">نمودار قیمت امروز</h2>
-      <div class="card" style="padding:16px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+        <h2 class="section-title" style="margin:0;">نمودار قیمت</h2>
+        <div class="range-tabs">
+          <button
+            v-for="key in ['day', 'week', 'month', 'year']"
+            :key="key"
+            class="range-tabs__btn"
+            :class="{ 'is-active': range === key }"
+            @click="range = key"
+          >
+            {{ RANGE_LABELS[key] }}
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="padding:16px; margin-top:12px;">
         <SparklineChart v-if="!isLoading" :points="points" :color="CATEGORY_COLORS[asset.category]" />
         <p v-else style="color:var(--text-muted); text-align:center; padding:40px 0;">در حال بارگذاری…</p>
       </div>
