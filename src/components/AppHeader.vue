@@ -1,9 +1,9 @@
 <script setup>
 /**
  * Top bar: brand, search input (drives store.search across ALL assets),
- * and the theme toggle. Also shows a tiny status line with the active
- * data source + a relative "updated x ago" label so users can see whether
- * they are looking at live TGJU data or the cached mirror/offline fallback.
+ * and the theme toggle. Shows a lightweight status line (loading/error +
+ * relative "updated x ago") without exposing which upstream source
+ * produced the data.
  */
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue'
 import { useMarketStore } from '../stores/market.js'
@@ -17,12 +17,6 @@ onMounted(() => {
   tickId = setInterval(() => { now.value = Date.now() }, 30_000)
 })
 onBeforeUnmount(() => clearInterval(tickId))
-
-const sourceLabel = computed(() => ({
-  tgju: 'TGJU',
-  mirror: 'آینه (Mirror)',
-  cache: 'حافظه محلی',
-}[store.lastSource] || '—'))
 
 const updatedAgoLabel = computed(() => {
   if (!store.lastUpdatedAt) return '—'
@@ -53,8 +47,7 @@ const updatedAgoLabel = computed(() => {
     </div>
 
     <div style="margin-top:8px; font-size:0.75rem; color:var(--text-muted); display:flex; gap:10px; flex-wrap:wrap;">
-      <span>وضعیت: {{ store.status === 'loading' ? 'در حال به‌روزرسانی…' : store.status === 'error' ? 'خطا در دریافت داده جدید (نمایش آخرین داده معتبر)' : 'به‌روز' }}</span>
-      <span>· منبع: {{ sourceLabel }}</span>
+      <span>{{ store.status === 'loading' ? 'در حال به‌روزرسانی…' : store.status === 'error' ? 'خطا در دریافت داده جدید (نمایش آخرین داده معتبر)' : 'به‌روز' }}</span>
       <span>· بروزرسانی: {{ updatedAgoLabel }}</span>
     </div>
   </header>

@@ -1,17 +1,17 @@
 <script setup>
 /**
  * Root shell: wires the store, market service lifecycle, and lays out the
- * header, favorites bar, pinned grid (by category), "more assets" trigger,
- * the modal, and the PWA update toast.
+ * header, favorites bar, pinned grid (by category), and the inline
+ * "more assets" section (expands in the same page, not a modal).
  */
 import { computed, onBeforeUnmount, onMounted } from 'vue'
 import { useMarketStore } from './stores/market.js'
 import { MarketService } from './services/marketService.js'
-import { CATEGORY, CATEGORY_LABELS } from './services/categories.js'
+import { CATEGORY_LABELS } from './services/categories.js'
 import AppHeader from './components/AppHeader.vue'
 import FavoritesBar from './components/FavoritesBar.vue'
 import CategorySection from './components/CategorySection.vue'
-import MoreAssetsModal from './components/MoreAssetsModal.vue'
+import MoreAssetsSection from './components/MoreAssetsSection.vue'
 import UpdateToast from './components/UpdateToast.vue'
 
 const store = useMarketStore()
@@ -63,13 +63,14 @@ onBeforeUnmount(() => {
       </template>
 
       <div style="display:flex; justify-content:center; margin-top: 28px;">
-        <button class="card" style="padding: 10px 22px; cursor:pointer; color: var(--text); font-weight:600;" @click="store.toggleMore(true)">
-          نمایش بیشتر ارزها و دارایی‌ها
+        <button class="card" style="padding: 10px 22px; cursor:pointer; color: var(--text); font-weight:600;" @click="store.toggleMore()">
+          {{ store.isMoreOpen ? 'نمایش کمتر' : 'نمایش بیشتر ارزها و دارایی‌ها' }}
         </button>
       </div>
+
+      <MoreAssetsSection v-if="store.isMoreOpen" />
     </template>
   </main>
 
-  <MoreAssetsModal v-if="store.isMoreOpen" />
   <UpdateToast />
 </template>
