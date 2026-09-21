@@ -4,26 +4,29 @@
  * .github/workflows/fetch-data.yml. Produces public/data/latest.json,
  * the same-origin snapshot consumed by MirrorProvider on the client.
  *
- * Runs on GitHub's runners, so it hits TGJU directly with no CORS
- * concerns (CORS is a browser-only restriction). If TGJU fails, the
- * existing public/data/latest.json is left untouched — the workflow
+ * Runs on GitHub's runners, so it hits sources directly with no CORS
+ * concerns (CORS is a browser-only restriction). If every source fails,
+ * the existing public/data/latest.json is left untouched — the workflow
  * detects "no diff" and skips the commit, so the mirror always serves
  * the last known-good snapshot instead of going empty.
  *
- * Adding a future second/third live source here: add a fetcher function
- * with the same signature ( () => Promise<Asset[]> ) to SOURCES below,
- * in priority order. First one that returns >= 5 assets wins.
+ * Adding a future additional source here: add a fetcher function with the
+ * same signature ( () => Promise<Asset[]> ) to SOURCES below, in priority
+ * order. First one that returns >= 5 assets wins.
  */
 import { writeFile, readFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { normalizeTgjuPayload } from '../src/services/normalizer.js'
+import { normalizeGerdaliPayload } from '../src/services/providers/GerdaliProvider.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUTPUT_PATH = join(__dirname, '..', 'public', 'data', 'latest.json')
 const TGJU_ENDPOINT = 'https://call2.tgju.org/ajax.json'
+const GERDALI_ENDPOINT = 'https://raw.githubusercontent.com/ithouse98/gerdali-market-data/main/data/all.json'
 const TIMEOUT_MS = 10_000
 const MIN_ACCEPTABLE_ASSETS = 5
+const MIN_ACCEPTABLE_GERDALI_ASSETS = 3
 
 async function fetchWithTimeout(url, options = {}) {
   const controller = new AbortController()
@@ -44,10 +47,18 @@ async function fetchFromTgju() {
   return assets
 }
 
-// Ordered list of server-side fetchers. Each must resolve to an array of
-// unified Asset objects (see src/services/normalizer.js) or throw.
+async function fetchFromGerdali() {
+  const res = await fetchWithTimeout(GERDALI_ENDPOINT, { headers: { Accept: 'application/json' } })
+  if (!res.ok) throw new Error(`Gerdali HTTP ${res.status}`)
+  const payload = await res.json()
+  const assets = normalizeGerdaliPayload(payload, 'gerdali')
+  if (assets.length < MIN_ACCEPTABLE_GERDALI_ASSETS) throw new Error('Gerdali payload had too few usable records')
+  return assets
+}
+
 const SOURCES = [
   { id: 'tgju', fetch: fetchFromTgju },
+  { id: 'gerdali', fetch: fetchFromGerdali },
   // { id: 'some-future-source', fetch: fetchFromSomeFutureSource },
 ]
 

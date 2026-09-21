@@ -2,14 +2,20 @@
  * Provider registry + chain-of-responsibility orchestrator.
  *
  * Order matters: providers are tried in array order, first success wins.
- * Adding a future third source is a two-line change: implement the class
- * next to TgjuProvider/MirrorProvider, then append an instance below.
+ *   1. TgjuProvider     — primary source (call2.tgju.org/ajax.json)
+ *   2. GerdaliProvider  — community GitHub-hosted mirror, used only if TGJU fails
+ *   3. MirrorProvider   — this repo's own same-origin snapshot (always available)
+ *
+ * Adding a future fourth source is a two-line change: implement the class
+ * next to the others, then append an instance below.
  */
 import { TgjuProvider } from './TgjuProvider.js'
+import { GerdaliProvider } from './GerdaliProvider.js'
 import { MirrorProvider } from './MirrorProvider.js'
 
 export const providers = [
   new TgjuProvider(),
+  new GerdaliProvider(),
   new MirrorProvider(),
   // new SomeFutureProvider(),
 ]
