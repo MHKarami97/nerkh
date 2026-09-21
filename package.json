@@ -1,0 +1,23 @@
+{
+  "name": "nerkh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "نرخ لحظه‌ای دلار، طلا، سکه و رمزارز - Vue 3 PWA",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch-data": "node scripts/fetch-market-data.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "pinia": "^2.1.7",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8",
+    "vite-plugin-pwa": "^0.19.8"
+  }
+}
