@@ -1,8 +1,7 @@
 /**
  * Pinia store: the single client-side state container for market data,
- * UI filters (search, favorites) and refresh status. Components only ever
- * read/write through this store — they never touch services/db.js or the
- * provider chain directly (keeps components trivially testable).
+ * UI filters (search, per-category expand state, favorites) and refresh
+ * status. Components only ever read/write through this store.
  */
 import { defineStore } from 'pinia'
 import { PINNED_SYMBOL_SET, PINNED_SYMBOLS } from '../services/pinnedSymbols.js'
@@ -14,7 +13,7 @@ export const useMarketStore = defineStore('market', {
     assetsBySymbol: {},
     favorites: [],
     search: '',
-    isMoreOpen: false,
+    expandedCategories: {},
     status: 'idle', // 'idle' | 'loading' | 'ready' | 'error'
     lastSource: null,
     lastUpdatedAt: null,
@@ -29,7 +28,7 @@ export const useMarketStore = defineStore('market', {
     favoriteAssets: (state) =>
       state.favorites.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
 
-    /** Everything NOT pinned, grouped by category, for the "more assets" dialog. */
+    /** Non-pinned assets grouped by category, used by each category's "show more". */
     moreAssetsByCategory: (state) => {
       const groups = {}
       for (const asset of Object.values(state.assetsBySymbol)) {
@@ -41,20 +40,42 @@ export const useMarketStore = defineStore('market', {
       return groups
     },
 
-    /** Full-text search across every known asset (pinned + more), used by the header search box. */
-    searchResults: (state) => {
-      const query = state.search.trim().toLowerCase()
-      if (!query) return []
-      return Object.values(state.assetsBySymbol)
-        .filter((asset) => asset.label.toLowerCase().includes(query) || asset.symbol.toLowerCase().includes(query))
-        .sort((a, b) => a.label.localeCompare(b.label, 'fa'))
+    categoryOrder: () => [CATEGORY.CURRENCY, CATEGORY.GOLD_COIN, CATEGORY.CRYPTO, CATEGORY.GLOBAL_INDEX, CATEGORY.FUND, CATEGORY.OTHER],
+
+    categoryHasAnyAsset: (state) => (category) => {
+      const pinnedInCategory = PINNED_SYMBOLS.some(
+        (symbol) => state.assetsBySymbol[symbol] && state.assetsBySymbol[symbol].category === category
+      )
+      const moreCount = (state.assetsBySymbol && Object.values(state.assetsBySymbol).some(
+        (a) => a.category === category && !PINNED_SYMBOL_SET.has(a.symbol)
+      ))
+      return pinnedInCategory || moreCount
     },
 
-    categoryOrder: () => [CATEGORY.CURRENCY, CATEGORY.GOLD_COIN, CATEGORY.CRYPTO, CATEGORY.GLOBAL_INDEX, CATEGORY.FUND, CATEGORY.OTHER],
+    /**
+     * What a given category block should render right now: while
+     * searching, every matching asset in that category (pinned or not);
+     * otherwise the pinned slice, plus the "more" slice if the user
+     * expanded it.
+     */
+    visibleAssetsForCategory() {
+      return (category) => {
+        const query = this.search.trim().toLowerCase()
+        const pinnedInCategory = this.pinnedAssets.filter((a) => a.category === category)
+        const moreInCategory = this.moreAssetsByCategory[category] || []
+
+        if (query) {
+          return [...pinnedInCategory, ...moreInCategory].filter(
+            (a) => a.label.toLowerCase().includes(query) || a.symbol.toLowerCase().includes(query)
+          )
+        }
+
+        return this.expandedCategories[category] ? [...pinnedInCategory, ...moreInCategory] : pinnedInCategory
+      }
+    },
   },
 
   actions: {
-    /** Merge a batch of normalized assets into the map (called by marketService). */
     hydrate(assets, { source, updatedAt } = {}) {
       const next = { ...this.assetsBySymbol }
       for (const asset of assets) next[asset.symbol] = asset
@@ -71,8 +92,8 @@ export const useMarketStore = defineStore('market', {
       this.search = value
     },
 
-    toggleMore(open) {
-      this.isMoreOpen = open ?? !this.isMoreOpen
+    toggleCategoryExpanded(category) {
+      this.expandedCategories = { ...this.expandedCategories, [category]: !this.expandedCategories[category] }
     },
 
     async loadFavoritesFromCache() {

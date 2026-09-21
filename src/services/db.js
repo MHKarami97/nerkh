@@ -1,15 +1,19 @@
 /**
  * Infrastructure: browser persistence (IndexedDB via the tiny `idb` wrapper).
- * This is the single source of truth read on startup so the UI paints
- * instantly (no network round-trip needed before first render), and the
- * write target every time a refresh succeeds.
+ * Two concerns live here:
+ *  - `assets`/`meta`: the live price cache read on startup so the UI paints
+ *    instantly (no network round-trip needed before first render).
+ *  - `historyDays`: cached daily history snapshots (see services/history.js)
+ *    used to render the per-asset price chart without re-downloading a day
+ *    file that's already fully fetched.
  */
 import { openDB } from 'idb'
 
 const DB_NAME = 'nerkh-db'
-const DB_VERSION = 1
+const DB_VERSION = 2
 const STORE_ASSETS = 'assets'
 const STORE_META = 'meta'
+const STORE_HISTORY = 'historyDays'
 
 let dbPromise = null
 
@@ -22,6 +26,9 @@ function getDb() {
         }
         if (!db.objectStoreNames.contains(STORE_META)) {
           db.createObjectStore(STORE_META)
+        }
+        if (!db.objectStoreNames.contains(STORE_HISTORY)) {
+          db.createObjectStore(STORE_HISTORY)
         }
       },
     })
@@ -58,4 +65,14 @@ export async function getFavorites() {
 
 export async function setFavorites(list) {
   return setMeta('favorites', list)
+}
+
+export async function getHistoryDay(dateKey) {
+  const db = await getDb()
+  return db.get(STORE_HISTORY, dateKey)
+}
+
+export async function setHistoryDay(dateKey, entry) {
+  const db = await getDb()
+  await db.put(STORE_HISTORY, entry, dateKey)
 }

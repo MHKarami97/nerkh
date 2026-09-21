@@ -36,6 +36,8 @@ const CRYPTO_SYMBOL_TO_IRR_KEY = {
   TETHER: 'crypto-tether-irr',
   ETH: 'crypto-ethereum-irr',
   ETHEREUM: 'crypto-ethereum-irr',
+  ADA: 'crypto-cardano-irr',
+  CARDANO: 'crypto-cardano-irr',
 }
 
 function safeNumber(value) {

@@ -3,25 +3,32 @@
  *
  * Responsibilities:
  *  - Hydrate the Pinia store instantly from IndexedDB on startup.
- *  - Run the provider chain (TGJU -> mirror -> ...) every REFRESH_INTERVAL_MS.
+ *  - Poll the provider chain (TGJU -> Gerdali -> mirror) every
+ *    REFRESH_INTERVAL_MS (1 minute — matches the cadence of the primary
+ *    TGJU direct call from the browser; the server-side mirror snapshot
+ *    itself still only changes every 5 minutes, which is the shortest
+ *    reliable cron granularity GitHub Actions supports).
+ *  - Skip an unnecessary network round-trip on every page load/refresh:
+ *    if the last successful fetch happened less than REFRESH_INTERVAL_MS
+ *    ago, serve straight from the IndexedDB cache and only schedule the
+ *    next refresh for whenever that interval actually elapses.
  *  - Compute up/down change direction, falling back to a price comparison
  *    against the previous cached value when a source doesn't supply one.
- *  - Persist every successful refresh to IndexedDB.
  *  - Catch up immediately when the tab regains focus/visibility after
- *    being backgrounded for longer than the refresh interval, so the data
- *    never silently goes stale while the user is looking at the page.
+ *    being backgrounded for longer than the refresh interval.
  */
 import { fetchFromProviderChain } from './providers/index.js'
 import { withFallbackDirection } from './normalizer.js'
 import { getAllAssets, putAssets, getMeta, setMeta } from './db.js'
 
-export const REFRESH_INTERVAL_MS = 5 * 60 * 1000 // 5 minutes, per product requirement
+export const REFRESH_INTERVAL_MS = 60 * 1000 // 1 minute
 const LAST_FETCH_KEY = 'lastFetchAt'
 
 export class MarketService {
   constructor(store) {
     this.store = store
     this.intervalId = null
+    this.delayTimeoutId = null
     this.isRefreshing = false
   }
 
@@ -30,8 +37,24 @@ export class MarketService {
     if (cached.length) {
       this.store.hydrate(cached, { source: 'cache', updatedAt: await getMeta(LAST_FETCH_KEY) })
     }
-    await this.refresh()
-    this._startInterval()
+
+    const lastFetchAt = Number(await getMeta(LAST_FETCH_KEY, 0)) || 0
+    const elapsed = Date.now() - lastFetchAt
+
+    if (!cached.length || elapsed >= REFRESH_INTERVAL_MS) {
+      await this.refresh()
+      this._startInterval()
+    } else {
+      // Cache is still fresh (e.g. the user just hit F5): don't re-hit the
+      // network, just wait out the remainder of the interval.
+      this.store.setStatus('ready')
+      const remaining = REFRESH_INTERVAL_MS - elapsed
+      this.delayTimeoutId = setTimeout(() => {
+        this.refresh()
+        this._startInterval()
+      }, remaining)
+    }
+
     this._bindVisibilityCatchUp()
   }
 
@@ -76,5 +99,6 @@ export class MarketService {
 
   dispose() {
     if (this.intervalId) clearInterval(this.intervalId)
+    if (this.delayTimeoutId) clearTimeout(this.delayTimeoutId)
   }
 }
