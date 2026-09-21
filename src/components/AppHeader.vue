@@ -1,9 +1,9 @@
 <script setup>
 /**
- * Top bar: brand, search input (drives store.search across ALL assets),
- * and the theme toggle. Shows a lightweight status line (loading/error +
- * relative "updated x ago") without exposing which upstream source
- * produced the data.
+ * Top bar: site icon + name, the single global search input (filters
+ * every category block at once), and the theme toggle. Status line shows
+ * loading/error state, the 1-minute auto-refresh cadence, and a relative
+ * "updated x ago" label.
  */
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue'
 import { useMarketStore } from '../stores/market.js'
@@ -14,7 +14,7 @@ const now = ref(Date.now())
 let tickId = null
 
 onMounted(() => {
-  tickId = setInterval(() => { now.value = Date.now() }, 30_000)
+  tickId = setInterval(() => { now.value = Date.now() }, 15_000)
 })
 onBeforeUnmount(() => clearInterval(tickId))
 
@@ -28,27 +28,28 @@ const updatedAgoLabel = computed(() => {
 </script>
 
 <template>
-  <header class="container" style="padding-top:18px; padding-bottom:10px;">
-    <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-      <h1 style="font-size:1.3rem; margin:0; flex:1; min-width:160px;">نرخ</h1>
+  <header class="container app-header">
+    <div class="app-header__row">
+      <img src="/icons/icon.svg" alt="نرخ" class="app-header__logo" />
+      <h1 class="app-header__title">نرخ</h1>
 
-      <div style="flex:2; min-width:220px;">
+      <div class="app-header__search-wrap">
         <input
           type="search"
           :value="store.search"
           @input="store.setSearch($event.target.value)"
           placeholder="جستجوی ارز، طلا، سکه یا رمزارز..."
-          class="card"
-          style="width:100%; padding:10px 14px; border:none; outline:none; color:var(--text); background:var(--bg-elevated);"
+          class="card app-header__search"
         />
       </div>
 
       <ThemeToggle />
     </div>
 
-    <div style="margin-top:8px; font-size:0.75rem; color:var(--text-muted); display:flex; gap:10px; flex-wrap:wrap;">
-      <span>{{ store.status === 'loading' ? 'در حال به‌روزرسانی…' : store.status === 'error' ? 'خطا در دریافت داده جدید (نمایش آخرین داده معتبر)' : 'به‌روز' }}</span>
-      <span>· بروزرسانی: {{ updatedAgoLabel }}</span>
+    <div class="app-header__status">
+      <span>{{ store.status === 'loading' ? 'در حال بروزرسانی…' : store.status === 'error' ? 'خطا در دریافت داده جدید (نمایش آخرین داده معتبر)' : 'بروز' }}</span>
+      <span>· بروزرسانی خودکار هر ۱ دقیقه</span>
+      <span>· آخرین بروزرسانی: {{ updatedAgoLabel }}</span>
     </div>
   </header>
 </template>
