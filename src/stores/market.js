@@ -1,8 +1,4 @@
-/**
- * Pinia store: the single client-side state container for market data,
- * UI filters (search, per-category expand state, favorites) and refresh
- * status. Components only ever read/write through this store.
- */
+/** Single client-side state container for market data and UI state. */
 import { defineStore } from 'pinia'
 import { PINNED_SYMBOL_SET, PINNED_SYMBOLS } from '../services/pinnedSymbols.js'
 import { CATEGORY } from '../services/categories.js'
@@ -14,21 +10,16 @@ export const useMarketStore = defineStore('market', {
     favorites: [],
     search: '',
     expandedCategories: {},
-    status: 'idle', // 'idle' | 'loading' | 'ready' | 'error'
+    status: 'idle',
     lastSource: null,
     lastUpdatedAt: null,
   }),
 
   getters: {
     allAssets: (state) => Object.values(state.assetsBySymbol),
+    pinnedAssets: (state) => PINNED_SYMBOLS.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
+    favoriteAssets: (state) => state.favorites.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
 
-    pinnedAssets: (state) =>
-      PINNED_SYMBOLS.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
-
-    favoriteAssets: (state) =>
-      state.favorites.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
-
-    /** Non-pinned assets grouped by category, used by each category's "show more". */
     moreAssetsByCategory: (state) => {
       const groups = {}
       for (const asset of Object.values(state.assetsBySymbol)) {
@@ -40,12 +31,7 @@ export const useMarketStore = defineStore('market', {
       return groups
     },
 
-    /**
-     * Home page section order. CATEGORY.OTHER is intentionally left out —
-     * its contents are miscellaneous/unclassified items we don't want to
-     * surface for now. GLOBAL_INDEX is last per product decision (world
-     * indices/commodities are the least commonly checked section).
-     */
+    // OTHER is deliberately excluded. Global indices/commodities are last.
     categoryOrder: () => [
       CATEGORY.CURRENCY,
       CATEGORY.GOLD_COIN,
@@ -55,33 +41,16 @@ export const useMarketStore = defineStore('market', {
       CATEGORY.GLOBAL_INDEX,
     ],
 
-    categoryHasAnyAsset: (state) => (category) => {
-      const pinnedInCategory = PINNED_SYMBOLS.some(
-        (symbol) => state.assetsBySymbol[symbol] && state.assetsBySymbol[symbol].category === category
-      )
-      const hasMore = Object.values(state.assetsBySymbol).some(
-        (a) => a.category === category && !PINNED_SYMBOL_SET.has(a.symbol)
-      )
-      return pinnedInCategory || hasMore
-    },
+    categoryHasAnyAsset: (state) => (category) => Object.values(state.assetsBySymbol).some((asset) => asset.category === category),
+    pinnedForCategory() { return (category) => this.pinnedAssets.filter((asset) => asset.category === category) },
+    extraForCategory() { return (category) => this.moreAssetsByCategory[category] || [] },
 
-    /** Pinned assets belonging to one category — the part that's always visible. */
-    pinnedForCategory() {
-      return (category) => this.pinnedAssets.filter((a) => a.category === category)
-    },
-
-    /** Non-pinned assets belonging to one category — revealed by "show more". */
-    extraForCategory() {
-      return (category) => this.moreAssetsByCategory[category] || []
-    },
-
-    /** Every asset (pinned or not) in a category that matches the active search query. */
     searchResultsForCategory() {
       return (category) => {
         const query = this.search.trim().toLowerCase()
-        const combined = [...this.pinnedForCategory(category), ...this.extraForCategory(category)]
-        if (!query) return combined
-        return combined.filter((a) => a.label.toLowerCase().includes(query) || a.symbol.toLowerCase().includes(query))
+        const assets = [...this.pinnedForCategory(category), ...this.extraForCategory(category)]
+        if (!query) return assets
+        return assets.filter((asset) => asset.label.toLowerCase().includes(query) || asset.symbol.toLowerCase().includes(query))
       }
     },
   },
@@ -94,29 +63,15 @@ export const useMarketStore = defineStore('market', {
       if (source) this.lastSource = source
       if (updatedAt) this.lastUpdatedAt = updatedAt
     },
-
-    setStatus(status) {
-      this.status = status
-    },
-
-    setSearch(value) {
-      this.search = value
-    },
-
+    setStatus(status) { this.status = status },
+    setSearch(value) { this.search = value },
     toggleCategoryExpanded(category) {
       this.expandedCategories = { ...this.expandedCategories, [category]: !this.expandedCategories[category] }
     },
-
-    async loadFavoritesFromCache() {
-      this.favorites = await getFavorites()
-    },
-
+    async loadFavoritesFromCache() { this.favorites = await getFavorites() },
     async toggleFavorite(symbol) {
-      const isFavorite = this.favorites.includes(symbol)
-      this.favorites = isFavorite ? this.favorites.filter((s) => s !== symbol) : [...this.favorites, symbol]
-      // IndexedDB's structured-clone algorithm cannot serialize a Vue
-      // reactive Proxy directly (causes "DataCloneError: ... could not be
-      // cloned"). Spreading into a plain array before persisting avoids it.
+      const exists = this.favorites.includes(symbol)
+      this.favorites = exists ? this.favorites.filter((item) => item !== symbol) : [...this.favorites, symbol]
       await setFavorites([...this.favorites])
     },
   },

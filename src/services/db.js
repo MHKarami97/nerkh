@@ -1,12 +1,4 @@
-/**
- * Infrastructure: browser persistence (IndexedDB via the tiny `idb` wrapper).
- * Two concerns live here:
- *  - `assets`/`meta`: the live price cache read on startup so the UI paints
- *    instantly (no network round-trip needed before first render).
- *  - `historyDays`: cached daily history snapshots (see services/history.js).
- *    Currently unused while history collection is disabled server-side,
- *    but kept so it's a no-op re-enable later.
- */
+/** Browser persistence backed by IndexedDB. */
 import { openDB } from 'idb'
 import { DEFAULT_FAVORITE_SYMBOLS } from './pinnedSymbols.js'
 
@@ -22,15 +14,9 @@ function getDb() {
   if (!dbPromise) {
     dbPromise = openDB(DB_NAME, DB_VERSION, {
       upgrade(db) {
-        if (!db.objectStoreNames.contains(STORE_ASSETS)) {
-          db.createObjectStore(STORE_ASSETS, { keyPath: 'symbol' })
-        }
-        if (!db.objectStoreNames.contains(STORE_META)) {
-          db.createObjectStore(STORE_META)
-        }
-        if (!db.objectStoreNames.contains(STORE_HISTORY)) {
-          db.createObjectStore(STORE_HISTORY)
-        }
+        if (!db.objectStoreNames.contains(STORE_ASSETS)) db.createObjectStore(STORE_ASSETS, { keyPath: 'symbol' })
+        if (!db.objectStoreNames.contains(STORE_META)) db.createObjectStore(STORE_META)
+        if (!db.objectStoreNames.contains(STORE_HISTORY)) db.createObjectStore(STORE_HISTORY)
       },
     })
   }
@@ -60,9 +46,8 @@ export async function setMeta(key, value) {
   await db.put(STORE_META, value, key)
 }
 
-/** First-ever launch has no saved favorites yet, so it starts pre-populated
- *  with DEFAULT_FAVORITE_SYMBOLS; once the user saves any change of their
- *  own (even removing everything), that saved list takes over for good. */
+// Only a browser that has never saved favorites receives defaults. Any
+// saved array, including an empty one, belongs to the user and is retained.
 export async function getFavorites() {
   return getMeta('favorites', DEFAULT_FAVORITE_SYMBOLS)
 }
