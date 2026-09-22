@@ -1,29 +1,28 @@
 #!/usr/bin/env node
 /**
- * Server-side data fetcher, run every 5 minutes by
- * .github/workflows/fetch-data.yml. Produces three kinds of output:
+ * Server-side data fetcher, run every 30 minutes by
+ * .github/workflows/fetch-data.yml. Produces public/data/latest.json —
+ * the same-origin "current price" snapshot consumed by MirrorProvider on
+ * the client.
  *
- *  1. public/data/latest.json — same-origin "current price" snapshot
- *     consumed by MirrorProvider on the client.
- *  2. public/data/history/{YYYY-MM-DD}.json — one growing file per UTC
- *     day, with every symbol's price appended roughly every 5 minutes.
- *     Rotating by day keeps any single file bounded in size. Used for
- *     the "day" and "week" chart ranges (services/history.js merges up
- *     to 7 of these day files client-side).
- *  3. public/data/history/daily-summary.json — ONE point per symbol per
- *     UTC day (the last price recorded that day), appended once daily.
- *     This is what keeps "month"/"year" chart ranges cheap: it grows by
- *     roughly (symbol count) rows per day instead of every 5 minutes, so
- *     a full year of data per symbol is ~365 tiny entries, not ~105,000.
+ * Historical snapshotting (public/data/history/{date}.json +
+ * daily-summary.json) is currently DISABLED via the HISTORY_ENABLED flag
+ * below, to keep the repository's size from growing indefinitely. The
+ * functions are kept intact (not deleted) so history + the chart UI can
+ * be turned back on later just by flipping this flag and the matching
+ * CHART_ENABLED flag in src/views/AssetDetailView.vue.
  *
  * Runs on GitHub's runners, so it hits sources directly with no CORS
- * concerns. If every source fails, all three outputs are left untouched.
+ * concerns. If every source fails, the existing outputs are left
+ * untouched.
  */
 import { writeFile, readFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { normalizeTgjuPayload } from '../src/services/normalizer.js'
 import { normalizeGerdaliPayload } from '../src/services/providers/GerdaliProvider.js'
+
+const HISTORY_ENABLED = false
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = join(__dirname, '..', 'public', 'data')
@@ -97,7 +96,7 @@ async function readJsonOrDefault(path, fallback) {
   }
 }
 
-/** Appends a fine-grained point per symbol to today's day file (for day/week ranges). */
+/** Appends a fine-grained point per symbol to today's day file (for day/week ranges). Disabled by default — see HISTORY_ENABLED. */
 async function appendDayHistory(assets, dateKey) {
   const filePath = join(HISTORY_DIR, `${dateKey}.json`)
   const day = await readJsonOrDefault(filePath, { date: dateKey, points: {} })
@@ -113,7 +112,7 @@ async function appendDayHistory(assets, dateKey) {
   await writeFile(filePath, JSON.stringify(day), 'utf-8')
 }
 
-/** Upserts today's one-point-per-symbol entry in the long-range summary file. */
+/** Upserts today's one-point-per-symbol entry in the long-range summary file. Disabled by default — see HISTORY_ENABLED. */
 async function updateDailySummary(assets, dateKey) {
   const summary = await readJsonOrDefault(SUMMARY_PATH, { points: {} })
 
@@ -135,18 +134,20 @@ async function main() {
   try {
     const { assets, sourceId } = await fetchFromFirstAvailableSource()
     await mkdir(DATA_DIR, { recursive: true })
-    await mkdir(HISTORY_DIR, { recursive: true })
 
     const payload = { generatedAt: new Date().toISOString(), source: sourceId, assets }
     await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n', 'utf-8')
     console.log(`[fetch-market-data] wrote ${assets.length} assets from "${sourceId}"`)
 
-    const dateKey = todayDateKey()
-    await appendDayHistory(assets, dateKey)
-    await updateDailySummary(assets, dateKey)
-    console.log('[fetch-market-data] updated day history + daily summary')
+    if (HISTORY_ENABLED) {
+      await mkdir(HISTORY_DIR, { recursive: true })
+      const dateKey = todayDateKey()
+      await appendDayHistory(assets, dateKey)
+      await updateDailySummary(assets, dateKey)
+      console.log('[fetch-market-data] updated day history + daily summary')
+    }
   } catch (err) {
-    console.error('[fetch-market-data] all sources failed, leaving previous snapshot/history untouched:', err.message)
+    console.error('[fetch-market-data] all sources failed, leaving previous snapshot untouched:', err.message)
     try {
       await readFile(OUTPUT_PATH)
     } catch {

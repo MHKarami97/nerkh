@@ -1,8 +1,13 @@
 <script setup>
 /**
- * Detail page for a single asset: current price + a chart with selectable
- * range (day/week from fine-grained snapshots, month/year from the daily
- * summary file — see services/history.js for how each is sourced).
+ * Detail page for a single asset: current price + (when re-enabled) a
+ * chart with selectable range.
+ *
+ * The chart is currently DISABLED (CHARTS_ENABLED = false below) because
+ * the server-side history snapshotting that feeds it was turned off to
+ * keep the repository size bounded (see scripts/fetch-market-data.mjs,
+ * HISTORY_ENABLED flag). All the chart code/markup is kept intact —
+ * flip both flags back to true whenever history collection resumes.
  */
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -12,6 +17,7 @@ import { formatDisplayPrice } from '../utils/priceDisplay.js'
 import { CATEGORY_COLORS, CATEGORY_ICONS } from '../services/categories.js'
 import SparklineChart from '../components/SparklineChart.vue'
 
+const CHARTS_ENABLED = false
 const RANGE_LABELS = { day: 'روز', week: 'هفته', month: 'ماه', year: 'سال' }
 
 const route = useRoute()
@@ -27,6 +33,7 @@ const points = ref([])
 const isLoading = ref(true)
 
 async function loadHistory() {
+  if (!CHARTS_ENABLED) return
   isLoading.value = true
   points.value = await getSymbolHistory(symbol.value, range.value)
   isLoading.value = false
@@ -53,25 +60,31 @@ watch([symbol, range], loadHistory)
         <span style="color:var(--text-muted);">{{ display.unit }}</span>
       </div>
 
-      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
-        <h2 class="section-title" style="margin:0;">نمودار قیمت</h2>
-        <div class="range-tabs">
-          <button
-            v-for="key in ['day', 'week', 'month', 'year']"
-            :key="key"
-            class="range-tabs__btn"
-            :class="{ 'is-active': range === key }"
-            @click="range = key"
-          >
-            {{ RANGE_LABELS[key] }}
-          </button>
+      <template v-if="CHARTS_ENABLED">
+        <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+          <h2 class="section-title" style="margin:0;">نمودار قیمت</h2>
+          <div class="range-tabs">
+            <button
+              v-for="key in ['day', 'week', 'month', 'year']"
+              :key="key"
+              class="range-tabs__btn"
+              :class="{ 'is-active': range === key }"
+              @click="range = key"
+            >
+              {{ RANGE_LABELS[key] }}
+            </button>
+          </div>
         </div>
-      </div>
 
-      <div class="card" style="padding:16px; margin-top:12px;">
-        <SparklineChart v-if="!isLoading" :points="points" :color="CATEGORY_COLORS[asset.category]" />
-        <p v-else style="color:var(--text-muted); text-align:center; padding:40px 0;">در حال بارگذاری…</p>
-      </div>
+        <div class="card" style="padding:16px; margin-top:12px;">
+          <SparklineChart v-if="!isLoading" :points="points" :color="CATEGORY_COLORS[asset.category]" />
+          <p v-else style="color:var(--text-muted); text-align:center; padding:40px 0;">در حال بارگذاری…</p>
+        </div>
+      </template>
+
+      <p v-else class="card" style="padding:18px; color:var(--text-muted); text-align:center;">
+        نمودار قیمت به‌زودی برمی‌گردد.
+      </p>
     </template>
 
     <p v-else style="color:var(--text-muted); margin-top:20px;">این آیتم یافت نشد.</p>
