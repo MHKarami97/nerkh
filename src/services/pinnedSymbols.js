@@ -16,13 +16,15 @@ export const PINNED_SYMBOLS = [
   'crypto-tether-irr',
   'crypto-ethereum-irr',
   'crypto-cardano-irr',
+  'ons',
+  'silver',
+  'palladium',
+  'platinum',
+  'ime_fund_ayar',
+  'ime_fund_mesghal',
+  'ime_fund_simin',
+  'ime_fund_silver',
 ]
 
 export const PINNED_SYMBOL_SET = new Set(PINNED_SYMBOLS)
-
-/**
- * What a brand-new user's favorites list starts out as (before they ever
- * toggle a star themselves). Once they save any favorites of their own,
- * that saved list takes over — see services/db.js getFavorites().
- */
 export const DEFAULT_FAVORITE_SYMBOLS = ['price_dollar_rl', 'geram18', 'crypto-bitcoin-irr', 'ime_fund_ayar']
