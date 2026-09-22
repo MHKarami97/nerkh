@@ -1,15 +1,15 @@
 <script setup>
 /**
- * Presentational: one asset price tile. Clicking anywhere on the card
- * (except the favorite star) clears any active search and opens the
- * asset's detail page — otherwise the leftover search query would still
- * be showing (and filtering) when the user comes back to the home page.
+ * Presentational: one asset price tile.
+ * Card navigation is temporarily disabled; only the favorite star is interactive.
  */
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useMarketStore } from '../stores/market.js'
 import { CATEGORY_COLORS, CATEGORY_ICONS } from '../services/categories.js'
 import { formatDisplayPrice } from '../utils/priceDisplay.js'
+
+const CARD_NAVIGATION_ENABLED = false
 
 const props = defineProps({
   asset: { type: Object, required: true },
@@ -24,13 +24,19 @@ const icon = computed(() => CATEGORY_ICONS[props.asset.category] || CATEGORY_ICO
 const display = computed(() => formatDisplayPrice(props.asset))
 
 function openDetail() {
+  if (!CARD_NAVIGATION_ENABLED) return
   store.setSearch('')
   router.push({ name: 'asset-detail', params: { symbol: props.asset.symbol } })
 }
 </script>
 
 <template>
-  <article class="asset-card" :style="{ '--accent': accentColor }" @click="openDetail">
+  <article
+    class="asset-card"
+    :class="{ 'is-static': !CARD_NAVIGATION_ENABLED }"
+    :style="{ '--accent': accentColor }"
+    @click="openDetail"
+  >
     <div class="asset-card__head">
       <span class="asset-card__icon" aria-hidden="true">{{ icon }}</span>
       <strong class="asset-card__label">{{ asset.label }}</strong>
