@@ -1,19 +1,22 @@
 /**
- * Presentation-only helper: converts the internally-stored Rial price
- * (the unit every provider/normalizer agrees on — see
- * src/services/normalizer.js) into the Toman value shown to the user,
- * since Iranian users conventionally read prices in Toman.
- *
- * Kept as a pure display transform (not baked into the stored Asset) so
- * diffing/caching/direction-detection in marketService always compares
- * like-for-like Rial values regardless of which source produced them.
+ * Presentation-only price display helper.
+ * Internally most Iranian-market prices are stored as Rial and presented as
+ * Toman. Global metal spot prices and global commodity/index prices are
+ * already denominated in USD; Tehran's bourse index is unitless.
  */
 const RIAL_TO_TOMAN = 10
 
+const USD_SYMBOLS = new Set([
+  'ons', 'silver', 'platinum', 'palladium',
+  's_p_500_us', 'nasdaq_us', 'dowjones_us', 'oil', 'oil_brent', 'oil_opec',
+])
+
+const NO_UNIT_SYMBOLS = new Set(['bourse'])
+
 export function toDisplayPrice(asset) {
-  if (asset.unit === 'ریال') {
-    return { value: asset.price / RIAL_TO_TOMAN, unit: 'تومان' }
-  }
+  if (NO_UNIT_SYMBOLS.has(asset.symbol)) return { value: asset.price, unit: '' }
+  if (USD_SYMBOLS.has(asset.symbol)) return { value: asset.price, unit: 'دلار' }
+  if (asset.unit === 'ریال') return { value: asset.price / RIAL_TO_TOMAN, unit: 'تومان' }
   return { value: asset.price, unit: asset.unit }
 }
 

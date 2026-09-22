@@ -1,15 +1,9 @@
 <script setup>
 /**
- * Detail page for a single asset: current price + (when re-enabled) a
- * chart with selectable range.
- *
- * The chart is currently DISABLED (CHARTS_ENABLED = false below) because
- * the server-side history snapshotting that feeds it was turned off to
- * keep the repository size bounded (see scripts/fetch-market-data.mjs,
- * HISTORY_ENABLED flag). Per product decision, nothing chart-related is
- * shown at all while disabled (no placeholder text either) — all the
- * chart code/markup is kept intact so flipping both flags back to true
- * brings it straight back.
+ * Detail page for a single asset. Historical charts are temporarily
+ * disabled to keep the repository size bounded. The dormant chart imports,
+ * state and markup remain behind CHARTS_ENABLED for a future re-enable,
+ * but nothing chart-related is rendered while false.
  */
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -25,11 +19,9 @@ const RANGE_LABELS = { day: 'روز', week: 'هفته', month: 'ماه', year: '
 const route = useRoute()
 const router = useRouter()
 const store = useMarketStore()
-
 const symbol = computed(() => route.params.symbol)
 const asset = computed(() => store.assetsBySymbol[symbol.value])
 const display = computed(() => (asset.value ? formatDisplayPrice(asset.value) : null))
-
 const range = ref('day')
 const points = ref([])
 const isLoading = ref(true)
@@ -66,18 +58,11 @@ watch([symbol, range], loadHistory)
         <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
           <h2 class="section-title" style="margin:0;">نمودار قیمت</h2>
           <div class="range-tabs">
-            <button
-              v-for="key in ['day', 'week', 'month', 'year']"
-              :key="key"
-              class="range-tabs__btn"
-              :class="{ 'is-active': range === key }"
-              @click="range = key"
-            >
+            <button v-for="key in ['day', 'week', 'month', 'year']" :key="key" class="range-tabs__btn" :class="{ 'is-active': range === key }" @click="range = key">
               {{ RANGE_LABELS[key] }}
             </button>
           </div>
         </div>
-
         <div class="card" style="padding:16px; margin-top:12px;">
           <SparklineChart v-if="!isLoading" :points="points" :color="CATEGORY_COLORS[asset.category]" />
           <p v-else style="color:var(--text-muted); text-align:center; padding:40px 0;">در حال بارگذاری…</p>
