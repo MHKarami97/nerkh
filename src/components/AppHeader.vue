@@ -1,15 +1,18 @@
 <script setup>
 /**
- * Top bar: site icon + name, the single global search input (filters
+ * Top bar: site icon + name (clickable — takes you back to the home page
+ * and clears any active search), the single global search input (filters
  * every category block at once), and the theme toggle. Status line shows
- * loading/error state, the 1-minute auto-refresh cadence, and a relative
- * "updated x ago" label.
+ * loading/error state, the refresh cadence, and a relative "updated x
+ * ago" label.
  */
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue'
+import { useRouter } from 'vue-router'
 import { useMarketStore } from '../stores/market.js'
 import ThemeToggle from './ThemeToggle.vue'
 
 const store = useMarketStore()
+const router = useRouter()
 const now = ref(Date.now())
 let tickId = null
 
@@ -25,13 +28,20 @@ const updatedAgoLabel = computed(() => {
   const diffMin = Math.round(diffSec / 60)
   return `${diffMin} دقیقه پیش`
 })
+
+function goHome() {
+  store.setSearch('')
+  router.push({ name: 'home' })
+}
 </script>
 
 <template>
   <header class="container app-header">
     <div class="app-header__row">
-      <img src="/icons/icon-96.png" alt="نرخ" class="app-header__logo" />
-      <h1 class="app-header__title">نرخ</h1>
+      <button type="button" class="app-header__brand" @click="goHome" title="بازگشت به صفحه اصلی">
+        <img src="/icons/icon.svg" alt="نرخ" class="app-header__logo" />
+        <h1 class="app-header__title">نرخ</h1>
+      </button>
 
       <div class="app-header__search-wrap">
         <input

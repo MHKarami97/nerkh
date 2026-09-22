@@ -1,10 +1,13 @@
 <script setup>
 /**
  * Presentational: one asset price tile. Clicking anywhere on the card
- * (except the favorite star) opens the asset's detail/chart page.
+ * (except the favorite star) clears any active search and opens the
+ * asset's detail page — otherwise the leftover search query would still
+ * be showing (and filtering) when the user comes back to the home page.
  */
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { useMarketStore } from '../stores/market.js'
 import { CATEGORY_COLORS, CATEGORY_ICONS } from '../services/categories.js'
 import { formatDisplayPrice } from '../utils/priceDisplay.js'
 
@@ -14,12 +17,14 @@ const props = defineProps({
 })
 const emit = defineEmits(['toggle-favorite'])
 const router = useRouter()
+const store = useMarketStore()
 
 const accentColor = computed(() => CATEGORY_COLORS[props.asset.category] || CATEGORY_COLORS.other)
 const icon = computed(() => CATEGORY_ICONS[props.asset.category] || CATEGORY_ICONS.other)
 const display = computed(() => formatDisplayPrice(props.asset))
 
 function openDetail() {
+  store.setSearch('')
   router.push({ name: 'asset-detail', params: { symbol: props.asset.symbol } })
 }
 </script>

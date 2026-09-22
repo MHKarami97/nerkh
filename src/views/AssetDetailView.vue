@@ -6,8 +6,10 @@
  * The chart is currently DISABLED (CHARTS_ENABLED = false below) because
  * the server-side history snapshotting that feeds it was turned off to
  * keep the repository size bounded (see scripts/fetch-market-data.mjs,
- * HISTORY_ENABLED flag). All the chart code/markup is kept intact —
- * flip both flags back to true whenever history collection resumes.
+ * HISTORY_ENABLED flag). Per product decision, nothing chart-related is
+ * shown at all while disabled (no placeholder text either) — all the
+ * chart code/markup is kept intact so flipping both flags back to true
+ * brings it straight back.
  */
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -81,10 +83,6 @@ watch([symbol, range], loadHistory)
           <p v-else style="color:var(--text-muted); text-align:center; padding:40px 0;">در حال بارگذاری…</p>
         </div>
       </template>
-
-      <p v-else class="card" style="padding:18px; color:var(--text-muted); text-align:center;">
-        نمودار قیمت به‌زودی برمی‌گردد.
-      </p>
     </template>
 
     <p v-else style="color:var(--text-muted); margin-top:20px;">این آیتم یافت نشد.</p>

@@ -40,7 +40,20 @@ export const useMarketStore = defineStore('market', {
       return groups
     },
 
-    categoryOrder: () => [CATEGORY.CURRENCY, CATEGORY.GOLD_COIN, CATEGORY.CRYPTO, CATEGORY.GLOBAL_INDEX, CATEGORY.FUND, CATEGORY.OTHER],
+    /**
+     * Home page section order. CATEGORY.OTHER is intentionally left out —
+     * its contents are miscellaneous/unclassified items we don't want to
+     * surface for now. GLOBAL_INDEX is last per product decision (world
+     * indices/commodities are the least commonly checked section).
+     */
+    categoryOrder: () => [
+      CATEGORY.CURRENCY,
+      CATEGORY.GOLD_COIN,
+      CATEGORY.OTHER_METALS,
+      CATEGORY.CRYPTO,
+      CATEGORY.FUND,
+      CATEGORY.GLOBAL_INDEX,
+    ],
 
     categoryHasAnyAsset: (state) => (category) => {
       const pinnedInCategory = PINNED_SYMBOLS.some(
