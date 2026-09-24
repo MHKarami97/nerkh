@@ -2,13 +2,23 @@
 import { computed, onMounted, ref } from 'vue'
 import { getProducePrices } from '../services/produceService.js'
 
+const PAGE_SIZE = 4
+
 const payload = ref(null)
 const isLoading = ref(true)
 const error = ref(false)
+const visibleCount = ref(PAGE_SIZE)
+
 const items = computed(() => payload.value?.items || [])
+const visibleItems = computed(() => items.value.slice(0, visibleCount.value))
+const hasMore = computed(() => visibleCount.value < items.value.length)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
+}
+
+function showMore() {
+  visibleCount.value = Math.min(visibleCount.value + PAGE_SIZE, items.value.length)
 }
 
 onMounted(async () => {
@@ -28,19 +38,25 @@ onMounted(async () => {
     <p v-if="payload?.isExpired" class="produce-section__notice">آخرین فهرست منبع منقضی اعلام شده است؛ قیمت‌ها برای اطلاع نمایش داده می‌شوند.</p>
     <p v-if="isLoading" class="produce-section__state">در حال دریافت قیمت‌ها…</p>
     <p v-else-if="error" class="produce-section__state">دریافت قیمت میوه و خشکبار ناموفق بود.</p>
-    <div v-else class="produce-grid">
-      <article v-for="item in items" :key="item.id" class="produce-card">
-        <div class="produce-card__head">
-          <strong>{{ item.title }}</strong>
-          <span v-if="item.changePercent !== null" class="produce-card__change" :class="{ 'is-negative': item.changePercent < 0 }">{{ item.changePercent > 0 ? '▲' : item.changePercent < 0 ? '▼' : '—' }} {{ Math.abs(item.changePercent).toFixed(2) }}٪</span>
-        </div>
-        <dl class="produce-card__prices">
-          <div><dt>حداقل</dt><dd>{{ formatPrice(item.minPrice) }} تومان</dd></div>
-          <div><dt>حداکثر</dt><dd>{{ formatPrice(item.maxPrice) }} تومان</dd></div>
-          <div class="produce-card__average"><dt>میانگین</dt><dd>{{ formatPrice(item.averagePrice) }} تومان</dd></div>
-        </dl>
-      </article>
-    </div>
+    <p v-else-if="!items.length" class="produce-section__state">هنوز قیمتی ثبت نشده است.</p>
+    <template v-else>
+      <div class="produce-grid">
+        <article v-for="item in visibleItems" :key="item.id" class="produce-card">
+          <div class="produce-card__head">
+            <strong>{{ item.title }}</strong>
+            <span v-if="item.changePercent !== null" class="produce-card__change" :class="{ 'is-negative': item.changePercent < 0 }">{{ item.changePercent > 0 ? '▲' : item.changePercent < 0 ? '▼' : '—' }} {{ Math.abs(item.changePercent).toFixed(2) }}٪</span>
+          </div>
+          <dl class="produce-card__prices">
+            <div><dt>حداقل</dt><dd>{{ formatPrice(item.minPrice) }} تومان</dd></div>
+            <div><dt>حداکثر</dt><dd>{{ formatPrice(item.maxPrice) }} تومان</dd></div>
+            <div class="produce-card__average"><dt>میانگین</dt><dd>{{ formatPrice(item.averagePrice) }} تومان</dd></div>
+          </dl>
+        </article>
+      </div>
+      <button v-if="hasMore" type="button" class="produce-section__more" @click="showMore">
+        نمایش بیشتر ({{ items.length - visibleCount }} مورد دیگر)
+      </button>
+    </template>
   </section>
 </template>
 
@@ -60,5 +76,7 @@ onMounted(async () => {
 .produce-card__prices dd { margin:3px 0 0; font-size:.78rem; font-weight:600; }
 .produce-card__average { grid-column:1/-1; padding-top:7px; border-top:1px solid var(--border); }
 .produce-card__average dd { font-size:.9rem; }
+.produce-section__more { display:block; margin:14px auto 0; padding:8px 20px; border-radius:var(--radius); border:1px solid var(--border); background:var(--card); color:inherit; font-size:.8rem; cursor:pointer; }
+.produce-section__more:hover { background:var(--border); }
 @media (max-width:480px) { .produce-grid { grid-template-columns:repeat(auto-fill, minmax(148px,1fr)); gap:10px; } .produce-card__prices dd { font-size:.7rem; } }
 </style>
