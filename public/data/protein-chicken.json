@@ -1,8 +1,89 @@
 {
   "source": "https://stdt.ir/product-category/meat-chicken/",
-  "generatedAt": null,
-  "sourceUpdatedAt": null,
+  "generatedAt": "2026-09-24T20:25:22.225Z",
+  "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
   "category": "پروتئین - مرغ",
   "currency": "تومان",
-  "items": []
+  "items": [
+    {
+      "title": "بال مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۷/۰۲/۱۴۰۵",
+      "price": 298700
+    },
+    {
+      "title": "پای مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "با استخوان",
+      "date": "۰۷/۲۶/۱۴۰۳",
+      "price": 14927
+    },
+    {
+      "title": "پولت",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "عدد",
+      "date": "۰۷/۰۲/۱۴۰۵",
+      "price": 612730
+    },
+    {
+      "title": "تخم مرغ فله",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۷/۰۲/۱۴۰۵",
+      "price": 217440
+    },
+    {
+      "title": "جگر مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۹/۰۹/۱۴۰۴",
+      "price": 19836
+    },
+    {
+      "title": "دل مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "بدون استخوان",
+      "date": "۰۴/۱۲/۱۴۰۵",
+      "price": 27550
+    },
+    {
+      "title": "ران مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۷/۰۲/۱۴۰۵",
+      "price": 216300
+    },
+    {
+      "title": "سنگدان مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۴/۱۲/۱۴۰۵",
+      "price": 27550
+    },
+    {
+      "title": "سینه مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۷/۰۲/۱۴۰۵",
+      "price": 469060
+    },
+    {
+      "title": "فیله مرغ",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۷/۰۲/۱۴۰۵",
+      "price": 566500
+    }
+  ]
 }
