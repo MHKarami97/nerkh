@@ -11,16 +11,18 @@ const OUTPUT_PATH = join(__dirname, '..', 'public', 'data', 'protein-chicken.jso
 function toNumber(value) { const parsed = Number(String(value || '').replace(/[٬,\s]/g, '')); return Number.isFinite(parsed) ? parsed : null }
 
 function parseItems(lines) {
-  const headerIdx = lines.findIndex(l => /^[۰-۹]{1,2}\s+[\u0600-\u06FF]+\s+[۰-۹]{4}$/.test(l.replace(/^\|\s*\*\*?/, '').trim()))
+  const headerIdx = lines.findIndex(l => /^\|\s*\*\*?[۰-۹]{1,2}\s+[\u0600-\u06FF]+\s+[۰-۹]{4}/.test(l))
   const start = headerIdx >= 0 ? headerIdx + 1 : 0
   const items = []
   let i = start
-  while (i + 5 < lines.length) {
-    const [title, freshness, origin, unit, date, priceLine] = lines.slice(i, i + 6)
+  while (i + 6 <= lines.length) {
+    const group = lines.slice(i, i + 7)
+    if (group.length < 7) break
+    const [title, freshness, origin, unit, date, priceLine] = group
     if (!/تومان/.test(priceLine || '')) break
     const price = toNumber((priceLine.match(/[\d٬,]+/) || [])[0])
     if (title && price && price > 0) items.push({ title: title.trim(), freshness: freshness?.trim() || null, origin: origin?.trim() || null, unit: unit?.trim() || null, date: date?.trim() || null, price })
-    i += 6
+    i += 7
   }
   return items
 }
@@ -40,10 +42,10 @@ async function renderLines() {
 
 async function main() {
   const lines = await renderLines()
-  const dateHeader = lines.find(l => /^[۰-۹]{1,2}\s+[\u0600-\u06FF]+\s+[۰-۹]{4}$/.test(l.replace(/^\|\s*\*\*?/, '').trim()))
+  const dateHeader = lines.find(l => /^\|\s*\*\*?[۰-۹]{1,2}\s+[\u0600-\u06FF]+\s+[۰-۹]{4}/.test(l))
   const sourceUpdatedAt = dateHeader ? dateHeader.replace(/[|*]/g, '').trim() : null
   const items = parseItems(lines)
-  if (!items.length) { console.error('[fetch-protein-chicken] debug first 40 lines:', JSON.stringify(lines.slice(0, 40))); throw new Error('Could not parse any non-zero chicken records') }
+  if (!items.length) { console.error('[fetch-protein-chicken] debug first 50 lines:', JSON.stringify(lines.slice(0, 50))); throw new Error('Could not parse any non-zero chicken records') }
   const payload = { source: SOURCE_URL, generatedAt: new Date().toISOString(), sourceUpdatedAt, category: 'پروتئین - مرغ', currency: 'تومان', items }
   await mkdir(dirname(OUTPUT_PATH), { recursive: true })
   await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n')
