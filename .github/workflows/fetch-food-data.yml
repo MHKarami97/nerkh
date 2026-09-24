@@ -1,0 +1,266 @@
+name: Refresh Food Price Snapshots
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-food-data
+  cancel-in-progress: true
+
+jobs:
+  fetch-protein-chicken:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch chicken prices
+        id: chicken
+        continue-on-error: true
+        run: node scripts/fetch-protein-chicken.mjs
+      - name: Commit updated chicken snapshot if changed
+        if: steps.chicken.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/protein-chicken.json
+          if git diff --cached --quiet; then
+            echo "No chicken data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh chicken snapshot [skip ci]"
+            git push
+          fi
+      - name: Report chicken fetch failure
+        if: steps.chicken.outcome == 'failure'
+        run: echo '::warning::Chicken price fetch failed; keeping previous public/data/protein-chicken.json snapshot.'
+
+  fetch-protein-sheep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch sheep prices
+        id: sheep
+        continue-on-error: true
+        run: node scripts/fetch-protein-sheep.mjs
+      - name: Commit updated sheep snapshot if changed
+        if: steps.sheep.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/protein-sheep.json
+          if git diff --cached --quiet; then
+            echo "No sheep data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh sheep snapshot [skip ci]"
+            git push
+          fi
+      - name: Report sheep fetch failure
+        if: steps.sheep.outcome == 'failure'
+        run: echo '::warning::Sheep price fetch failed; keeping previous public/data/protein-sheep.json snapshot.'
+
+  fetch-protein-veal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch veal prices
+        id: veal
+        continue-on-error: true
+        run: node scripts/fetch-protein-veal.mjs
+      - name: Commit updated veal snapshot if changed
+        if: steps.veal.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/protein-veal.json
+          if git diff --cached --quiet; then
+            echo "No veal data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh veal snapshot [skip ci]"
+            git push
+          fi
+      - name: Report veal fetch failure
+        if: steps.veal.outcome == 'failure'
+        run: echo '::warning::Veal price fetch failed; keeping previous public/data/protein-veal.json snapshot.'
+
+  fetch-protein-aquatic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch aquatic prices
+        id: aquatic
+        continue-on-error: true
+        run: node scripts/fetch-protein-aquatic.mjs
+      - name: Commit updated aquatic snapshot if changed
+        if: steps.aquatic.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/protein-aquatic.json
+          if git diff --cached --quiet; then
+            echo "No aquatic data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh aquatic snapshot [skip ci]"
+            git push
+          fi
+      - name: Report aquatic fetch failure
+        if: steps.aquatic.outcome == 'failure'
+        run: echo '::warning::Aquatic price fetch failed; keeping previous public/data/protein-aquatic.json snapshot.'
+
+  fetch-protein-poultry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch poultry prices
+        id: poultry
+        continue-on-error: true
+        run: node scripts/fetch-protein-poultry.mjs
+      - name: Commit updated poultry snapshot if changed
+        if: steps.poultry.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/protein-poultry.json
+          if git diff --cached --quiet; then
+            echo "No poultry data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh poultry snapshot [skip ci]"
+            git push
+          fi
+      - name: Report poultry fetch failure
+        if: steps.poultry.outcome == 'failure'
+        run: echo '::warning::Poultry price fetch failed; keeping previous public/data/protein-poultry.json snapshot.'
+
+  fetch-dried-fruits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch dried fruits prices
+        id: driedfruits
+        continue-on-error: true
+        run: node scripts/fetch-dried-fruits.mjs
+      - name: Commit updated dried-fruits snapshot if changed
+        if: steps.driedfruits.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/dried-fruits.json
+          if git diff --cached --quiet; then
+            echo "No dried-fruits data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh dried-fruits snapshot [skip ci]"
+            git push
+          fi
+      - name: Report dried-fruits fetch failure
+        if: steps.driedfruits.outcome == 'failure'
+        run: echo '::warning::Dried-fruits price fetch failed; keeping previous public/data/dried-fruits.json snapshot.'
+
+  fetch-beans:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+      - name: Fetch beans prices
+        id: beans
+        continue-on-error: true
+        run: node scripts/fetch-beans.mjs
+      - name: Commit updated beans snapshot if changed
+        if: steps.beans.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/beans.json
+          if git diff --cached --quiet; then
+            echo "No beans data changes, skipping commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore(data): refresh beans snapshot [skip ci]"
+            git push
+          fi
+      - name: Report beans fetch failure
+        if: steps.beans.outcome == 'failure'
+        run: echo '::warning::Beans price fetch failed; keeping previous public/data/beans.json snapshot.'
