@@ -1,17 +1,5 @@
 name: Refresh Market Data Mirror
 
-# Runs every 30 minutes (GitHub's schedule trigger is best-effort and
-# often skips/delays runs, especially at 5-minute granularity — see
-# https://github.com/orgs/community/discussions/199267 — so 30 minutes is
-# used as a more realistic cadence that still gets picked up reliably).
-# Calls the market data source(s) server-side (no browser CORS
-# restrictions here), normalizes the payload, and commits
-# public/data/latest.json — the same-origin "mirror" snapshot consumed by
-# MirrorProvider on the client.
-#
-# NOTE: historical snapshotting (public/data/history/*) is currently
-# disabled to keep repository size bounded — see scripts/fetch-market-data.mjs
-# (HISTORY_ENABLED flag). Re-enable there if you want charts back.
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -32,23 +20,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Fetch and normalize market data
+      - name: Fetch market data
         run: node scripts/fetch-market-data.mjs
-
-      - name: Commit updated snapshot if changed
+      - name: Fetch produce prices
+        run: node scripts/fetch-produce-data.mjs
+      - name: Commit updated snapshots if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/latest.json
+          git add public/data/latest.json public/data/produce.json
           if git diff --cached --quiet; then
             echo "No data changes, skipping commit."
           else
-            git commit -m "chore(data): refresh market snapshot [skip ci]"
+            git commit -m "chore(data): refresh market and produce snapshots [skip ci]"
             git push
           fi
