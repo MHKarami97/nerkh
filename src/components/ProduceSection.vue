@@ -2,33 +2,23 @@
 import { computed, onMounted, ref } from 'vue'
 import { getProducePrices } from '../services/produceService.js'
 
-const PAGE_SIZE = 4
+const INITIAL_VISIBLE = 4
 
 const payload = ref(null)
 const isLoading = ref(true)
 const error = ref(false)
-const visibleCount = ref(PAGE_SIZE)
 const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
-const visibleItems = computed(() => {
-  if (showAll.value) return items.value
-  return items.value.slice(0, visibleCount.value)
-})
-const hasMore = computed(() => !showAll.value && visibleCount.value < items.value.length)
-const showAllButton = computed(() => !showAll.value && items.value.length - visibleCount.value <= PAGE_SIZE)
+const visibleItems = computed(() => showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE))
+const hasMore = computed(() => !showAll.value && items.value.length > INITIAL_VISIBLE)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
 function showMore() {
-  const remaining = items.value.length - visibleCount.value
-  if (remaining <= PAGE_SIZE) {
-    showAll.value = true
-  } else {
-    visibleCount.value += PAGE_SIZE
-  }
+  showAll.value = true
 }
 
 onMounted(async () => {
@@ -64,7 +54,7 @@ onMounted(async () => {
         </article>
       </div>
       <button v-if="hasMore" type="button" class="produce-section__more" @click="showMore">
-        {{ showAllButton ? 'نمایش همه' : `نمایش بیشتر (${items.length - visibleCount} مورد دیگر)` }}
+        نمایش همه ({{ items.length - INITIAL_VISIBLE }} مورد دیگر)
       </button>
     </template>
   </section>
