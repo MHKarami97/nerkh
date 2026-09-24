@@ -36,7 +36,13 @@ jobs:
           else
             git commit -m "chore(data): refresh chicken snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
 
   fetch-protein-sheep:
@@ -62,7 +68,13 @@ jobs:
           else
             git commit -m "chore(data): refresh sheep snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
 
   fetch-protein-veal:
@@ -88,7 +100,13 @@ jobs:
           else
             git commit -m "chore(data): refresh veal snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
 
   fetch-protein-aquatic:
@@ -114,7 +132,13 @@ jobs:
           else
             git commit -m "chore(data): refresh aquatic snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
 
   fetch-protein-poultry:
@@ -140,7 +164,13 @@ jobs:
           else
             git commit -m "chore(data): refresh poultry snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
 
   fetch-dried-fruits:
@@ -166,7 +196,13 @@ jobs:
           else
             git commit -m "chore(data): refresh dried-fruits snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
 
   fetch-beans:
@@ -192,5 +228,11 @@ jobs:
           else
             git commit -m "chore(data): refresh beans snapshot [skip ci]"
             git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push failed, retry $i/3 after random delay..."
+              sleep $((1 + RANDOM % 4))
+            done
           fi
