@@ -4,7 +4,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { chromium } from 'playwright'
 
-const SOURCE_URL = 'https://stdt.ir/product-category/meat-poultry/'
+const SOURCE_URL = 'https://stdt.ir/product-category/poultry/'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUTPUT_PATH = join(__dirname, '..', 'public', 'data', 'protein-poultry.json')
 
