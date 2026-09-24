@@ -2,6 +2,7 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { chromium } from 'playwright'
 
 const SOURCE_URL = 'https://avalkeshavarz.ir/prices'
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -10,15 +11,6 @@ const OUTPUT_PATH = join(__dirname, '..', 'public', 'data', 'produce.json')
 function toNumber(value) {
   const parsed = Number(String(value || '').replace(/[٬,\s]/g, ''))
   return Number.isFinite(parsed) ? parsed : null
-}
-
-function unescapeSource(raw) {
-  let out = raw
-  if (/\\u003c|\\u003e|\\"/.test(out)) {
-    try { out = JSON.parse(`"${out.replace(/"/g, '\\"').replace(/\\\\u/g, '\\u')}"`) } catch { /* fall through to manual replace */ }
-    out = out.replace(/\\u003c/gi, '<').replace(/\\u003e/gi, '>').replace(/\\u0026/gi, '&').replace(/\\"/g, '"').replace(/\\\//g, '/')
-  }
-  return out
 }
 
 function text(value) {
@@ -55,22 +47,31 @@ function extractItems(html) {
   return byMarker
 }
 
-async function main() {
-  const controller = new AbortController()
-  const timer = setTimeout(() => controller.abort(), 15000)
-  let html
+async function renderPage() {
+  const browser = await chromium.launch({ headless: true })
   try {
-    const response = await fetch(SOURCE_URL, { headers: { Accept: 'text/html,application/xhtml+xml', 'User-Agent': 'Mozilla/5.0 (compatible; nerkh-price-mirror/1.1; +https://nerkh.mhkarami97.ir)' }, signal: controller.signal })
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    html = unescapeSource(await response.text())
-  } finally { clearTimeout(timer) }
+    const page = await browser.newPage({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36' })
+    await page.goto(SOURCE_URL, { waitUntil: 'domcontentloaded', timeout: 30000 })
+    try {
+      await page.waitForFunction(() => document.body.innerText.includes('حداقل قیمت میدان'), { timeout: 20000 })
+    } catch {
+      await page.waitForTimeout(4000)
+    }
+    return await page.content()
+  } finally {
+    await browser.close()
+  }
+}
+
+async function main() {
+  const html = await renderPage()
 
   const seen = new Set()
   const items = extractItems(html).filter((item) => item && !seen.has(item.id) && seen.add(item.id))
 
   if (items.length < 3) {
-    console.error('[fetch-produce-data] debug snippet (first 1200 chars):')
-    console.error(text(html).slice(0, 1200))
+    console.error('[fetch-produce-data] debug snippet (first 1500 chars of rendered text):')
+    console.error(text(html).slice(0, 1500))
     throw new Error(`Could not parse enough produce records (${items.length})`)
   }
 

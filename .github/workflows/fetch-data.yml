@@ -50,6 +50,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
       - name: Fetch produce prices
         id: produce
         continue-on-error: true
