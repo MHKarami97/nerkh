@@ -13,11 +13,13 @@ function text(value) { return value.replace(/&nbsp;/gi, ' ').replace(/&/gi, '&')
 function parseRow(row) {
   const cells = (row.match(/<td[^>]*>([\s\S]*?)<\/td>/gi) || []).map(text)
   if (cells.length < 6) return null
-  const [title, freshness, origin, unit, dateStr, priceCell] = cells
+  const title = cells[0]
+  const priceCell = cells.length === 7 ? cells[6] : cells[5]
   if (!title || !priceCell) return null
   const price = toNumber((priceCell.match(/[\d٬,]+/)||[])[0])
   if (!price || price <= 0) return null
-  return { title, freshness, origin, unit, price, date: dateStr || null }
+  const freshness = cells[1] || null, origin = cells[2] || null, unit = cells[3] || null, date = cells[4] || null
+  return { title, freshness, origin, unit, price, date }
 }
 async function renderPage() { const browser = await chromium.launch({ headless: true }); try { const page = await browser.newPage({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36' }); await page.goto(SOURCE_URL, { waitUntil: 'domcontentloaded', timeout: 30000 }); try { await page.waitForFunction(() => document.body.innerText.includes('تومان'), { timeout: 20000 }) } catch { await page.waitForTimeout(4000) }; return await page.content() } finally { await browser.close() } }
 async function main() { const html = await renderPage(); const sourceUpdatedAt = text(html).match(/([۰-۹\d]{1,2}\s+[\u0600-\u06FF]+\s+[۰-۹\d]{4})/)?.[1] || null; const items = html.split(/<tr[^>]*>/).map(parseRow).filter(Boolean); if (!items.length) throw new Error('Could not parse any non-zero chicken records'); const payload = { source: SOURCE_URL, generatedAt: new Date().toISOString(), sourceUpdatedAt, category: 'پروتئین - مرغ', currency: 'تومان', items }; await mkdir(dirname(OUTPUT_PATH), { recursive: true }); await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n'); console.log(`[fetch-protein-chicken] wrote ${items.length} records`) }
