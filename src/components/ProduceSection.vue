@@ -8,17 +8,27 @@ const payload = ref(null)
 const isLoading = ref(true)
 const error = ref(false)
 const visibleCount = ref(PAGE_SIZE)
+const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
-const visibleItems = computed(() => items.value.slice(0, visibleCount.value))
-const hasMore = computed(() => visibleCount.value < items.value.length)
+const visibleItems = computed(() => {
+  if (showAll.value) return items.value
+  return items.value.slice(0, visibleCount.value)
+})
+const hasMore = computed(() => !showAll.value && visibleCount.value < items.value.length)
+const showAllButton = computed(() => !showAll.value && items.value.length - visibleCount.value <= PAGE_SIZE)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
 function showMore() {
-  visibleCount.value = Math.min(visibleCount.value + PAGE_SIZE, items.value.length)
+  const remaining = items.value.length - visibleCount.value
+  if (remaining <= PAGE_SIZE) {
+    showAll.value = true
+  } else {
+    visibleCount.value += PAGE_SIZE
+  }
 }
 
 onMounted(async () => {
@@ -54,7 +64,7 @@ onMounted(async () => {
         </article>
       </div>
       <button v-if="hasMore" type="button" class="produce-section__more" @click="showMore">
-        نمایش بیشتر ({{ items.length - visibleCount }} مورد دیگر)
+        {{ showAllButton ? 'نمایش همه' : `نمایش بیشتر (${items.length - visibleCount} مورد دیگر)` }}
       </button>
     </template>
   </section>
