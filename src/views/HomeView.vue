@@ -5,6 +5,9 @@ import { CATEGORY_LABELS } from '../services/categories.js'
 import FavoritesBar from '../components/FavoritesBar.vue'
 import CategoryBlock from '../components/CategoryBlock.vue'
 import ProduceSection from '../components/ProduceSection.vue'
+import ProteinSection from '../components/ProteinSection.vue'
+import DriedFruitsSection from '../components/DriedFruitsSection.vue'
+import BeansSection from '../components/BeansSection.vue'
 
 const store = useMarketStore()
 const categoriesWithData = computed(() =>
@@ -20,5 +23,8 @@ const categoriesWithData = computed(() =>
       <CategoryBlock :category="category" />
     </template>
     <ProduceSection />
+    <ProteinSection />
+    <DriedFruitsSection />
+    <BeansSection />
   </main>
 </template>
