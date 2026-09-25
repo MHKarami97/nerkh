@@ -1,12 +1,12 @@
 {
   "source": "https://stdt.ir/product-category/meat-chicken/",
-  "generatedAt": "2026-09-25T07:15:29.801Z",
-  "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
+  "generatedAt": "2026-09-25T07:28:24.725Z",
+  "sourceUpdatedAt": null,
   "category": "پروتئین - مرغ",
   "currency": "تومان",
   "items": [
     {
-      "title": "بال مرغ",
+      "title": "بالمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -22,7 +22,7 @@
       "price": 612730
     },
     {
-      "title": "تخم مرغ فله",
+      "title": "تخممرغفله",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -30,7 +30,7 @@
       "price": 217440
     },
     {
-      "title": "ران مرغ",
+      "title": "رانمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -38,7 +38,7 @@
       "price": 216300
     },
     {
-      "title": "سینه مرغ",
+      "title": "سینهمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -46,7 +46,7 @@
       "price": 469060
     },
     {
-      "title": "فیله مرغ",
+      "title": "فیلهمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
