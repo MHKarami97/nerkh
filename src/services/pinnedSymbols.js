@@ -24,6 +24,10 @@ export const PINNED_SYMBOLS = [
   'ime_fund_mesghal',
   'ime_fund_simin',
   'ime_fund_silver',
+  'bourse',
+  'oil_opec',
+  'nasdaq_us',
+  's_p_500_us'
 ]
 
 export const PINNED_SYMBOL_SET = new Set(PINNED_SYMBOLS)
