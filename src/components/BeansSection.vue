@@ -16,22 +16,39 @@ function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
-function toPersianDigits(value) {
-  return String(value ?? '').replace(/\d/g, (digit) => '۰۱۲۳۴۵۶۷۸۹'[digit])
+function toEnglishDigits(value) {
+  return String(value ?? '')
+    .replace(/[۰-۹]/g, (digit) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(digit)))
+    .replace(/[٠-٩]/g, (digit) => String(digit.charCodeAt(0) - 0x660))
 }
 
-function normalizeDate(value) {
-  const parts = String(value ?? '').trim().split('/')
-  if (parts.length !== 3) return value
+function toPersianDigits(value) {
+  return String(value).replace(/\d/g, (digit) => '۰۱۲۳۴۵۶۷۸۹'[digit])
+}
 
-  const [first, second, year] = parts
-  const firstNumber = Number(first.replace(/[^0-9۰-۹]/g, ''))
-  const secondNumber = Number(second.replace(/[^0-9۰-۹]/g, ''))
+/**
+ * The source format is MM/DD/YYYY. The displayed format is DD/MM/YYYY.
+ * Example: ۰۲/۰۷/۱۴۰۵ -> ۰۷/۰۲/۱۴۰۵.
+ *
+ * Important: do not use Number() directly on Persian digits. JavaScript's
+ * Number('۰۲') is NaN, so the old UI fallback was returning the original
+ * value unchanged.
+ */
+function formatItemDate(value) {
+  const source = String(value ?? '').trim()
+  const parts = source.split('/')
+  if (parts.length !== 3) return source
 
-  if (!Number.isInteger(firstNumber) || !Number.isInteger(secondNumber)) return value
+  const [sourceMonth, sourceDay, sourceYear] = parts
+  const month = toEnglishDigits(sourceMonth).trim()
+  const day = toEnglishDigits(sourceDay).trim()
+  const year = toEnglishDigits(sourceYear).trim()
 
-  // Stored source format is MM/DD/YYYY. Display format is DD/MM/YYYY.
-  return `${toPersianDigits(secondNumber)}/${toPersianDigits(firstNumber)}/${toPersianDigits(year)}`
+  if (!/^\d{1,2}$/.test(month) || !/^\d{1,2}$/.test(day) || !/^\d{4}$/.test(year)) {
+    return source
+  }
+
+  return `${toPersianDigits(day.padStart(2, '0'))}/${toPersianDigits(month.padStart(2, '0'))}/${toPersianDigits(year)}`
 }
 
 function toggleShowAll() {
@@ -61,7 +78,7 @@ onMounted(async () => {
           <div class="food-card__head"><strong>{{ item.title }}</strong></div>
           <dl class="food-card__meta"><div><dt>واحد</dt><dd>{{ item.unit || '—' }}</dd></div></dl>
           <div class="food-card__price">{{ formatPrice(item.price) }} تومان</div>
-          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ normalizeDate(item.date) }}</div>
+          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ formatItemDate(item.date) }}</div>
         </article>
       </div>
       <button v-if="hasMore" type="button" class="food-section__more" @click="toggleShowAll">
