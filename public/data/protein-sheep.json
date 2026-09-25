@@ -1,12 +1,12 @@
 {
   "source": "https://stdt.ir/product-category/meat-sheep/",
-  "generatedAt": "2026-09-25T07:15:40.701Z",
-  "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
+  "generatedAt": "2026-09-25T07:28:21.586Z",
+  "sourceUpdatedAt": null,
   "category": "پروتئین - گوسفند",
   "currency": "تومان",
   "items": [
     {
-      "title": "راسته گوسفند با استخوان",
+      "title": "راستهگوسفندبااستخوان",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -14,7 +14,7 @@
       "price": 1800000
     },
     {
-      "title": "راسته گوسفند بیخَص",
+      "title": "راستهگوسفندبیخَص",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -22,7 +22,7 @@
       "price": 3500000
     },
     {
-      "title": "ران گوسفندی",
+      "title": "رانگوسفندی",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -30,7 +30,7 @@
       "price": 1950000
     },
     {
-      "title": "سردست گوسفندی",
+      "title": "سردستگوسفندی",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -38,7 +38,7 @@
       "price": 1700000
     },
     {
-      "title": "فیله گوسفندی",
+      "title": "فیلهگوسفندی",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -46,7 +46,7 @@
       "price": 3500000
     },
     {
-      "title": "قلوهگاه گوسفند بیخَص",
+      "title": "قلوهگاهگوسفندبیخَص",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
