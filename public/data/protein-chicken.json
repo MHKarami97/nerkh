@@ -1,6 +1,6 @@
 {
   "source": "https://stdt.ir/product-category/meat-chicken/",
-  "generatedAt": "2026-09-25T03:14:05.352Z",
+  "generatedAt": "2026-09-25T06:54:36.632Z",
   "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
   "category": "پروتئین - مرغ",
   "currency": "تومان",
@@ -10,23 +10,15 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۷/۰۲/۱۴۰۵",
+      "date": "۰۲/۰۷/۱۴۰۵",
       "price": 298700
-    },
-    {
-      "title": "پای مرغ",
-      "freshness": "گرم",
-      "origin": "داخلی",
-      "unit": "با استخوان",
-      "date": "۰۷/۲۶/۱۴۰۳",
-      "price": 14927
     },
     {
       "title": "پولت",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "عدد",
-      "date": "۰۷/۰۲/۱۴۰۵",
+      "date": "۰۲/۰۷/۱۴۰۵",
       "price": 612730
     },
     {
@@ -34,47 +26,23 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۷/۰۲/۱۴۰۵",
+      "date": "۰۲/۰۷/۱۴۰۵",
       "price": 217440
-    },
-    {
-      "title": "جگر مرغ",
-      "freshness": "گرم",
-      "origin": "داخلی",
-      "unit": "کیلوگرم",
-      "date": "۰۹/۰۹/۱۴۰۴",
-      "price": 19836
-    },
-    {
-      "title": "دل مرغ",
-      "freshness": "گرم",
-      "origin": "داخلی",
-      "unit": "بدون استخوان",
-      "date": "۰۴/۱۲/۱۴۰۵",
-      "price": 27550
     },
     {
       "title": "ران مرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۷/۰۲/۱۴۰۵",
+      "date": "۰۲/۰۷/۱۴۰۵",
       "price": 216300
-    },
-    {
-      "title": "سنگدان مرغ",
-      "freshness": "گرم",
-      "origin": "داخلی",
-      "unit": "کیلوگرم",
-      "date": "۰۴/۱۲/۱۴۰۵",
-      "price": 27550
     },
     {
       "title": "سینه مرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۷/۰۲/۱۴۰۵",
+      "date": "۰۲/۰۷/۱۴۰۵",
       "price": 469060
     },
     {
@@ -82,7 +50,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۷/۰۲/۱۴۰۵",
+      "date": "۰۲/۰۷/۱۴۰۵",
       "price": 566500
     }
   ]
