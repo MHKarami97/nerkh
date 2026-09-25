@@ -5,7 +5,7 @@ import { CATEGORY_LABELS } from '../services/categories.js'
 import FavoritesBar from '../components/FavoritesBar.vue'
 import CategoryBlock from '../components/CategoryBlock.vue'
 import ProduceSection from '../components/ProduceSection.vue'
-import ProteinSection from '../components/ProteinSection.vue'
+import ProteinCategorySection from '../components/ProteinCategorySection.vue'
 import DriedFruitsSection from '../components/DriedFruitsSection.vue'
 import BeansSection from '../components/BeansSection.vue'
 
@@ -13,6 +13,18 @@ const store = useMarketStore()
 const categoriesWithData = computed(() =>
   store.categoryOrder.filter((category) => store.categoryHasAnyAsset(category))
 )
+
+// Each protein sub-category renders as its own section now (was one merged
+// "مواد پروتئینی" list before). Adding a new stdt.ir protein category later
+// only means adding one entry here — ProteinCategorySection.vue itself
+// doesn't change.
+const PROTEIN_CATEGORIES = [
+  { title: 'پروتئین - گوسفند', fileName: 'protein-sheep.json' },
+  { title: 'پروتئین - گوساله', fileName: 'protein-veal.json' },
+  { title: 'پروتئین - مرغ', fileName: 'protein-chicken.json' },
+  { title: 'پروتئین - ماهی و میگو', fileName: 'protein-aquatic.json' },
+  { title: 'پروتئین - ماکیان', fileName: 'protein-poultry.json' },
+]
 </script>
 
 <template>
@@ -23,7 +35,12 @@ const categoriesWithData = computed(() =>
       <CategoryBlock :category="category" />
     </template>
     <ProduceSection />
-    <ProteinSection />
+    <ProteinCategorySection
+      v-for="protein in PROTEIN_CATEGORIES"
+      :key="protein.fileName"
+      :title="protein.title"
+      :file-name="protein.fileName"
+    />
     <DriedFruitsSection />
     <BeansSection />
   </main>

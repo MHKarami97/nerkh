@@ -9,7 +9,7 @@ const error = ref(false)
 const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
-const visibleItems = computed(() => showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE))
+const visibleItems = computed(() => (showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE)))
 const hasMore = computed(() => !showAll.value && items.value.length > INITIAL_VISIBLE)
 
 function formatPrice(value) {
@@ -42,12 +42,10 @@ onMounted(async () => {
         <article v-for="item in visibleItems" :key="item.title" class="food-card">
           <div class="food-card__head"><strong>{{ item.title }}</strong></div>
           <dl class="food-card__meta">
-            <div><dt>تازگی</dt><dd>{{ item.freshness || '—' }}</dd></div>
-            <div><dt>خاستگاه</dt><dd>{{ item.origin || '—' }}</dd></div>
             <div><dt>واحد</dt><dd>{{ item.unit || '—' }}</dd></div>
           </dl>
           <div class="food-card__price">{{ formatPrice(item.price) }} تومان</div>
-          <div v-if="payload?.sourceUpdatedAt" class="food-card__updated">بروزرسانی: {{ payload.sourceUpdatedAt }}</div>
+          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ item.date }}</div>
         </article>
       </div>
       <button v-if="hasMore" type="button" class="food-section__more" @click="showMore">نمایش همه ({{ items.length - INITIAL_VISIBLE }} مورد دیگر)</button>
@@ -62,7 +60,7 @@ onMounted(async () => {
 .food-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; }
 .food-card__head { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; margin-bottom:10px; }
 .food-card__head strong { font-size:.9rem; line-height:1.35; }
-.food-card__meta { margin:0; display:grid; grid-template-columns:1fr 1fr 1fr; gap:6px; }
+.food-card__meta { margin:0; display:grid; grid-template-columns:1fr; gap:6px; }
 .food-card__meta div { min-width:0; }
 .food-card__meta dt { color:var(--text-muted); font-size:.65rem; }
 .food-card__meta dd { margin:2px 0 0; font-size:.7rem; font-weight:600; }

@@ -1,6 +1,21 @@
 <script setup>
-import { computed, onMounted, ref } from 'vue'
-import { getDriedFruitsPrices } from '../services/foodDriedFruitsService.js'
+/**
+ * src/components/ProteinCategorySection.vue
+ *
+ * Replaces the old single ProteinSection.vue. Instead of one merged list
+ * with a "پروتئین - مرغ" badge per card, each protein sub-category
+ * (chicken/sheep/veal/aquatic/poultry) now renders as its own section.
+ * One reusable component driven by props avoids duplicating the same
+ * markup/state five times (DRY) — HomeView.vue just instantiates it once
+ * per category file.
+ */
+import { computed, onMounted, ref, watch } from 'vue'
+import { getProteinCategory } from '../services/foodProteinService.js'
+
+const props = defineProps({
+  title: { type: String, required: true },
+  fileName: { type: String, required: true },
+})
 
 const INITIAL_VISIBLE = 4
 const payload = ref(null)
@@ -20,22 +35,28 @@ function showMore() {
   showAll.value = true
 }
 
-onMounted(async () => {
+async function load() {
+  isLoading.value = true
+  error.value = false
+  showAll.value = false
   try {
-    payload.value = await getDriedFruitsPrices()
+    payload.value = await getProteinCategory(props.fileName)
   } catch {
     error.value = true
   } finally {
     isLoading.value = false
   }
-})
+}
+
+onMounted(load)
+watch(() => props.fileName, load)
 </script>
 
 <template>
   <section class="food-section">
-    <h2 class="section-title">خشکبار</h2>
+    <h2 class="section-title">{{ title }}</h2>
     <p v-if="isLoading" class="food-section__state">در حال دریافت قیمت‌ها…</p>
-    <p v-else-if="error" class="food-section__state">دریافت قیمت خشکبار ناموفق بود.</p>
+    <p v-else-if="error" class="food-section__state">دریافت قیمت {{ title }} ناموفق بود.</p>
     <p v-else-if="!items.length" class="food-section__state">هنوز قیمتی ثبت نشده است.</p>
     <template v-else>
       <div class="food-grid">
