@@ -1,8 +1,17 @@
 {
   "source": "https://stdt.ir/product-category/aquatic/",
-  "generatedAt": null,
-  "sourceUpdatedAt": null,
+  "generatedAt": "2026-09-25T06:54:39.235Z",
+  "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
   "category": "پروتئین - ماهی و میگو",
   "currency": "تومان",
-  "items": []
+  "items": [
+    {
+      "title": "ماهی قزل آلا",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۲/۰۷/۱۴۰۵",
+      "price": 463000
+    }
+  ]
 }
