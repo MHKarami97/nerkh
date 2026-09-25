@@ -1,12 +1,12 @@
 {
   "source": "https://stdt.ir/product-category/poultry/",
-  "generatedAt": "2026-09-25T07:26:40.646Z",
-  "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
+  "generatedAt": "2026-09-25T07:28:42.148Z",
+  "sourceUpdatedAt": null,
   "category": "پروتئین - ماکیان",
   "currency": "تومان",
   "items": [
     {
-      "title": "بوقلمون زنده",
+      "title": "بوقلمونزنده",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -14,7 +14,7 @@
       "price": 93000
     },
     {
-      "title": "بوقلمون کشتار",
+      "title": "بوقلمونکشتار",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -22,7 +22,7 @@
       "price": 470000
     },
     {
-      "title": "تخم مرغ فله",
+      "title": "تخممرغفله",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -30,7 +30,7 @@
       "price": 217440
     },
     {
-      "title": "جوجه شترمرغ",
+      "title": "جوجهشترمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "عدد",
@@ -38,7 +38,7 @@
       "price": 8500000
     },
     {
-      "title": "شترمرغ زنده",
+      "title": "شترمرغزنده",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -46,7 +46,7 @@
       "price": 695000
     },
     {
-      "title": "گوشت بلدرچین",
+      "title": "گوشتبلدرچین",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -54,7 +54,7 @@
       "price": 840000
     },
     {
-      "title": "گوشت شترمرغ",
+      "title": "گوشتشترمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
