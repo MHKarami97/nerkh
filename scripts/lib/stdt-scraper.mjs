@@ -27,8 +27,9 @@ function cleanLine(value) {
 
 function normalizeTitle(value) {
   return String(value ?? '')
-    .replace(/[\u200c\u200f\u202a-\u202e]/g, '')
-    .replace(/[ \t\r\n]+/g, ' ')
+    .replace(/[\u200f\u202a-\u202e]/g, '')          // حذف جهت‌نگاری و کنترل‌های بای‌دی
+    .replace(/\u200c/g, ' ')                        // تبدیل نیم‌فاصله به فاصلهٔ معمولی
+    .replace(/[ \t\r\n]+/g, ' ')                    // فشرده‌سازی همهٔ فاصله‌ها
     .trim()
 }
 

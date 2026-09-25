@@ -19,11 +19,11 @@ const categoriesWithData = computed(() =>
 // only means adding one entry here — ProteinCategorySection.vue itself
 // doesn't change.
 const PROTEIN_CATEGORIES = [
-  { title: 'پروتئین - گوسفند', fileName: 'protein-sheep.json' },
-  { title: 'پروتئین - گوساله', fileName: 'protein-veal.json' },
-  { title: 'پروتئین - مرغ', fileName: 'protein-chicken.json' },
-  { title: 'پروتئین - ماهی و میگو', fileName: 'protein-aquatic.json' },
-  { title: 'پروتئین - ماکیان', fileName: 'protein-poultry.json' },
+  { title: 'گوسفند', fileName: 'protein-sheep.json' },
+  { title: 'گوساله', fileName: 'protein-veal.json' },
+  { title: 'مرغ', fileName: 'protein-chicken.json' },
+  { title: 'ماهی و میگو', fileName: 'protein-aquatic.json' },
+  { title: 'ماکیان', fileName: 'protein-poultry.json' },
 ]
 </script>
 
