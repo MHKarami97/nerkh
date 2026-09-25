@@ -17,8 +17,8 @@ function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
-function showMore() {
-  showAll.value = true
+function toggleShowAll() {
+  showAll.value = !showAll.value
 }
 
 onMounted(async () => {
@@ -53,8 +53,8 @@ onMounted(async () => {
           </dl>
         </article>
       </div>
-      <button v-if="hasMore" type="button" class="produce-section__more" @click="showMore">
-        نمایش همه ({{ items.length - INITIAL_VISIBLE }} مورد دیگر)
+      <button v-if="hasMore" type="button" class="produce-section__more" @click="toggleShowAll">
+        {{ showAll ? 'نمایش کمتر' : `نمایش همه (${items.length - INITIAL_VISIBLE} مورد دیگر)` }}
       </button>
     </template>
   </section>
