@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - 'public/data/latest.json' # avoid a full redeploy on every 5-minute data commit
-      - 'public/data/history/**'
+      - 'public/data/latest.json'
+      - 'public/data/**'
   workflow_dispatch: {}
 
 permissions:

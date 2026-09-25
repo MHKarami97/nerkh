@@ -1,6 +1,7 @@
 import { BaseProvider } from './BaseProvider.js'
 
 const TIMEOUT_MS = 5000
+const RAW_URL = 'https://raw.githubusercontent.com/MHKarami97/nerkh/main/public/data/latest.json'
 
 /**
  * Fallback source: a same-origin JSON snapshot committed to this very
@@ -21,7 +22,7 @@ export class MirrorProvider extends BaseProvider {
     const controller = new AbortController()
     const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
     try {
-      const url = `${import.meta.env.BASE_URL}data/latest.json?ts=${Date.now()}`
+      const url = `${RAW_URL}?ts=${Date.now()}`
       const response = await fetch(url, {
         headers: { Accept: 'application/json' },
         signal: controller.signal,
