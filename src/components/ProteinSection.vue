@@ -10,14 +10,14 @@ const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
 const visibleItems = computed(() => showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE))
-const hasMore = computed(() => !showAll.value && items.value.length > INITIAL_VISIBLE)
+const hasMore = computed(() => items.value.length > INITIAL_VISIBLE)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
-function showMore() {
-  showAll.value = true
+function toggleShowAll() {
+  showAll.value = !showAll.value
 }
 
 onMounted(async () => {
@@ -50,7 +50,9 @@ onMounted(async () => {
           <div v-if="item.sourceUpdatedAt" class="food-card__updated">بروزرسانی: {{ item.sourceUpdatedAt }}</div>
         </article>
       </div>
-      <button v-if="hasMore" type="button" class="food-section__more" @click="showMore">نمایش همه ({{ items.length - INITIAL_VISIBLE }} مورد دیگر)</button>
+      <button v-if="hasMore" type="button" class="food-section__more" @click="toggleShowAll">
+        {{ showAll ? 'نمایش کمتر' : `نمایش همه (${items.length - INITIAL_VISIBLE} مورد دیگر)` }}
+      </button>
     </template>
   </section>
 </template>

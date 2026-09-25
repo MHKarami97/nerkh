@@ -21,41 +21,6 @@ function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
-function toEnglishDigits(value) {
-  return String(value ?? '')
-    .replace(/[۰-۹]/g, (digit) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(digit)))
-    .replace(/[٠-٩]/g, (digit) => String(digit.charCodeAt(0) - 0x660))
-}
-
-function toPersianDigits(value) {
-  return String(value).replace(/\d/g, (digit) => '۰۱۲۳۴۵۶۷۸۹'[digit])
-}
-
-/**
- * The source format is MM/DD/YYYY. The displayed format is DD/MM/YYYY.
- * Example: ۰۲/۰۷/۱۴۰۵ -> ۰۷/۰۲/۱۴۰۵.
- *
- * Important: do not use Number() directly on Persian digits. JavaScript's
- * Number('۰۲') is NaN, so the old UI fallback was returning the original
- * value unchanged.
- */
-function formatItemDate(value) {
-  const source = String(value ?? '').trim()
-  const parts = source.split('/')
-  if (parts.length !== 3) return source
-
-  const [sourceMonth, sourceDay, sourceYear] = parts
-  const month = toEnglishDigits(sourceMonth).trim()
-  const day = toEnglishDigits(sourceDay).trim()
-  const year = toEnglishDigits(sourceYear).trim()
-
-  if (!/^\d{1,2}$/.test(month) || !/^\d{1,2}$/.test(day) || !/^\d{4}$/.test(year)) {
-    return source
-  }
-
-  return `${toPersianDigits(day.padStart(2, '0'))}/${toPersianDigits(month.padStart(2, '0'))}/${toPersianDigits(year)}`
-}
-
 function toggleShowAll() {
   showAll.value = !showAll.value
 }
@@ -91,7 +56,7 @@ watch(() => props.fileName, load)
             <div><dt>واحد</dt><dd>{{ item.unit || '—' }}</dd></div>
           </dl>
           <div class="food-card__price">{{ formatPrice(item.price) }} تومان</div>
-          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ formatItemDate(item.date) }}</div>
+          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{item.date}}</div>
         </article>
       </div>
       <button v-if="hasMore" type="button" class="food-section__more" @click="toggleShowAll">
