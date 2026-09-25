@@ -11,7 +11,7 @@ const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
 const visibleItems = computed(() => showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE))
-const hasMore = computed(() => !showAll.value && items.value.length > INITIAL_VISIBLE)
+const hasMore = computed(() => items.value.length > INITIAL_VISIBLE)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
