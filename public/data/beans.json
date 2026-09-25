@@ -1,0 +1,73 @@
+{
+  "source": "https://stdt.ir/product-category/beans/",
+  "generatedAt": "2026-09-25T08:24:28.122Z",
+  "sourceUpdatedAt": "۰۳ مهر ۱۴۰۵",
+  "category": "حبوبات",
+  "currency": "تومان",
+  "items": [
+    {
+      "title": "عدس",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 208500
+    },
+    {
+      "title": "لپه",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 269250
+    },
+    {
+      "title": "لوبیا چشم بلبلی",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 221250
+    },
+    {
+      "title": "لوبیا چیتی",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 318750
+    },
+    {
+      "title": "لوبیا سفید",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 273750
+    },
+    {
+      "title": "لوبیا قرمز",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 228750
+    },
+    {
+      "title": "ماش",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 222750
+    },
+    {
+      "title": "نخود",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 230180
+    }
+  ]
+}

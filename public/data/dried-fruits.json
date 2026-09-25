@@ -1,0 +1,57 @@
+{
+  "source": "https://stdt.ir/product-category/dried-fruits/",
+  "generatedAt": "2026-09-25T08:24:31.820Z",
+  "sourceUpdatedAt": "۰۳ مهر ۱۴۰۵",
+  "category": "میوه خشک",
+  "currency": "تومان",
+  "items": [
+    {
+      "title": "بادام",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 2080000
+    },
+    {
+      "title": "بادام زمینی",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 480000
+    },
+    {
+      "title": "بادام هندی",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 2839840
+    },
+    {
+      "title": "خرما پیارم",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 465000
+    },
+    {
+      "title": "خرما خاصویی",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 371250
+    },
+    {
+      "title": "خرما زاهدی",
+      "freshness": "تازه",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 202500
+    }
+  ]
+}
