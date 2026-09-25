@@ -21,6 +21,24 @@ function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
+function toPersianDigits(value) {
+  return String(value ?? '').replace(/\d/g, (digit) => '۰۱۲۳۴۵۶۷۸۹'[digit])
+}
+
+function normalizeDate(value) {
+  const parts = String(value ?? '').trim().split('/')
+  if (parts.length !== 3) return value
+
+  const [first, second, year] = parts
+  const firstNumber = Number(first.replace(/[^0-9۰-۹]/g, ''))
+  const secondNumber = Number(second.replace(/[^0-9۰-۹]/g, ''))
+
+  if (!Number.isInteger(firstNumber) || !Number.isInteger(secondNumber)) return value
+
+  // Stored source format is MM/DD/YYYY. Display format is DD/MM/YYYY.
+  return `${toPersianDigits(secondNumber)}/${toPersianDigits(firstNumber)}/${toPersianDigits(year)}`
+}
+
 function toggleShowAll() {
   showAll.value = !showAll.value
 }
@@ -56,7 +74,7 @@ watch(() => props.fileName, load)
             <div><dt>واحد</dt><dd>{{ item.unit || '—' }}</dd></div>
           </dl>
           <div class="food-card__price">{{ formatPrice(item.price) }} تومان</div>
-          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ item.date }}</div>
+          <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ normalizeDate(item.date) }}</div>
         </article>
       </div>
       <button v-if="hasMore" type="button" class="food-section__more" @click="toggleShowAll">
