@@ -25,6 +25,20 @@ function cleanLine(value) {
   return normalizeDateText(value).replace(/[|*]/g, '').trim()
 }
 
+function normalizeTitle(value) {
+  return String(value ?? '')
+    .replace(/[\u200c\u200f\u202a-\u202e]/g, '')
+    .replace(/[ \t\r\n]+/g, ' ')
+    .trim()
+}
+
+function normalizeField(value) {
+  return String(value ?? '')
+    .replace(/[\u200c\u200f\u202a-\u202e]/g, '')
+    .replace(/[ \t\r\n]+/g, ' ')
+    .trim() || null
+}
+
 export function parseItems(lines) {
   const items = []
 
@@ -42,10 +56,10 @@ export function parseItems(lines) {
     if (isOlderThanMonths(date, MAX_ITEM_AGE_MONTHS)) continue
 
     items.push({
-      title,
-      freshness: freshness || null,
-      origin: origin || null,
-      unit: unit || null,
+      title: normalizeTitle(title),
+      freshness: normalizeField(freshness),
+      origin: normalizeField(origin),
+      unit: normalizeField(unit),
       date,
       price,
     })
