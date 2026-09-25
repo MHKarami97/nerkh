@@ -21,42 +21,61 @@ function toNumber(value) {
   return Number.isFinite(parsed) ? parsed : null
 }
 
-function cleanLine(value) {
-  return normalizeDateText(value).replace(/[|*]/g, '').trim()
-}
-
 function trimLine(value) {
-  return value.trim()
-}
-
-function normalizeTitle(value) {
   return String(value ?? '')
+    .replace(/[\u200c\u200f\u202a-\u202e]/g, '')
+    .replace(/[|*]/g, '')
+    .replace(/[\u00a0\t\r\n]+/g, ' ')
     .trim()
 }
 
+function cleanDateLine(value) {
+  return normalizeDateText(value)
+    .replace(/[|*]/g, '')
+    .trim()
+}
+
+function normalizeTitle(value) {
+  return trimLine(value)
+}
+
 function normalizeField(value) {
-  return String(value ?? '')
-    .replace(/[\u200c\u200f\u202a-\u202e]/g, '')
-    .replace(/[ \t\r\n]+/g, ' ')
-    .trim() || null
+  return trimLine(value) || null
 }
 
 export function parseItems(lines) {
   const items = []
 
   for (let priceIndex = 5; priceIndex < lines.length; priceIndex++) {
-    const priceLine = cleanLine(lines[priceIndex])
-    if (!PRICE_LINE_RE.test(priceLine)) continue
+    const priceLine = trimLine(lines[priceIndex])
 
-    const [freshness, origin, unit, rawDate] = lines.slice(priceIndex - 5, priceIndex).map(cleanLine)
-    const [title] = lines.slice(priceIndex - 5, priceIndex).map(trimLine)
-    if (!title || !rawDate || !ITEM_DATE_RE.test(rawDate)) continue
+    if (!PRICE_LINE_RE.test(priceLine)) {
+      continue
+    }
+
+    const rawFields = lines.slice(priceIndex - 5, priceIndex)
+
+    const title = trimLine(rawFields[0])
+    const freshness = trimLine(rawFields[1])
+    const origin = trimLine(rawFields[2])
+    const unit = trimLine(rawFields[3])
+    const rawDate = cleanDateLine(rawFields[4])
+
+    if (!title || !rawDate || !ITEM_DATE_RE.test(rawDate)) {
+      continue
+    }
 
     const price = toNumber((priceLine.match(PRICE_NUMBER_RE) || [])[0])
-    if (!price || price <= 0) continue
+
+    if (!price || price <= 0) {
+      continue
+    }
 
     const date = reorderToDayMonthYear(rawDate)
-    if (isOlderThanMonths(date, MAX_ITEM_AGE_MONTHS)) continue
+
+    if (isOlderThanMonths(date, MAX_ITEM_AGE_MONTHS)) {
+      continue
+    }
 
     items.push({
       title: normalizeTitle(title),
@@ -72,34 +91,57 @@ export function parseItems(lines) {
 }
 
 export function findSourceUpdatedAt(lines) {
-  const line = lines.find((item) => HEADER_DATE_RE.test(cleanLine(item)))
-  return line ? cleanLine(line) : null
+  const line = lines.find((item) => HEADER_DATE_RE.test(trimLine(item)))
+  return line ? trimLine(line) : null
 }
 
 async function renderLines(sourceUrl) {
   const browser = await chromium.launch({ headless: true })
+
   try {
     const page = await browser.newPage({ userAgent: USER_AGENT })
-    await page.goto(sourceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 })
+
+    await page.goto(sourceUrl, {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000,
+    })
+
     try {
-      await page.waitForFunction(() => document.body.innerText.includes('تومان'), { timeout: 20000 })
+      await page.waitForFunction(
+        () => document.body.innerText.includes('تومان'),
+        { timeout: 20000 },
+      )
     } catch {
       await page.waitForTimeout(4000)
     }
+
     const innerText = await page.evaluate(() => document.body.innerText)
-    return innerText.split('\n').map((line) => line.trim()).filter(Boolean)
+
+    return innerText
+      .split('\n')
+      .map((line) => line.trim())
+      .filter(Boolean)
   } finally {
     await browser.close()
   }
 }
 
-export async function runStdtCategoryJob({ label, sourceUrl, outputPath, category, currency = 'تومان' }) {
+export async function runStdtCategoryJob({
+  label,
+  sourceUrl,
+  outputPath,
+  category,
+  currency = 'تومان',
+}) {
   const lines = await renderLines(sourceUrl)
   const sourceUpdatedAt = findSourceUpdatedAt(lines)
   const items = parseItems(lines)
 
   if (!items.length) {
-    console.error(`[${label}] debug first 80 lines:`, JSON.stringify(lines.slice(0, 80)))
+    console.error(
+      `[${label}] debug first 80 lines:`,
+      JSON.stringify(lines.slice(0, 80)),
+    )
     throw new Error(`Could not parse any recent ${label} records`)
   }
 
@@ -113,7 +155,13 @@ export async function runStdtCategoryJob({ label, sourceUrl, outputPath, categor
   }
 
   await mkdir(dirname(outputPath), { recursive: true })
-  await writeFile(outputPath, JSON.stringify(payload, null, 2) + '\n', 'utf8')
+  await writeFile(
+    outputPath,
+    JSON.stringify(payload, null, 2) + '\n',
+    'utf8',
+  )
+
   console.log(`[${label}] wrote ${items.length} recent records`)
+
   return payload
 }
