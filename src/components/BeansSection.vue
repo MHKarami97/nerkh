@@ -10,14 +10,14 @@ const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
 const visibleItems = computed(() => (showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE)))
-const hasMore = computed(() => !showAll.value && items.value.length > INITIAL_VISIBLE)
+const hasMore = computed(() => items.value.length > INITIAL_VISIBLE)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
-function showMore() {
-  showAll.value = true
+function toggleShowAll() {
+  showAll.value = !showAll.value
 }
 
 onMounted(async () => {
@@ -41,14 +41,14 @@ onMounted(async () => {
       <div class="food-grid">
         <article v-for="item in visibleItems" :key="item.title" class="food-card">
           <div class="food-card__head"><strong>{{ item.title }}</strong></div>
-          <dl class="food-card__meta">
-            <div><dt>واحد</dt><dd>{{ item.unit || '—' }}</dd></div>
-          </dl>
+          <dl class="food-card__meta"><div><dt>واحد</dt><dd>{{ item.unit || '—' }}</dd></div></dl>
           <div class="food-card__price">{{ formatPrice(item.price) }} تومان</div>
           <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ item.date }}</div>
         </article>
       </div>
-      <button v-if="hasMore" type="button" class="food-section__more" @click="showMore">نمایش همه ({{ items.length - INITIAL_VISIBLE }} مورد دیگر)</button>
+      <button v-if="hasMore" type="button" class="food-section__more" @click="toggleShowAll">
+        {{ showAll ? 'نمایش کمتر' : `نمایش همه (${items.length - INITIAL_VISIBLE} مورد دیگر)` }}
+      </button>
     </template>
   </section>
 </template>
@@ -58,7 +58,7 @@ onMounted(async () => {
 .food-section__state { color: var(--text-muted); text-align: center; padding: 20px 0; }
 .food-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
 .food-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; }
-.food-card__head { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; margin-bottom:10px; }
+.food-card__head { display:flex; align-items:flex-start; gap:8px; margin-bottom:10px; }
 .food-card__head strong { font-size:.9rem; line-height:1.35; }
 .food-card__meta { margin:0; display:grid; grid-template-columns:1fr; gap:6px; }
 .food-card__meta div { min-width:0; }

@@ -1,14 +1,4 @@
 <script setup>
-/**
- * src/components/ProteinCategorySection.vue
- *
- * Replaces the old single ProteinSection.vue. Instead of one merged list
- * with a "پروتئین - مرغ" badge per card, each protein sub-category
- * (chicken/sheep/veal/aquatic/poultry) now renders as its own section.
- * One reusable component driven by props avoids duplicating the same
- * markup/state five times (DRY) — HomeView.vue just instantiates it once
- * per category file.
- */
 import { computed, onMounted, ref, watch } from 'vue'
 import { getProteinCategory } from '../services/foodProteinService.js'
 
@@ -25,14 +15,14 @@ const showAll = ref(false)
 
 const items = computed(() => payload.value?.items || [])
 const visibleItems = computed(() => (showAll.value ? items.value : items.value.slice(0, INITIAL_VISIBLE)))
-const hasMore = computed(() => !showAll.value && items.value.length > INITIAL_VISIBLE)
+const hasMore = computed(() => items.value.length > INITIAL_VISIBLE)
 
 function formatPrice(value) {
   return value === null || value === undefined ? '—' : new Intl.NumberFormat('fa-IR').format(value)
 }
 
-function showMore() {
-  showAll.value = true
+function toggleShowAll() {
+  showAll.value = !showAll.value
 }
 
 async function load() {
@@ -69,7 +59,9 @@ watch(() => props.fileName, load)
           <div v-if="item.date" class="food-card__updated">آخرین بروزرسانی: {{ item.date }}</div>
         </article>
       </div>
-      <button v-if="hasMore" type="button" class="food-section__more" @click="showMore">نمایش همه ({{ items.length - INITIAL_VISIBLE }} مورد دیگر)</button>
+      <button v-if="hasMore" type="button" class="food-section__more" @click="toggleShowAll">
+        {{ showAll ? 'نمایش کمتر' : `نمایش همه (${items.length - INITIAL_VISIBLE} مورد دیگر)` }}
+      </button>
     </template>
   </section>
 </template>
@@ -79,7 +71,7 @@ watch(() => props.fileName, load)
 .food-section__state { color: var(--text-muted); text-align: center; padding: 20px 0; }
 .food-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
 .food-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; }
-.food-card__head { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; margin-bottom:10px; }
+.food-card__head { display:flex; align-items:flex-start; gap:8px; margin-bottom:10px; }
 .food-card__head strong { font-size:.9rem; line-height:1.35; }
 .food-card__meta { margin:0; display:grid; grid-template-columns:1fr; gap:6px; }
 .food-card__meta div { min-width:0; }
