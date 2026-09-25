@@ -25,6 +25,10 @@ function cleanLine(value) {
   return normalizeDateText(value).replace(/[|*]/g, '').trim()
 }
 
+function trimLine(value) {
+  return value.trim()
+}
+
 function normalizeTitle(value) {
   return String(value ?? '')
     .trim()
@@ -44,7 +48,8 @@ export function parseItems(lines) {
     const priceLine = cleanLine(lines[priceIndex])
     if (!PRICE_LINE_RE.test(priceLine)) continue
 
-    const [title, freshness, origin, unit, rawDate] = lines.slice(priceIndex - 5, priceIndex).map(cleanLine)
+    const [freshness, origin, unit, rawDate] = lines.slice(priceIndex - 5, priceIndex).map(cleanLine)
+    const [title] = lines.slice(priceIndex - 5, priceIndex).map(trimLine)
     if (!title || !rawDate || !ITEM_DATE_RE.test(rawDate)) continue
 
     const price = toNumber((priceLine.match(PRICE_NUMBER_RE) || [])[0])
