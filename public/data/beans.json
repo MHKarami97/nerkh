@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/beans/",
-  "generatedAt": "2026-09-25T07:15:45.031Z",
-  "sourceUpdatedAt": "۰۲ مهر ۱۴۰۵",
+  "generatedAt": "2026-09-25T07:28:47.768Z",
+  "sourceUpdatedAt": null,
   "category": "حبوبات",
   "currency": "تومان",
   "items": [
@@ -22,7 +22,7 @@
       "price": 269250
     },
     {
-      "title": "لوبیا چشم بلبلی",
+      "title": "لوبیاچشمبلبلی",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -30,7 +30,7 @@
       "price": 221250
     },
     {
-      "title": "لوبیا چیتی",
+      "title": "لوبیاچیتی",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -38,7 +38,7 @@
       "price": 318750
     },
     {
-      "title": "لوبیا سفید",
+      "title": "لوبیاسفید",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
@@ -46,7 +46,7 @@
       "price": 273750
     },
     {
-      "title": "لوبیا قرمز",
+      "title": "لوبیاقرمز",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
