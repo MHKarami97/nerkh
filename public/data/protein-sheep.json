@@ -1,0 +1,57 @@
+{
+  "source": "https://stdt.ir/product-category/meat-sheep/",
+  "generatedAt": "2026-09-25T07:47:32.812Z",
+  "sourceUpdatedAt": null,
+  "category": "پروتئین - گوسفند",
+  "currency": "تومان",
+  "items": [
+    {
+      "title": "راستهگوسفندبااستخوان",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 1800000
+    },
+    {
+      "title": "راستهگوسفندبیخَص",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 3500000
+    },
+    {
+      "title": "رانگوسفندی",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 1950000
+    },
+    {
+      "title": "سردستگوسفندی",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 1700000
+    },
+    {
+      "title": "فیلهگوسفندی",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 3500000
+    },
+    {
+      "title": "قلوهگاهگوسفندبیخَص",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۰۳/۰۷/۱۴۰۵",
+      "price": 1150000
+    }
+  ]
+}
