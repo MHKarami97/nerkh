@@ -10,6 +10,14 @@ export const CATEGORY = Object.freeze({
   GLOBAL_INDEX: 'index',
   FUND: 'fund',
   OTHER: 'other',
+  FOOD_PRODUCE: 'food-produce',
+  FOOD_SHEEP: 'food-sheep',
+  FOOD_VEAL: 'food-veal',
+  FOOD_CHICKEN: 'food-chicken',
+  FOOD_AQUATIC: 'food-aquatic',
+  FOOD_POULTRY: 'food-poultry',
+  FOOD_DRIED_FRUITS: 'food-dried-fruits',
+  FOOD_BEANS: 'food-beans',
 })
 
 export const CATEGORY_LABELS = {
@@ -20,6 +28,14 @@ export const CATEGORY_LABELS = {
   [CATEGORY.GLOBAL_INDEX]: 'شاخص و کامودیتی جهانی',
   [CATEGORY.FUND]: 'صندوق‌های کالایی',
   [CATEGORY.OTHER]: 'سایر',
+  [CATEGORY.FOOD_PRODUCE]: 'میوه، صیفی‌جات',
+  [CATEGORY.FOOD_SHEEP]: 'گوسفند',
+  [CATEGORY.FOOD_VEAL]: 'گوساله',
+  [CATEGORY.FOOD_CHICKEN]: 'مرغ',
+  [CATEGORY.FOOD_AQUATIC]: 'ماهی و میگو',
+  [CATEGORY.FOOD_POULTRY]: 'ماکیان',
+  [CATEGORY.FOOD_DRIED_FRUITS]: 'خشکبار',
+  [CATEGORY.FOOD_BEANS]: 'حبوبات',
 }
 
 export const CATEGORY_COLORS = {
@@ -30,6 +46,14 @@ export const CATEGORY_COLORS = {
   [CATEGORY.GLOBAL_INDEX]: '#10b981',
   [CATEGORY.FUND]: '#f97316',
   [CATEGORY.OTHER]: '#64748b',
+  [CATEGORY.FOOD_PRODUCE]: '#22c55e',
+  [CATEGORY.FOOD_SHEEP]: '#a16207',
+  [CATEGORY.FOOD_VEAL]: '#b91c1c',
+  [CATEGORY.FOOD_CHICKEN]: '#f59e0b',
+  [CATEGORY.FOOD_AQUATIC]: '#0ea5e9',
+  [CATEGORY.FOOD_POULTRY]: '#ca8a04',
+  [CATEGORY.FOOD_DRIED_FRUITS]: '#d97706',
+  [CATEGORY.FOOD_BEANS]: '#65a30d',
 }
 
 export const CATEGORY_ICONS = {
@@ -40,6 +64,14 @@ export const CATEGORY_ICONS = {
   [CATEGORY.GLOBAL_INDEX]: '📈',
   [CATEGORY.FUND]: '🧺',
   [CATEGORY.OTHER]: '🔹',
+  [CATEGORY.FOOD_PRODUCE]: '🥦',
+  [CATEGORY.FOOD_SHEEP]: '🐑',
+  [CATEGORY.FOOD_VEAL]: '🐄',
+  [CATEGORY.FOOD_CHICKEN]: '🐔',
+  [CATEGORY.FOOD_AQUATIC]: '🐟',
+  [CATEGORY.FOOD_POULTRY]: '🦃',
+  [CATEGORY.FOOD_DRIED_FRUITS]: '🥜',
+  [CATEGORY.FOOD_BEANS]: '🫘',
 }
 
 const GOLD_COIN_KEYS = new Set([

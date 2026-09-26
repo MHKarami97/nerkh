@@ -4,6 +4,18 @@ import { PINNED_SYMBOL_SET, PINNED_SYMBOLS } from '../services/pinnedSymbols.js'
 import { CATEGORY } from '../services/categories.js'
 import { getFavorites, setFavorites } from '../services/db.js'
 
+const FOOD_CATEGORY_SET = new Set([
+  CATEGORY.FOOD_PRODUCE,
+  CATEGORY.FOOD_SHEEP,
+  CATEGORY.FOOD_VEAL,
+  CATEGORY.FOOD_CHICKEN,
+  CATEGORY.FOOD_AQUATIC,
+  CATEGORY.FOOD_POULTRY,
+  CATEGORY.FOOD_DRIED_FRUITS,
+  CATEGORY.FOOD_BEANS,
+])
+const FOOD_PINNED_COUNT = 4
+
 export const useMarketStore = defineStore('market', {
   state: () => ({
     assetsBySymbol: {},
@@ -31,7 +43,11 @@ export const useMarketStore = defineStore('market', {
       return groups
     },
 
-    // OTHER is deliberately excluded. Global indices/commodities are last.
+    assetsByCategorySorted: (state) => (category) =>
+      Object.values(state.assetsBySymbol)
+        .filter((asset) => asset.category === category)
+        .sort((a, b) => a.label.localeCompare(b.label, 'fa')),
+
     categoryOrder: () => [
       CATEGORY.CURRENCY,
       CATEGORY.GOLD_COIN,
@@ -39,11 +55,30 @@ export const useMarketStore = defineStore('market', {
       CATEGORY.CRYPTO,
       CATEGORY.FUND,
       CATEGORY.GLOBAL_INDEX,
+      CATEGORY.FOOD_PRODUCE,
+      CATEGORY.FOOD_SHEEP,
+      CATEGORY.FOOD_VEAL,
+      CATEGORY.FOOD_CHICKEN,
+      CATEGORY.FOOD_AQUATIC,
+      CATEGORY.FOOD_POULTRY,
+      CATEGORY.FOOD_DRIED_FRUITS,
+      CATEGORY.FOOD_BEANS,
     ],
 
     categoryHasAnyAsset: (state) => (category) => Object.values(state.assetsBySymbol).some((asset) => asset.category === category),
-    pinnedForCategory() { return (category) => this.pinnedAssets.filter((asset) => asset.category === category) },
-    extraForCategory() { return (category) => this.moreAssetsByCategory[category] || [] },
+
+    pinnedForCategory() {
+      return (category) => {
+        if (FOOD_CATEGORY_SET.has(category)) return this.assetsByCategorySorted(category).slice(0, FOOD_PINNED_COUNT)
+        return this.pinnedAssets.filter((asset) => asset.category === category)
+      }
+    },
+    extraForCategory() {
+      return (category) => {
+        if (FOOD_CATEGORY_SET.has(category)) return this.assetsByCategorySorted(category).slice(FOOD_PINNED_COUNT)
+        return this.moreAssetsByCategory[category] || []
+      }
+    },
 
     searchResultsForCategory() {
       return (category) => {
@@ -62,6 +97,12 @@ export const useMarketStore = defineStore('market', {
       this.assetsBySymbol = next
       if (source) this.lastSource = source
       if (updatedAt) this.lastUpdatedAt = updatedAt
+    },
+
+    hydrateFood(assets) {
+      const next = { ...this.assetsBySymbol }
+      for (const asset of assets) next[asset.symbol] = asset
+      this.assetsBySymbol = next
     },
     setStatus(status) { this.status = status },
     setSearch(value) { this.search = value },

@@ -1,8 +1,3 @@
-/* Design tokens: theme starts from the device preference (see the inline
-   script in index.html that sets data-theme before first paint), and can
-   be toggled manually; overrides apply via [data-theme="light"]. All
-   spacing/typography uses relative units so layout stays responsive down
-   to small phones without a separate mobile stylesheet. */
 :root {
   --bg: #0f172a;
   --bg-elevated: #161f36;
@@ -318,6 +313,35 @@ button, input {
 .asset-card__badge.is-up { color: var(--up); }
 .asset-card__badge.is-down { color: var(--down); }
 
+.asset-card__range {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin: 0;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.asset-card__range dt {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.asset-card__range dd {
+  margin: 2px 0 0;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.asset-card__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
 .category-more-toggle {
   display: flex;
   justify-content: center;
@@ -345,9 +369,6 @@ button, input {
   color: var(--text-muted);
 }
 
-
-/* Per-category "show more" expand/collapse animation: grid-template-rows
-   0fr -> 1fr is the standard CSS-only trick for animating auto height. */
 .expand-wrap {
   display: grid;
   grid-template-rows: 0fr;
@@ -364,7 +385,6 @@ button, input {
   overflow: hidden;
 }
 
-/* Route transition: fade + slight rise instead of an instant hard cut. */
 .page-fade-enter-active,
 .page-fade-leave-active {
   transition: opacity 0.2s ease, transform 0.2s ease;
@@ -380,7 +400,6 @@ button, input {
   transform: translateY(-6px);
 }
 
-/* Chart range tabs on the asset detail page */
 .range-tabs {
   display: flex;
   gap: 6px;
