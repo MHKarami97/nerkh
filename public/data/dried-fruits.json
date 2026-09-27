@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/dried-fruits/",
-  "generatedAt": "2026-09-27T03:26:48.397Z",
-  "sourceUpdatedAt": "۰۴ مهر ۱۴۰۵",
+  "generatedAt": "2026-09-27T11:19:44.000Z",
+  "sourceUpdatedAt": "۰۵ مهر ۱۴۰۵",
   "category": "میوه خشک",
   "currency": "تومان",
   "items": [
@@ -10,7 +10,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۴/۰۷/۱۴۰۵",
+      "date": "۰۵/۰۷/۱۴۰۵",
       "price": 2080000
     },
     {
@@ -18,7 +18,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۴/۰۷/۱۴۰۵",
+      "date": "۰۵/۰۷/۱۴۰۵",
       "price": 480000
     },
     {
@@ -26,7 +26,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۴/۰۷/۱۴۰۵",
+      "date": "۰۵/۰۷/۱۴۰۵",
       "price": 2839840
     },
     {
@@ -34,7 +34,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۴/۰۷/۱۴۰۵",
+      "date": "۰۵/۰۷/۱۴۰۵",
       "price": 465000
     },
     {
@@ -42,15 +42,15 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۴/۰۷/۱۴۰۵",
-      "price": 371250
+      "date": "۰۵/۰۷/۱۴۰۵",
+      "price": 390000
     },
     {
       "title": "خرما زاهدی",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۴/۰۷/۱۴۰۵",
+      "date": "۰۵/۰۷/۱۴۰۵",
       "price": 202500
     }
   ]
