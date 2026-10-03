@@ -29,13 +29,13 @@ export const CATEGORY_LABELS = {
   [CATEGORY.FUND]: 'صندوق‌های کالایی',
   [CATEGORY.OTHER]: 'سایر',
   [CATEGORY.FOOD_PRODUCE]: 'میوه، صیفی‌جات',
-  [CATEGORY.FOOD_SHEEP]: 'گوسفند',
-  [CATEGORY.FOOD_VEAL]: 'گوساله',
-  [CATEGORY.FOOD_CHICKEN]: 'مرغ',
-  [CATEGORY.FOOD_AQUATIC]: 'ماهی و میگو',
-  [CATEGORY.FOOD_POULTRY]: 'ماکیان',
   [CATEGORY.FOOD_DRIED_FRUITS]: 'خشکبار',
   [CATEGORY.FOOD_BEANS]: 'حبوبات',
+  [CATEGORY.FOOD_SHEEP]: 'گوسفند',
+  [CATEGORY.FOOD_VEAL]: 'گوساله',
+  [CATEGORY.FOOD_CHICKEN]: 'مرغ',  
+  [CATEGORY.FOOD_POULTRY]: 'ماکیان',  
+  [CATEGORY.FOOD_AQUATIC]: 'ماهی و میگو',
 }
 
 export const CATEGORY_COLORS = {
@@ -65,13 +65,13 @@ export const CATEGORY_ICONS = {
   [CATEGORY.FUND]: '🧺',
   [CATEGORY.OTHER]: '🔹',
   [CATEGORY.FOOD_PRODUCE]: '🥦',
-  [CATEGORY.FOOD_SHEEP]: '🐑',
-  [CATEGORY.FOOD_VEAL]: '🐄',
-  [CATEGORY.FOOD_CHICKEN]: '🐔',
-  [CATEGORY.FOOD_AQUATIC]: '🐟',
-  [CATEGORY.FOOD_POULTRY]: '🦃',
   [CATEGORY.FOOD_DRIED_FRUITS]: '🥜',
   [CATEGORY.FOOD_BEANS]: '🫘',
+  [CATEGORY.FOOD_SHEEP]: '🐑',
+  [CATEGORY.FOOD_VEAL]: '🐄',
+  [CATEGORY.FOOD_CHICKEN]: '🐔',  
+  [CATEGORY.FOOD_POULTRY]: '🦃',  
+  [CATEGORY.FOOD_AQUATIC]: '🐟',
 }
 
 const GOLD_COIN_KEYS = new Set([
