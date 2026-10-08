@@ -20,7 +20,7 @@ const router = useRouter();
 const store = useMarketStore();
 
 const symbol = computed(() => route.params.symbol);
-const asset = computed(() => store.assetsBySymbol(symbol.value));
+const asset = computed(() => store.assetsBySymbol[symbol.value]);
 const display = computed(() => (asset.value ? formatDisplayPrice(asset.value) : null));
 const unit = computed(() => (asset.value ? toDisplayPrice(asset.value).unit : ''));
 const accentColor = computed(() => CATEGORY_COLORS[asset.value?.category] ?? CATEGORY_COLORS.other);
