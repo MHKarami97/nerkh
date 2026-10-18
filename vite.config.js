@@ -29,7 +29,9 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,json}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,jpg,jpeg,avif,gif,woff,woff2,json,webmanifest}'],
+        navigateFallback: 'index.html',
+        cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
             urlPattern: /\/data\/latest\.json$/,
