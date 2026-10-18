@@ -29,6 +29,7 @@ export const useMarketStore = defineStore('market', {
 
   getters: {
     allAssets: (state) => Object.values(state.assetsBySymbol),
+    assetBySymbol: (state) => (symbol) => state.assetsBySymbol[symbol] ?? null,
     pinnedAssets: (state) => PINNED_SYMBOLS.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
     favoriteAssets: (state) => state.favorites.map((symbol) => state.assetsBySymbol[symbol]).filter(Boolean),
 
@@ -58,11 +59,11 @@ export const useMarketStore = defineStore('market', {
       CATEGORY.FOOD_PRODUCE,
       CATEGORY.FOOD_DRIED_FRUITS,
       CATEGORY.FOOD_BEANS,
-      CATEGORY.FOOD_SHEEP,      
+      CATEGORY.FOOD_SHEEP,
       CATEGORY.FOOD_CHICKEN,
       CATEGORY.FOOD_POULTRY,
-      CATEGORY.FOOD_VEAL, 
-      CATEGORY.FOOD_AQUATIC,  
+      CATEGORY.FOOD_VEAL,
+      CATEGORY.FOOD_AQUATIC,
     ],
 
     categoryHasAnyAsset: (state) => (category) => Object.values(state.assetsBySymbol).some((asset) => asset.category === category),
