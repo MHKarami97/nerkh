@@ -1,8 +1,17 @@
 import { getPriceHistoryRange, putPriceHistory } from './db.js';
 
-export const HISTORY_RANGES = ['week', 'month', 'year', 'all'];
+export const HISTORY_RANGES = ['week', 'month', 'quarter', 'halfYear', 'year', 'all'];
 
-const RANGE_DAYS = { week: 7, month: 30, year: 365, all: Infinity };
+export const HISTORY_RANGE_LABELS = {
+  week: 'هفته',
+  month: 'ماه',
+  quarter: '۳ ماه',
+  halfYear: '۶ ماه',
+  year: 'سال',
+  all: 'همه',
+};
+
+const RANGE_DAYS = { week: 7, month: 30, quarter: 90, halfYear: 182, year: 365, all: Infinity };
 const MAX_DATE_KEY = '9999-12-31';
 const MIN_DATE_KEY = '0000-01-01';
 const DAY_MS = 86400000;
