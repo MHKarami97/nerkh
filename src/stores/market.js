@@ -13,8 +13,13 @@ const FOOD_CATEGORY_SET = new Set([
   CATEGORY.FOOD_POULTRY,
   CATEGORY.FOOD_DRIED_FRUITS,
   CATEGORY.FOOD_BEANS,
+  CATEGORY.SERVICE_CAR_REPAIR,
 ])
 const FOOD_PINNED_COUNT = 4
+
+// Items with an explicit `sortOrder` (e.g. car repair) keep source order; the rest sort by label.
+const compareAssets = (a, b) =>
+  (a.sortOrder ?? Infinity) - (b.sortOrder ?? Infinity) || a.label.localeCompare(b.label, 'fa')
 
 export const useMarketStore = defineStore('market', {
   state: () => ({
@@ -47,7 +52,7 @@ export const useMarketStore = defineStore('market', {
     assetsByCategorySorted: (state) => (category) =>
       Object.values(state.assetsBySymbol)
         .filter((asset) => asset.category === category)
-        .sort((a, b) => a.label.localeCompare(b.label, 'fa')),
+        .sort(compareAssets),
 
     categoryOrder: () => [
       CATEGORY.CURRENCY,
@@ -64,6 +69,7 @@ export const useMarketStore = defineStore('market', {
       CATEGORY.FOOD_POULTRY,
       CATEGORY.FOOD_VEAL,
       CATEGORY.FOOD_AQUATIC,
+      CATEGORY.SERVICE_CAR_REPAIR,
     ],
 
     categoryHasAnyAsset: (state) => (category) => Object.values(state.assetsBySymbol).some((asset) => asset.category === category),

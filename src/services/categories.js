@@ -18,6 +18,7 @@ export const CATEGORY = Object.freeze({
   FOOD_POULTRY: 'food-poultry',
   FOOD_DRIED_FRUITS: 'food-dried-fruits',
   FOOD_BEANS: 'food-beans',
+  SERVICE_CAR_REPAIR: 'service-car-repair',
 })
 
 export const CATEGORY_LABELS = {
@@ -36,6 +37,7 @@ export const CATEGORY_LABELS = {
   [CATEGORY.FOOD_CHICKEN]: 'مرغ',  
   [CATEGORY.FOOD_POULTRY]: 'ماکیان',  
   [CATEGORY.FOOD_AQUATIC]: 'ماهی و میگو',
+  [CATEGORY.SERVICE_CAR_REPAIR]: 'قیمت تعمیرات خودرو',
 }
 
 export const CATEGORY_COLORS = {
@@ -54,6 +56,7 @@ export const CATEGORY_COLORS = {
   [CATEGORY.FOOD_POULTRY]: '#ca8a04',
   [CATEGORY.FOOD_DRIED_FRUITS]: '#d97706',
   [CATEGORY.FOOD_BEANS]: '#65a30d',
+  [CATEGORY.SERVICE_CAR_REPAIR]: '#0891b2',
 }
 
 export const CATEGORY_ICONS = {
@@ -72,6 +75,7 @@ export const CATEGORY_ICONS = {
   [CATEGORY.FOOD_CHICKEN]: '🐔',  
   [CATEGORY.FOOD_POULTRY]: '🦃',  
   [CATEGORY.FOOD_AQUATIC]: '🐟',
+  [CATEGORY.SERVICE_CAR_REPAIR]: '🔧',
 }
 
 const GOLD_COIN_KEYS = new Set([

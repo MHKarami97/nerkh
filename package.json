@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "fetch-data": "node scripts/fetch-market-data.mjs"
+    "fetch-data": "node scripts/fetch-market-data.mjs",
+    "fetch-car-repair": "node scripts/fetch-car-repair.mjs",
+    "test:scripts": "node --test scripts/lib/car-repair/"
   },
   "dependencies": {
     "vue": "^3.4.21",

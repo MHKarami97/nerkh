@@ -1,0 +1,59 @@
+name: Refresh Car Repair Prices
+
+on:
+  schedule:
+    - cron: '30 2 * * 5' # weekly, Friday 02:30 UTC (06:00 Tehran)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-car-repair
+  cancel-in-progress: false
+
+jobs:
+  fetch-car-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run parser/merger tests
+        run: node --test scripts/lib/car-repair/
+
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+
+      - name: Fetch car repair prices
+        id: fetch
+        continue-on-error: true
+        run: node scripts/fetch-car-repair.mjs
+
+      - name: Commit snapshot if changed
+        if: steps.fetch.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/car-repair.json
+          if git diff --cached --quiet; then
+            echo "No car repair price changes, skipping commit."
+          else
+            git commit -m "chore(data): refresh car repair prices [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Report fetch failure
+        if: steps.fetch.outcome == 'failure'
+        run: echo '::warning::Car repair fetch failed; previous public/data/car-repair.json kept.'

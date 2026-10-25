@@ -1,0 +1,138 @@
+{
+  "source": "sanjagh",
+  "currency": "تومان",
+  "generatedAt": "2026-10-25T06:56:00.000Z",
+  "types": [
+    {
+      "id": "mirror",
+      "label": "آینه",
+      "slug": "تعویض-و-تعمیر-آینه-خودرو",
+      "order": 4,
+      "status": "fresh",
+      "checkedAt": "2026-10-25T06:56:00.000Z",
+      "sourceUpdatedAt": "29 مهر 1405"
+    }
+  ],
+  "items": [
+    {
+      "id": "تعویض-شیشه-آینه",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعویض شیشه آینه",
+      "unit": "هر عدد",
+      "minPrice": 150000,
+      "maxPrice": 300000,
+      "averagePrice": 225000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعویض-پایه-آینه-دستی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعویض پایه آینه دستی",
+      "unit": "هر عدد",
+      "minPrice": 200000,
+      "maxPrice": 425000,
+      "averagePrice": 312500,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعویض-پایه-آینه-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعویض پایه آینه برقی",
+      "unit": "هر عدد",
+      "minPrice": 400000,
+      "maxPrice": 600000,
+      "averagePrice": 500000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعویض-پایه-آینه-تاشو-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعویض پایه آینه تاشو برقی",
+      "unit": "هر عدد",
+      "minPrice": 375000,
+      "maxPrice": 625000,
+      "averagePrice": 500000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعمیر-یا-تعویض-موتور-آینه-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعمیر یا تعویض موتور آینه برقی",
+      "unit": "هر سرویس",
+      "minPrice": 500000,
+      "maxPrice": 1000000,
+      "averagePrice": 750000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعمیر-یا-تعویض-کلیدهای-آینه-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعمیر یا تعویض کلیدهای آینه برقی",
+      "unit": "هر سرویس",
+      "minPrice": 200000,
+      "maxPrice": 588000,
+      "averagePrice": 394000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "بازبینی-و-تعمیر-سیم‌کشی-آینه-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "بازبینی و تعمیر سیم‌کشی آینه برقی",
+      "unit": "هر سرویس",
+      "minPrice": 350000,
+      "maxPrice": 700000,
+      "averagePrice": 525000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعمیر-یا-تعویض-موتور-آینه-تاشو-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعمیر یا تعویض موتور آینه تاشو برقی",
+      "unit": "هر سرویس",
+      "minPrice": 500000,
+      "maxPrice": 950000,
+      "averagePrice": 725000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "تعمیر-یا-تعویض-کلیدهای-آینه-تاشو-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "تعمیر یا تعویض کلیدهای آینه تاشو برقی",
+      "unit": "هر سرویس",
+      "minPrice": 300000,
+      "maxPrice": 650000,
+      "averagePrice": 475000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    },
+    {
+      "id": "بازبینی-و-تعمیر-سیم‌کشی-آینه-تاشو-برقی",
+      "typeId": "mirror",
+      "type": "آینه",
+      "title": "بازبینی و تعمیر سیم‌کشی آینه تاشو برقی",
+      "unit": "هر سرویس",
+      "minPrice": 400000,
+      "maxPrice": 800000,
+      "averagePrice": 600000,
+      "changePercent": 0,
+      "updatedAt": "2026-10-25T06:56:00.000Z"
+    }
+  ]
+}

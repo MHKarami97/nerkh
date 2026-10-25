@@ -2,6 +2,8 @@ import { getProducePrices } from "./produceService.js";
 import { getBeansPrices } from "./foodBeansService.js";
 import { getDriedFruitsPrices } from "./foodDriedFruitsService.js";
 import { getProteinCategory } from "./foodProteinService.js";
+import { getCarRepairPrices } from "./carRepairService.js";
+import { normalizeCarRepairPayload } from "./carRepairNormalizer.js";
 import { priceHistoryRecorder } from "./history.js";
 import {
   normalizeProducePayload,
@@ -65,6 +67,9 @@ export class FoodMarketService {
         .catch(() => []),
       getDriedFruitsPrices()
         .then(normalizeDriedFruitsPayload)
+        .catch(() => []),
+      getCarRepairPrices()
+        .then(normalizeCarRepairPayload)
         .catch(() => []),
       ...PROTEIN_SOURCES.map((source) =>
         getProteinCategory(source.fileName)
