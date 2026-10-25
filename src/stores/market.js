@@ -1,7 +1,7 @@
 /** Single client-side state container for market data and UI state. */
 import { defineStore } from 'pinia'
 import { PINNED_SYMBOL_SET, PINNED_SYMBOLS } from '../services/pinnedSymbols.js'
-import { CATEGORY } from '../services/categories.js'
+import { CATEGORY, SERVICE_CATEGORIES } from '../services/categories.js'
 import { getFavorites, setFavorites } from '../services/db.js'
 
 const FOOD_CATEGORY_SET = new Set([
@@ -13,11 +13,11 @@ const FOOD_CATEGORY_SET = new Set([
   CATEGORY.FOOD_POULTRY,
   CATEGORY.FOOD_DRIED_FRUITS,
   CATEGORY.FOOD_BEANS,
-  CATEGORY.SERVICE_CAR_REPAIR,
+  ...SERVICE_CATEGORIES,
 ])
 const FOOD_PINNED_COUNT = 4
 
-// Items with an explicit `sortOrder` (e.g. car repair) keep source order; the rest sort by label.
+// Items with an explicit `sortOrder` (service categories) keep source order; the rest sort by label.
 const compareAssets = (a, b) =>
   (a.sortOrder ?? Infinity) - (b.sortOrder ?? Infinity) || a.label.localeCompare(b.label, 'fa')
 
@@ -69,7 +69,7 @@ export const useMarketStore = defineStore('market', {
       CATEGORY.FOOD_POULTRY,
       CATEGORY.FOOD_VEAL,
       CATEGORY.FOOD_AQUATIC,
-      CATEGORY.SERVICE_CAR_REPAIR,
+      ...SERVICE_CATEGORIES,
     ],
 
     categoryHasAnyAsset: (state) => (category) => Object.values(state.assetsBySymbol).some((asset) => asset.category === category),

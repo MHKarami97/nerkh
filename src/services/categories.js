@@ -19,7 +19,23 @@ export const CATEGORY = Object.freeze({
   FOOD_DRIED_FRUITS: 'food-dried-fruits',
   FOOD_BEANS: 'food-beans',
   SERVICE_CAR_REPAIR: 'service-car-repair',
+  SERVICE_BUILDING: 'service-building',
+  SERVICE_DIGITAL: 'service-digital',
+  SERVICE_HOME: 'service-home',
+  SERVICE_PERSONAL: 'service-personal',
+  SERVICE_MISC: 'service-misc',
 })
+
+/** Sanjagh-backed categories: weekly snapshots, 4 pinned cards + "show more". */
+export const SERVICE_CATEGORIES = Object.freeze([
+  CATEGORY.SERVICE_CAR_REPAIR,
+  CATEGORY.SERVICE_BUILDING,
+  CATEGORY.SERVICE_DIGITAL,
+  CATEGORY.SERVICE_HOME,
+  CATEGORY.SERVICE_PERSONAL,
+  CATEGORY.SERVICE_MISC,
+])
+
 
 export const CATEGORY_LABELS = {
   [CATEGORY.CURRENCY]: 'ارز',
@@ -38,6 +54,11 @@ export const CATEGORY_LABELS = {
   [CATEGORY.FOOD_POULTRY]: 'ماکیان',  
   [CATEGORY.FOOD_AQUATIC]: 'ماهی و میگو',
   [CATEGORY.SERVICE_CAR_REPAIR]: 'قیمت تعمیرات خودرو',
+  [CATEGORY.SERVICE_BUILDING]: 'قیمت خدمات ساختمان و تأسیسات',
+  [CATEGORY.SERVICE_DIGITAL]: 'قیمت تعمیرات دیجیتال و لوازم برقی',
+  [CATEGORY.SERVICE_HOME]: 'قیمت خدمات منزل',
+  [CATEGORY.SERVICE_PERSONAL]: 'قیمت خدمات زیبایی و پوشاک',
+  [CATEGORY.SERVICE_MISC]: 'قیمت سایر خدمات',
 }
 
 export const CATEGORY_COLORS = {
@@ -57,6 +78,11 @@ export const CATEGORY_COLORS = {
   [CATEGORY.FOOD_DRIED_FRUITS]: '#d97706',
   [CATEGORY.FOOD_BEANS]: '#65a30d',
   [CATEGORY.SERVICE_CAR_REPAIR]: '#0891b2',
+  [CATEGORY.SERVICE_BUILDING]: '#ea580c',
+  [CATEGORY.SERVICE_DIGITAL]: '#6366f1',
+  [CATEGORY.SERVICE_HOME]: '#14b8a6',
+  [CATEGORY.SERVICE_PERSONAL]: '#ec4899',
+  [CATEGORY.SERVICE_MISC]: '#78716c',
 }
 
 export const CATEGORY_ICONS = {
@@ -76,6 +102,11 @@ export const CATEGORY_ICONS = {
   [CATEGORY.FOOD_POULTRY]: '🦃',  
   [CATEGORY.FOOD_AQUATIC]: '🐟',
   [CATEGORY.SERVICE_CAR_REPAIR]: '🔧',
+  [CATEGORY.SERVICE_BUILDING]: '🏗️',
+  [CATEGORY.SERVICE_DIGITAL]: '💻',
+  [CATEGORY.SERVICE_HOME]: '🏠',
+  [CATEGORY.SERVICE_PERSONAL]: '💅',
+  [CATEGORY.SERVICE_MISC]: '🧩',
 }
 
 const GOLD_COIN_KEYS = new Set([

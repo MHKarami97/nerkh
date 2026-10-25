@@ -1,0 +1,96 @@
+name: Refresh Sanjagh Service Prices
+
+# Six staggered weekly schedules (one group each, one hour apart) so two groups never overlap.
+# The shared concurrency group also queues manual runs behind a running schedule.
+on:
+  schedule:
+    - cron: '30 2 * * 5' # car-repair
+    - cron: '30 3 * * 5' # building
+    - cron: '30 4 * * 5' # digital
+    - cron: '30 5 * * 5' # home
+    - cron: '30 6 * * 5' # personal
+    - cron: '30 7 * * 5' # misc
+  workflow_dispatch:
+    inputs:
+      group:
+        description: Group to refresh (all = every group, sequentially)
+        type: choice
+        default: all
+        options:
+          - all
+          - car-repair
+          - building
+          - digital
+          - home
+          - personal
+          - misc
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sanjagh
+  cancel-in-progress: false
+
+jobs:
+  fetch-sanjagh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Resolve group
+        id: group
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_GROUP: ${{ inputs.group }}
+        run: |
+          case "$SCHEDULE" in
+            '30 2 * * 5') GROUP='car-repair' ;;
+            '30 3 * * 5') GROUP='building' ;;
+            '30 4 * * 5') GROUP='digital' ;;
+            '30 5 * * 5') GROUP='home' ;;
+            '30 6 * * 5') GROUP='personal' ;;
+            '30 7 * * 5') GROUP='misc' ;;
+            *) GROUP="${INPUT_GROUP:-all}" ;;
+          esac
+          echo "value=$GROUP" >> "$GITHUB_OUTPUT"
+
+      - name: Run parser/merger tests
+        run: node --test scripts/lib/sanjagh/
+
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.47.0
+          npx playwright install --with-deps chromium
+
+      - name: Fetch prices
+        id: fetch
+        continue-on-error: true
+        run: node scripts/fetch-sanjagh.mjs --group=${{ steps.group.outputs.value }}
+
+      - name: Commit snapshots if changed
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/data
+          if git diff --cached --quiet; then
+            echo "No price changes, skipping commit."
+          else
+            git commit -m "chore(data): refresh sanjagh prices (${{ steps.group.outputs.value }}) [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Report fetch failure
+        if: steps.fetch.outcome == 'failure'
+        run: echo '::warning::Sanjagh fetch had failures or was blocked; previous data was kept for the affected pages.'
