@@ -211,6 +211,13 @@ button, input {
 /* Modern asset card: category-colored top accent, soft elevation on hover,
    clear price hierarchy. --accent is set inline per-card from
    CATEGORY_COLORS so this single rule set covers every category. */
+/* Each card is a size container, so the min/avg/max block can choose its layout
+   from the card's real width instead of the viewport width. */
+.asset-card,
+.detail__hero {
+  container: price-box / inline-size;
+}
+
 .asset-card {
   position: relative;
   background: linear-gradient(180deg, var(--card) 0%, var(--card) 100%);
@@ -334,29 +341,66 @@ button, input {
 
 .asset-card__range {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
   margin: 0;
   padding-top: 8px;
   border-top: 1px solid var(--border);
 }
 
+/* Narrow card (mobile): one row per value, label at the start, number at the end. */
+.asset-card__range > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+}
+
 .asset-card__range dt {
-  font-size: 0.65rem;
+  flex-shrink: 0;
+  font-size: 0.68rem;
   color: var(--text-muted);
 }
 
 .asset-card__range dd {
-  margin: 2px 0 0;
-  font-size: 0.74rem;
+  min-width: 0;
+  margin: 0;
+  font-size: 0.78rem;
   font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+  overflow-wrap: anywhere;
+}
+
+/* Wide card: classic three columns. minmax(0, 1fr) lets columns shrink instead of overflowing. */
+@container price-box (min-width: 216px) {
+  .asset-card__range {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .asset-card__range > div {
+    display: block;
+  }
+
+  .asset-card__range dt {
+    font-size: 0.65rem;
+  }
+
+  .asset-card__range dd {
+    margin: 2px 0 0;
+    font-size: 0.7rem;
+    text-align: start;
+  }
 }
 
 .asset-card__meta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 4px 8px;
   font-size: 0.7rem;
   color: var(--text-muted);
 }
