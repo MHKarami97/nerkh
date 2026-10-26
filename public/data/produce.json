@@ -1,9 +1,9 @@
 {
   "source": "https://avalkeshavarz.ir/prices",
-  "generatedAt": "2026-10-26T07:35:01.136Z",
-  "sourceUpdatedAt": "۱۴۰۵/۰۷/۲۷",
-  "validUntil": "۱۴۰۵/۰۸/۰۳",
-  "isExpired": true,
+  "generatedAt": "2026-10-26T14:58:53.739Z",
+  "sourceUpdatedAt": "۱۴۰۵/۰۸/۰۴",
+  "validUntil": "۱۴۰۵/۰۸/۱۰",
+  "isExpired": false,
   "currency": "تومان",
   "items": [
     {
@@ -11,8 +11,8 @@
       "title": "گوجه فرنگی بوته رس",
       "minPrice": 35000,
       "maxPrice": 45000,
-      "averagePrice": 41000,
-      "changePercent": 10
+      "averagePrice": 40000,
+      "changePercent": 0
     },
     {
       "id": "گوجه-فرنگی-گلخانه",
@@ -25,138 +25,130 @@
     {
       "id": "سیب-زمینی",
       "title": "سیب زمینی",
-      "minPrice": 60000,
-      "maxPrice": 70000,
-      "averagePrice": 65000,
-      "changePercent": 0
+      "minPrice": 50000,
+      "maxPrice": 65000,
+      "averagePrice": 58000,
+      "changePercent": 7.14
     },
     {
       "id": "پیاز-زرد",
       "title": "پیاز زرد",
-      "minPrice": 50000,
-      "maxPrice": 60000,
-      "averagePrice": 56000,
-      "changePercent": 0
+      "minPrice": 65000,
+      "maxPrice": 70000,
+      "averagePrice": 68000,
+      "changePercent": 16.67
     },
     {
       "id": "پیاز-شیری",
       "title": "پیاز شیری",
-      "minPrice": 60000,
-      "maxPrice": 75000,
-      "averagePrice": 72000,
-      "changePercent": 15.38
+      "minPrice": 80000,
+      "maxPrice": 90000,
+      "averagePrice": 87000,
+      "changePercent": 20
     },
     {
       "id": "پیاز-قرمز",
       "title": "پیاز قرمز",
-      "minPrice": 70000,
-      "maxPrice": 80000,
-      "averagePrice": 76000,
-      "changePercent": 5.88
+      "minPrice": 50000,
+      "maxPrice": 70000,
+      "averagePrice": 60000,
+      "changePercent": 12.5
     },
     {
       "id": "خیار-مینی-اصفهان",
       "title": "خیار مینی اصفهان",
-      "minPrice": 25000,
+      "minPrice": 30000,
       "maxPrice": 35000,
-      "averagePrice": 32000,
-      "changePercent": 16.67
+      "averagePrice": 33000,
+      "changePercent": 0
     },
     {
       "id": "خیار-رسمی",
       "title": "خیار رسمی",
-      "minPrice": 60000,
-      "maxPrice": 75000,
-      "averagePrice": 69000,
-      "changePercent": 11.76
+      "minPrice": 30000,
+      "maxPrice": 70000,
+      "averagePrice": 51000,
+      "changePercent": 6.67
     },
     {
       "id": "گریپ-فروت-تو-سرخ",
       "title": "گریپ فروت تو سرخ",
-      "minPrice": 90000,
+      "minPrice": 80000,
       "maxPrice": 100000,
-      "averagePrice": 97000,
-      "changePercent": 11.11
+      "averagePrice": 92000,
+      "changePercent": 0
     },
     {
       "id": "خیار-گلخانه-ای",
       "title": "خیار گلخانه ای",
-      "minPrice": 35000,
-      "maxPrice": 45000,
+      "minPrice": 30000,
+      "maxPrice": 50000,
       "averagePrice": 40000,
-      "changePercent": 0
+      "changePercent": 11.11
     },
     {
       "id": "بادمجان-دلمه-ای",
       "title": "بادمجان دلمه ای",
-      "minPrice": 30000,
-      "maxPrice": 40000,
-      "averagePrice": 35000,
-      "changePercent": 0
+      "minPrice": 20000,
+      "maxPrice": 35000,
+      "averagePrice": 28000,
+      "changePercent": 12.5
     },
     {
       "id": "بادمجان-قلمی",
       "title": "بادمجان قلمی",
       "minPrice": 40000,
-      "maxPrice": 55000,
-      "averagePrice": 47000,
-      "changePercent": 21.43
+      "maxPrice": 50000,
+      "averagePrice": 44000,
+      "changePercent": 9.09
     },
     {
       "id": "فلفل-دلمه-سبز-گلخانه",
       "title": "فلفل دلمه سبز گلخانه",
-      "minPrice": 150000,
-      "maxPrice": 160000,
-      "averagePrice": 156000,
-      "changePercent": 23.08
-    },
-    {
-      "id": "فلفل-دلمه-سبز",
-      "title": "فلفل دلمه سبز",
-      "minPrice": 80000,
-      "maxPrice": 100000,
-      "averagePrice": 95000,
-      "changePercent": 0
+      "minPrice": 60000,
+      "maxPrice": 130000,
+      "averagePrice": 102000,
+      "changePercent": 18.75
     },
     {
       "id": "فلفل-دلمه-رنگی",
       "title": "فلفل دلمه رنگی",
-      "minPrice": 80000,
-      "maxPrice": 300000,
-      "averagePrice": 215000,
-      "changePercent": 0
+      "minPrice": 50000,
+      "maxPrice": 200000,
+      "averagePrice": 135000,
+      "changePercent": 33.33
     },
     {
       "id": "فلفل-تند-ریز-گلخانه",
       "title": "فلفل تند ریز گلخانه",
       "minPrice": 80000,
-      "maxPrice": 100000,
-      "averagePrice": 91000,
-      "changePercent": 0
+      "maxPrice": 110000,
+      "averagePrice": 98000,
+      "changePercent": 10
     },
     {
       "id": "فلفل-کاپی",
       "title": "فلفل کاپی",
-      "minPrice": 100000,
-      "maxPrice": 180000,
-      "averagePrice": 136000,
-      "changePercent": 10
+      "minPrice": 70000,
+      "maxPrice": 150000,
+      "averagePrice": 105000,
+      "changePercent": 16.67
     },
     {
       "id": "هندوانه",
       "title": "هندوانه",
-      "minPrice": 10000,
+      "minPrice": 12000,
       "maxPrice": 25000,
       "averagePrice": 19000,
-      "changePercent": 38.89
+      "changePercent": 0
     },
     {
       "id": "موز-اکوادور",
       "title": "موز اکوادور",
-      "minPrice": 350000,
-      "maxPrice": 370000,
-      "averagePrice": 362000,
-      "changePercent": 2.63
+      "minPrice": 370000,
+      "maxPrice": 390000,
+      "averagePrice": 382000,
+      "changePercent": 5.41
     },
     {
       "id": "سیب-قرمز",
@@ -164,55 +156,63 @@
       "minPrice": 60000,
       "maxPrice": 120000,
       "averagePrice": 90000,
-      "changePercent": 7.69
+      "changePercent": 0
     },
     {
       "id": "سیب-سفید",
       "title": "سیب سفید",
       "minPrice": 60000,
       "maxPrice": 120000,
-      "averagePrice": 83000,
-      "changePercent": 7.69
+      "averagePrice": 85000,
+      "changePercent": 0
     },
     {
       "id": "خربزه",
       "title": "خربزه",
-      "minPrice": 10000,
-      "maxPrice": 40000,
-      "averagePrice": 24000,
+      "minPrice": 20000,
+      "maxPrice": 50000,
+      "averagePrice": 36000,
+      "changePercent": 25
+    },
+    {
+      "id": "پرتقال-تامسون",
+      "title": "پرتقال تامسون",
+      "minPrice": 70000,
+      "maxPrice": 120000,
+      "averagePrice": 95000,
       "changePercent": 0
     },
     {
       "id": "نارنگی",
       "title": "نارنگی",
-      "minPrice": 50000,
-      "maxPrice": 80000,
-      "averagePrice": 62000,
-      "changePercent": 11.11
+      "minPrice": 60000,
+      "maxPrice": 110000,
+      "averagePrice": 87000,
+      "changePercent": 37.5
     },
     {
       "id": "سیر-تازه",
       "title": "سیر تازه",
-      "minPrice": 90000,
-      "maxPrice": 120000,
-      "averagePrice": 107000,
-      "changePercent": 0
+      "minPrice": 120000,
+      "maxPrice": 130000,
+      "averagePrice": 125000,
+      "changePercent": 8.33
     },
     {
       "id": "انگور-شاهرودی",
       "title": "انگور شاهرودی",
       "minPrice": 50000,
       "maxPrice": 100000,
-      "averagePrice": 68000,
+      "averagePrice": 70000,
       "changePercent": 0
     },
     {
       "id": "بلال",
       "title": "بلال",
-      "minPrice": 40000,
-      "maxPrice": 55000,
-      "averagePrice": 47000,
-      "changePercent": 8.33
+      "minPrice": 30000,
+      "maxPrice": 50000,
+      "averagePrice": 39000,
+      "changePercent": 9.09
     },
     {
       "id": "کرفس",
@@ -220,111 +220,111 @@
       "minPrice": 30000,
       "maxPrice": 40000,
       "averagePrice": 35000,
-      "changePercent": 20
+      "changePercent": 0
     },
     {
       "id": "لیمو-ترش-میناب",
       "title": "لیمو ترش میناب",
-      "minPrice": 150000,
-      "maxPrice": 200000,
-      "averagePrice": 174000,
-      "changePercent": 0
+      "minPrice": 170000,
+      "maxPrice": 250000,
+      "averagePrice": 211000,
+      "changePercent": 25
     },
     {
       "id": "انگور-بی-دانه-قرمز-ارومیه",
       "title": "انگور بی دانه قرمز ارومیه",
       "minPrice": 100000,
       "maxPrice": 200000,
-      "averagePrice": 141000,
-      "changePercent": 20
+      "averagePrice": 142000,
+      "changePercent": 0
     },
     {
       "id": "انگور-مهری",
       "title": "انگور مهری",
       "minPrice": 50000,
-      "maxPrice": 110000,
-      "averagePrice": 86000,
-      "changePercent": 8.33
+      "maxPrice": 100000,
+      "averagePrice": 76000,
+      "changePercent": 9.09
     },
     {
       "id": "انگور-بی-دانه-سفید",
       "title": "انگور بی دانه سفید",
       "minPrice": 70000,
       "maxPrice": 100000,
-      "averagePrice": 84000,
-      "changePercent": 16.67
+      "averagePrice": 83000,
+      "changePercent": 0
     },
     {
       "id": "انگور-بی-دانه-سفید-ارومیه",
       "title": "انگور بی دانه سفید ارومیه",
       "minPrice": 100000,
       "maxPrice": 150000,
-      "averagePrice": 120000,
+      "averagePrice": 121000,
       "changePercent": 0
     },
     {
       "id": "انار",
       "title": "انار",
       "minPrice": 60000,
-      "maxPrice": 170000,
-      "averagePrice": 114000,
-      "changePercent": 13.33
+      "maxPrice": 180000,
+      "averagePrice": 121000,
+      "changePercent": 5.88
     },
     {
       "id": "پسته-تازه",
       "title": "پسته تازه",
-      "minPrice": 1000000,
-      "maxPrice": 1400000,
-      "averagePrice": 1234000,
-      "changePercent": 7.69
+      "minPrice": 1100000,
+      "maxPrice": 1500000,
+      "averagePrice": 1331000,
+      "changePercent": 7.14
     },
     {
       "id": "کیوی",
       "title": "کیوی",
       "minPrice": 100000,
-      "maxPrice": 150000,
-      "averagePrice": 121000,
-      "changePercent": 16.67
+      "maxPrice": 170000,
+      "averagePrice": 133000,
+      "changePercent": 13.33
     },
     {
       "id": "کاهو-پیچ-سالادی",
       "title": "کاهو پیچ سالادی",
       "minPrice": 20000,
-      "maxPrice": 30000,
-      "averagePrice": 23000,
-      "changePercent": 0
+      "maxPrice": 25000,
+      "averagePrice": 22000,
+      "changePercent": 16.67
     },
     {
       "id": "کاهو-رسمی",
       "title": "کاهو رسمی",
       "minPrice": 20000,
-      "maxPrice": 30000,
-      "averagePrice": 25000,
-      "changePercent": 20
+      "maxPrice": 25000,
+      "averagePrice": 22000,
+      "changePercent": 16.67
     },
     {
       "id": "کلم-بروکلی",
       "title": "کلم بروکلی",
-      "minPrice": 90000,
-      "maxPrice": 110000,
-      "averagePrice": 97000,
-      "changePercent": 35.29
+      "minPrice": 60000,
+      "maxPrice": 90000,
+      "averagePrice": 69000,
+      "changePercent": 18.18
     },
     {
       "id": "خرمالو",
       "title": "خرمالو",
-      "minPrice": 50000,
-      "maxPrice": 120000,
-      "averagePrice": 85000,
-      "changePercent": 0
+      "minPrice": 60000,
+      "maxPrice": 130000,
+      "averagePrice": 104000,
+      "changePercent": 8.33
     },
     {
       "id": "کلم-سفید",
       "title": "کلم سفید",
       "minPrice": 15000,
-      "maxPrice": 18000,
-      "averagePrice": 16000,
-      "changePercent": 0
+      "maxPrice": 20000,
+      "averagePrice": 17000,
+      "changePercent": 11.11
     },
     {
       "id": "به",
@@ -337,18 +337,18 @@
     {
       "id": "کلم-قرمز",
       "title": "کلم قرمز",
-      "minPrice": 25000,
+      "minPrice": 20000,
       "maxPrice": 30000,
-      "averagePrice": 27000,
-      "changePercent": 25
+      "averagePrice": 23000,
+      "changePercent": 0
     },
     {
       "id": "شلغم-و-لبو",
       "title": "شلغم و لبو",
       "minPrice": 30000,
-      "maxPrice": 40000,
-      "averagePrice": 32000,
-      "changePercent": 27.27
+      "maxPrice": 55000,
+      "averagePrice": 41000,
+      "changePercent": 37.5
     },
     {
       "id": "گل-کلم",
@@ -356,7 +356,7 @@
       "minPrice": 40000,
       "maxPrice": 50000,
       "averagePrice": 44000,
-      "changePercent": 16.67
+      "changePercent": 0
     },
     {
       "id": "هویج",
@@ -364,79 +364,71 @@
       "minPrice": 30000,
       "maxPrice": 40000,
       "averagePrice": 33000,
-      "changePercent": 11.11
+      "changePercent": 0
     },
     {
       "id": "لیمو-شیرین",
       "title": "لیمو شیرین",
-      "minPrice": 80000,
-      "maxPrice": 150000,
-      "averagePrice": 115000,
-      "changePercent": 0
+      "minPrice": 110000,
+      "maxPrice": 170000,
+      "averagePrice": 153000,
+      "changePercent": 13.33
     },
     {
       "id": "لوبیا-سبز",
       "title": "لوبیا سبز",
       "minPrice": 50000,
-      "maxPrice": 60000,
-      "averagePrice": 55000,
-      "changePercent": 14.29
+      "maxPrice": 70000,
+      "averagePrice": 59000,
+      "changePercent": 16.67
     },
     {
       "id": "بامیه",
       "title": "بامیه",
       "minPrice": 100000,
       "maxPrice": 170000,
-      "averagePrice": 145000,
-      "changePercent": 13.33
+      "averagePrice": 139000,
+      "changePercent": 0
     },
     {
       "id": "گلابی-بیروتی",
       "title": "گلابی بیروتی",
-      "minPrice": 200000,
-      "maxPrice": 280000,
-      "averagePrice": 235000,
-      "changePercent": 6.67
+      "minPrice": 220000,
+      "maxPrice": 350000,
+      "averagePrice": 289000,
+      "changePercent": 25
     },
     {
       "id": "کدو-مسمایی",
       "title": "کدو مسمایی",
       "minPrice": 40000,
-      "maxPrice": 50000,
-      "averagePrice": 46000,
-      "changePercent": 23.08
+      "maxPrice": 55000,
+      "averagePrice": 49000,
+      "changePercent": 10
     },
     {
       "id": "گلابی-دوشیز-و-درگزی",
       "title": "گلابی دوشیز و درگزی",
       "minPrice": 120000,
-      "maxPrice": 180000,
-      "averagePrice": 151000,
-      "changePercent": 0
+      "maxPrice": 200000,
+      "averagePrice": 165000,
+      "changePercent": 11.11
     },
     {
       "id": "کدو-حلوایی",
       "title": "کدو حلوایی",
-      "minPrice": 40000,
+      "minPrice": 30000,
       "maxPrice": 50000,
-      "averagePrice": 46000,
-      "changePercent": 25
+      "averagePrice": 42000,
+      "changePercent": 0
     },
     {
       "id": "موز-پاکستان",
       "title": "موز پاکستان",
-      "minPrice": 150000,
-      "maxPrice": 180000,
-      "averagePrice": 165000,
-      "changePercent": 2.7
-    },
-    {
-      "id": "انجیر-سیاه",
-      "title": "انجیر سیاه",
-      "minPrice": 100000,
-      "maxPrice": 170000,
-      "averagePrice": 140000,
-      "changePercent": 13.33
+      "minPrice": 180000,
+      "maxPrice": 200000,
+      "averagePrice": 191000,
+      "changePercent": 11.11
     },
     {
       "id": "هلو",
@@ -449,26 +441,26 @@
     {
       "id": "هلو-انجیری",
       "title": "هلو انجیری",
-      "minPrice": 100000,
-      "maxPrice": 220000,
-      "averagePrice": 164000,
-      "changePercent": 22.22
+      "minPrice": 120000,
+      "maxPrice": 250000,
+      "averagePrice": 198000,
+      "changePercent": 13.64
     },
     {
       "id": "شلیل",
       "title": "شلیل",
       "minPrice": 100000,
       "maxPrice": 180000,
-      "averagePrice": 140000,
+      "averagePrice": 141000,
       "changePercent": 0
     },
     {
       "id": "موز-ایرانی",
       "title": "موز ایرانی",
-      "minPrice": 120000,
-      "maxPrice": 140000,
-      "averagePrice": 133000,
-      "changePercent": 7.69
+      "minPrice": 110000,
+      "maxPrice": 160000,
+      "averagePrice": 143000,
+      "changePercent": 14.29
     },
     {
       "id": "لوبیا-چیتی-با-غلاف",
@@ -484,38 +476,78 @@
       "minPrice": 80000,
       "maxPrice": 150000,
       "averagePrice": 112000,
-      "changePercent": 25
+      "changePercent": 0
     },
     {
       "id": "فیسالیس-بسته-ای",
       "title": "فیسالیس بسته ای",
-      "minPrice": 40000,
-      "maxPrice": 60000,
-      "averagePrice": 54000,
-      "changePercent": 25
+      "minPrice": 50000,
+      "maxPrice": 65000,
+      "averagePrice": 60000,
+      "changePercent": 8.33
     },
     {
       "id": "سیر-خشک",
       "title": "سیر خشک",
-      "minPrice": 120000,
-      "maxPrice": 170000,
-      "averagePrice": 147000,
-      "changePercent": 30.77
+      "minPrice": 100000,
+      "maxPrice": 180000,
+      "averagePrice": 142000,
+      "changePercent": 5.88
     },
     {
       "id": "گوجه-زیتونی",
       "title": "گوجه زیتونی",
       "minPrice": 80000,
       "maxPrice": 350000,
-      "averagePrice": 235000,
-      "changePercent": 40
+      "averagePrice": 226000,
+      "changePercent": 0
     },
     {
       "id": "لیمو-ترش-سنگی",
       "title": "لیمو ترش سنگی",
-      "minPrice": 170000,
+      "minPrice": 150000,
       "maxPrice": 200000,
-      "averagePrice": 182000,
+      "averagePrice": 170000,
+      "changePercent": 0
+    },
+    {
+      "id": "پیاز-زرد-زنجان",
+      "title": "پیاز زرد زنجان",
+      "minPrice": 60000,
+      "maxPrice": 70000,
+      "averagePrice": 65000,
+      "changePercent": 2.94
+    },
+    {
+      "id": "سیب-زمینی-ترشی",
+      "title": "سیب زمینی ترشی",
+      "minPrice": 100000,
+      "maxPrice": 130000,
+      "averagePrice": 109000,
+      "changePercent": 13.33
+    },
+    {
+      "id": "بادمجان-لامپی",
+      "title": "بادمجان لامپی",
+      "minPrice": 100000,
+      "maxPrice": 130000,
+      "averagePrice": 115000,
+      "changePercent": 0
+    },
+    {
+      "id": "ترب-سفید",
+      "title": "ترب سفید",
+      "minPrice": 25000,
+      "maxPrice": 35000,
+      "averagePrice": 30000,
+      "changePercent": 0
+    },
+    {
+      "id": "ترب-سیاه",
+      "title": "ترب سیاه",
+      "minPrice": 50000,
+      "maxPrice": 60000,
+      "averagePrice": 55000,
       "changePercent": 0
     }
   ]
