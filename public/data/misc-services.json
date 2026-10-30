@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "misc",
   "currency": "تومان",
-  "generatedAt": "2026-10-25T07:53:17.884Z",
+  "generatedAt": "2026-10-30T14:24:38.005Z",
   "types": [
     {
       "id": "legal",
@@ -10,8 +10,8 @@
       "slug": "مشاوره-حقوقی",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:53:17.884Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T14:24:38.005Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "subtitle",
@@ -19,8 +19,8 @@
       "slug": "زیرنویس-فیلم",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:53:17.884Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T14:24:38.005Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "child-photo",
@@ -28,8 +28,8 @@
       "slug": "عکاسی-کودک",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:53:17.884Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T14:24:38.005Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "bicycle",
@@ -37,8 +37,8 @@
       "slug": "سرویس-و-تعمیر-دوچرخه",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:53:17.884Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T14:24:38.005Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     }
   ],
   "items": [
@@ -61,10 +61,10 @@
       "title": "جلسه مشاوره آنلاین خصوصی",
       "unit": "ساعتی",
       "minPrice": 500000,
-      "maxPrice": 700000,
-      "averagePrice": 600000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "maxPrice": 750000,
+      "averagePrice": 625000,
+      "changePercent": 4.17,
+      "updatedAt": "2026-10-30T14:24:38.005Z"
     },
     {
       "id": "جلسه-مشاوره-حضوری-خصوصی",
@@ -84,11 +84,11 @@
       "type": "زیرنویس فیلم",
       "title": "ترجمه عمومی زیرنویس آماده",
       "unit": "دقیقه‌ای",
-      "minPrice": 10000,
+      "minPrice": 12500,
       "maxPrice": 25000,
-      "averagePrice": 17500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "averagePrice": 18750,
+      "changePercent": 7.14,
+      "updatedAt": "2026-10-30T14:24:38.005Z"
     },
     {
       "id": "ترجمه-عمومی-در-فایل-Word",
@@ -133,10 +133,10 @@
       "title": "ترجمه تخصصی زیرنویس آماده",
       "unit": "دقیقه‌ای",
       "minPrice": 15000,
-      "maxPrice": 27500,
-      "averagePrice": 21250,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "maxPrice": 28000,
+      "averagePrice": 21500,
+      "changePercent": 1.18,
+      "updatedAt": "2026-10-30T14:24:38.005Z"
     },
     {
       "id": "ترجمه-تخصصی-در-فایل-Word",
