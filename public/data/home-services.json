@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "home",
   "currency": "تومان",
-  "generatedAt": "2026-10-25T07:52:52.551Z",
+  "generatedAt": "2026-10-30T11:32:38.133Z",
   "types": [
     {
       "id": "moving",
@@ -10,8 +10,8 @@
       "slug": "کارگر-اسباب-کشی",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:52.551Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T11:32:38.133Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "dry-cleaning",
@@ -19,8 +19,8 @@
       "slug": "خشکشویی-لباس",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:52.551Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T11:32:38.133Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "sofa-cleaning",
@@ -28,8 +28,8 @@
       "slug": "مبل-شویی",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:52.551Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T11:32:38.133Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     }
   ],
   "items": [
@@ -52,10 +52,10 @@
       "title": "کارگر حمل بار به ازای هر یک ساعت اضافه",
       "unit": "کل کار",
       "minPrice": 500000,
-      "maxPrice": 500000,
-      "averagePrice": 500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 600000,
+      "averagePrice": 550000,
+      "changePercent": 10,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "کت-و-شلوار",
@@ -87,11 +87,11 @@
       "type": "خشکشویی لباس",
       "title": "شلوار، پیراهن",
       "unit": "هر عدد",
-      "minPrice": 120000,
-      "maxPrice": 155000,
-      "averagePrice": 137500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 130000,
+      "maxPrice": 150000,
+      "averagePrice": 140000,
+      "changePercent": 1.82,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "کروات،-پاپیون",
@@ -112,10 +112,10 @@
       "title": "روبدوشامبر",
       "unit": "هر عدد",
       "minPrice": 150000,
-      "maxPrice": 240000,
-      "averagePrice": 195000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 250000,
+      "averagePrice": 200000,
+      "changePercent": 2.56,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "سوییشرت،-ژاکت،-پلیور",
@@ -136,10 +136,10 @@
       "title": "پالتو، بارانی",
       "unit": "هر عدد",
       "minPrice": 300000,
-      "maxPrice": 425000,
-      "averagePrice": 362500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 400000,
+      "averagePrice": 350000,
+      "changePercent": -3.45,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "کاپشن",
@@ -147,11 +147,11 @@
       "type": "خشکشویی لباس",
       "title": "کاپشن",
       "unit": "هر عدد",
-      "minPrice": 265000,
+      "minPrice": 250000,
       "maxPrice": 450000,
-      "averagePrice": 357500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "averagePrice": 350000,
+      "changePercent": -2.1,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شلوار،شلوارک",
@@ -159,11 +159,11 @@
       "type": "خشکشویی لباس",
       "title": "شلوار،شلوارک",
       "unit": "هر عدد",
-      "minPrice": 100000,
+      "minPrice": 105000,
       "maxPrice": 150000,
-      "averagePrice": 125000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "averagePrice": 127500,
+      "changePercent": 2,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "کت-و-دامن",
@@ -171,11 +171,11 @@
       "type": "خشکشویی لباس",
       "title": "کت و دامن",
       "unit": "هر دست",
-      "minPrice": 290000,
-      "maxPrice": 400000,
-      "averagePrice": 345000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 280000,
+      "maxPrice": 385000,
+      "averagePrice": 332500,
+      "changePercent": -3.62,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "دامن",
@@ -207,11 +207,11 @@
       "type": "خشکشویی لباس",
       "title": "لباس شب (مجلسی)",
       "unit": "هر عدد",
-      "minPrice": 400000,
-      "maxPrice": 700000,
-      "averagePrice": 550000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 390000,
+      "maxPrice": 650000,
+      "averagePrice": 520000,
+      "changePercent": -5.45,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "روسری،-مقنعه",
@@ -256,10 +256,10 @@
       "title": "مانتو معمولی",
       "unit": "هر عدد",
       "minPrice": 170000,
-      "maxPrice": 215000,
-      "averagePrice": 192500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 230000,
+      "averagePrice": 200000,
+      "changePercent": 3.9,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "مانتو-مدل‌دار",
@@ -267,11 +267,11 @@
       "type": "خشکشویی لباس",
       "title": "مانتو مدل‌دار",
       "unit": "هر عدد",
-      "minPrice": 210000,
-      "maxPrice": 285000,
-      "averagePrice": 247500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 220000,
+      "maxPrice": 300000,
+      "averagePrice": 260000,
+      "changePercent": 5.05,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "لباس-عروس",
@@ -292,10 +292,10 @@
       "title": "دستکش، کلاه، شال‌گردن",
       "unit": "هر عدد",
       "minPrice": 100000,
-      "maxPrice": 115000,
-      "averagePrice": 107500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 110000,
+      "averagePrice": 105000,
+      "changePercent": -2.33,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "کیف،کوله-پشتی",
@@ -303,11 +303,11 @@
       "type": "خشکشویی لباس",
       "title": "کیف،کوله پشتی",
       "unit": "هر عدد",
-      "minPrice": 155000,
-      "maxPrice": 290000,
-      "averagePrice": 222500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 160000,
+      "maxPrice": 300000,
+      "averagePrice": 230000,
+      "changePercent": 3.37,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "کفش-معمولی،-کتانی",
@@ -328,10 +328,10 @@
       "title": "بوت بلند",
       "unit": "هر عدد",
       "minPrice": 300000,
-      "maxPrice": 375000,
-      "averagePrice": 337500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 350000,
+      "averagePrice": 325000,
+      "changePercent": -3.7,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "نیم-بوت",
@@ -364,10 +364,10 @@
       "title": "شستشوی ست مبلمان ۵ نفره تشک دوبل",
       "unit": "هر ست",
       "minPrice": 1500000,
-      "maxPrice": 1800000,
-      "averagePrice": 1650000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 1900000,
+      "averagePrice": 1700000,
+      "changePercent": 3.03,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شستشوی-ست-مبلمان-۷-نفره-معمولی",
@@ -376,10 +376,10 @@
       "title": "شستشوی ست مبلمان ۷ نفره معمولی",
       "unit": "هر ست",
       "minPrice": 1750000,
-      "maxPrice": 2000000,
-      "averagePrice": 1875000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 2100000,
+      "averagePrice": 1925000,
+      "changePercent": 2.67,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شستشوی-ست-مبلمان-۷-نفره-تشک-دوبل",
@@ -399,11 +399,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی ست مبلمان ۹ نفره معمولی",
       "unit": "هر ست",
-      "minPrice": 2280000,
-      "maxPrice": 2700000,
-      "averagePrice": 2490000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 2300000,
+      "maxPrice": 2800000,
+      "averagePrice": 2550000,
+      "changePercent": 2.41,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شستشوی-ست-مبلمان-۹-نفره-تشک-دوبل",
@@ -412,10 +412,10 @@
       "title": "شستشوی ست مبلمان ۹ نفره تشک دوبل",
       "unit": "هر دست",
       "minPrice": 2700000,
-      "maxPrice": 3000000,
-      "averagePrice": 2850000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "maxPrice": 3150000,
+      "averagePrice": 2925000,
+      "changePercent": 2.63,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شستشوی-صندلی-ناهار-خوری",
@@ -459,11 +459,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی مبل تختخوابشو سه نفره",
       "unit": "هر عدد",
-      "minPrice": 1100000,
-      "maxPrice": 1400000,
-      "averagePrice": 1250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 1200000,
+      "maxPrice": 1500000,
+      "averagePrice": 1350000,
+      "changePercent": 8,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شستشوی-خوشخواب-تک-نفره",
@@ -531,11 +531,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی موکت در محل",
       "unit": "متری",
-      "minPrice": 75000,
-      "maxPrice": 95000,
-      "averagePrice": 85000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:52.551Z"
+      "minPrice": 77500,
+      "maxPrice": 100000,
+      "averagePrice": 88750,
+      "changePercent": 4.41,
+      "updatedAt": "2026-10-30T11:32:38.133Z"
     },
     {
       "id": "شستشوی-فرش-ماشینی-در-محل",
