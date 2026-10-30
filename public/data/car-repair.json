@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "car-repair",
   "currency": "تومان",
-  "generatedAt": "2026-10-25T07:51:51.690Z",
+  "generatedAt": "2026-10-30T08:52:12.990Z",
   "types": [
     {
       "id": "oil-change",
@@ -10,8 +10,8 @@
       "slug": "تعویض-روغن-و-فیلتر-ماشین",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "suspension",
@@ -19,8 +19,8 @@
       "slug": "تعمیر-جلوبندی-خودرو",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "gearbox",
@@ -28,8 +28,8 @@
       "slug": "تعمیر-گیربکس",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "bumper",
@@ -37,8 +37,8 @@
       "slug": "سپرسازی-و-تعمیر-سپر-خودرو",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "mirror",
@@ -46,8 +46,8 @@
       "slug": "تعویض-و-تعمیر-آینه-خودرو",
       "order": 4,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "mobile-mechanic",
@@ -55,8 +55,8 @@
       "slug": "مکانیکی-سیار",
       "order": 5,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "wax-polish",
@@ -64,8 +64,8 @@
       "slug": "واکس-و-پولیش-خودرو",
       "order": 6,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "inspection",
@@ -73,8 +73,8 @@
       "slug": "کارشناس-خودرو",
       "order": 7,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "seat-cover",
@@ -82,8 +82,8 @@
       "slug": "نصب-روکش-صندلی-خودرو",
       "order": 8,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:51:51.690Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T08:52:12.990Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     }
   ],
   "items": [
@@ -93,11 +93,11 @@
       "type": "تعویض روغن و فیلتر",
       "title": "سرویس کامل روغن موتور و فیلتر هوای خودروی ایرانی",
       "unit": "هر سرویس",
-      "minPrice": 475000,
+      "minPrice": 500000,
       "maxPrice": 800000,
-      "averagePrice": 637500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 650000,
+      "changePercent": 1.96,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "سرویس-کامل-روغن-موتور-و-فیلتر-هوای-خودروی-خارجی",
@@ -106,10 +106,10 @@
       "title": "سرویس کامل روغن موتور و فیلتر هوای خودروی خارجی",
       "unit": "هر سرویس",
       "minPrice": 600000,
-      "maxPrice": 1000000,
-      "averagePrice": 800000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 1350000,
+      "averagePrice": 975000,
+      "changePercent": 21.88,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-روغن-موتور",
@@ -118,10 +118,10 @@
       "title": "تعویض روغن موتور",
       "unit": "هر سرویس",
       "minPrice": 300000,
-      "maxPrice": 425000,
-      "averagePrice": 362500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 500000,
+      "averagePrice": 400000,
+      "changePercent": 10.34,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-فیلتر-روغن",
@@ -141,11 +141,11 @@
       "type": "تعویض روغن و فیلتر",
       "title": "تعویض فیلتر بنزین",
       "unit": "هر سرویس",
-      "minPrice": 200000,
+      "minPrice": 250000,
       "maxPrice": 300000,
-      "averagePrice": 250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 275000,
+      "changePercent": 10,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-فیلتر-هوا",
@@ -154,10 +154,10 @@
       "title": "تعویض فیلتر هوا",
       "unit": "هر عدد",
       "minPrice": 100000,
-      "maxPrice": 200000,
-      "averagePrice": 150000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 250000,
+      "averagePrice": 175000,
+      "changePercent": 16.67,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-فیلتر-کابین",
@@ -166,10 +166,10 @@
       "title": "تعویض فیلتر کابین",
       "unit": "هر سرویس",
       "minPrice": 150000,
-      "maxPrice": 250000,
-      "averagePrice": 200000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 300000,
+      "averagePrice": 225000,
+      "changePercent": 12.5,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "بازدید-و-تعویض-روغن-گیربکس-دستی-(واسکازین)",
@@ -189,11 +189,11 @@
       "type": "تعویض روغن و فیلتر",
       "title": "تعویض روغن گیربکس اتوماتیک (با دستگاه)",
       "unit": "هر سرویس",
-      "minPrice": 650000,
-      "maxPrice": 1250000,
-      "averagePrice": 950000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 600000,
+      "maxPrice": 1500000,
+      "averagePrice": 1050000,
+      "changePercent": 10.53,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "بازدید-و-تعویض-روغن-دیفرانسیل-(خودروهای-شاسی‌بلند)",
@@ -201,11 +201,11 @@
       "type": "تعویض روغن و فیلتر",
       "title": "بازدید و تعویض روغن دیفرانسیل (خودروهای شاسی‌بلند)",
       "unit": "هر سرویس",
-      "minPrice": 450000,
-      "maxPrice": 800000,
-      "averagePrice": 625000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 500000,
+      "maxPrice": 900000,
+      "averagePrice": 700000,
+      "changePercent": 12,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تنظیم-فرمان-دستی",
@@ -286,10 +286,10 @@
       "title": "تعویض میل موجگیر",
       "unit": "هر قطعه",
       "minPrice": 300000,
-      "maxPrice": 750000,
-      "averagePrice": 525000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 800000,
+      "averagePrice": 550000,
+      "changePercent": 4.76,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-کمک-فنر-جلو",
@@ -537,11 +537,11 @@
       "type": "گیربکس",
       "title": "تعمیر گیربکس دستی خودروی ایرانی",
       "unit": "هر دستگاه",
-      "minPrice": 2900000,
-      "maxPrice": 6500000,
-      "averagePrice": 4700000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 3500000,
+      "maxPrice": 7000000,
+      "averagePrice": 5250000,
+      "changePercent": 11.7,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-گیربکس-دستی-خودروی-ایرانی",
@@ -549,11 +549,11 @@
       "type": "گیربکس",
       "title": "تعویض گیربکس دستی خودروی ایرانی",
       "unit": "هر دستگاه",
-      "minPrice": 2250000,
-      "maxPrice": 4000000,
-      "averagePrice": 3125000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 2500000,
+      "maxPrice": 5000000,
+      "averagePrice": 3750000,
+      "changePercent": 20,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-دیسک-و-صفحه-(کیت-کلاچ-کامل)-خودروی-ایرانی",
@@ -561,11 +561,11 @@
       "type": "گیربکس",
       "title": "تعویض دیسک و صفحه (کیت کلاچ کامل) خودروی ایرانی",
       "unit": "هر دست",
-      "minPrice": 2000000,
-      "maxPrice": 4100000,
-      "averagePrice": 3050000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 2500000,
+      "maxPrice": 4500000,
+      "averagePrice": 3500000,
+      "changePercent": 14.75,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعمیر-گیربکس-اتوماتیک-خودروی-خارجی",
@@ -633,11 +633,11 @@
       "type": "گیربکس",
       "title": "تعویض گیربکس دستی خودروی خارجی",
       "unit": "هر سرویس",
-      "minPrice": 3500000,
+      "minPrice": 3750000,
       "maxPrice": 8000000,
-      "averagePrice": 5750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 5875000,
+      "changePercent": 2.17,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-دیسک-و-صفحه-(کیت-کلاچ-کامل)-خودروی-خارجی",
@@ -645,11 +645,11 @@
       "type": "گیربکس",
       "title": "تعویض دیسک و صفحه (کیت کلاچ کامل) خودروی خارجی",
       "unit": "هر دست",
-      "minPrice": 3500000,
-      "maxPrice": 8000000,
-      "averagePrice": 5750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 4000000,
+      "maxPrice": 9000000,
+      "averagePrice": 6500000,
+      "changePercent": 13.04,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "باز-و-بست-سپر-خودروی-ایرانی",
@@ -790,10 +790,10 @@
       "title": "تعویض پایه آینه دستی",
       "unit": "هر عدد",
       "minPrice": 200000,
-      "maxPrice": 425000,
-      "averagePrice": 312500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "maxPrice": 450000,
+      "averagePrice": 325000,
+      "changePercent": 4,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-پایه-آینه-برقی",
@@ -813,11 +813,11 @@
       "type": "آینه",
       "title": "تعویض پایه آینه تاشو برقی",
       "unit": "هر عدد",
-      "minPrice": 375000,
-      "maxPrice": 625000,
-      "averagePrice": 500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "minPrice": 400000,
+      "maxPrice": 650000,
+      "averagePrice": 525000,
+      "changePercent": 5,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعمیر-یا-تعویض-موتور-آینه-برقی",
@@ -838,10 +838,10 @@
       "title": "تعمیر یا تعویض کلیدهای آینه برقی",
       "unit": "هر سرویس",
       "minPrice": 200000,
-      "maxPrice": 588000,
-      "averagePrice": 394000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "maxPrice": 600000,
+      "averagePrice": 400000,
+      "changePercent": 1.52,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "بازبینی-و-تعمیر-سیم‌کشی-آینه-برقی",
@@ -849,11 +849,11 @@
       "type": "آینه",
       "title": "بازبینی و تعمیر سیم‌کشی آینه برقی",
       "unit": "هر سرویس",
-      "minPrice": 350000,
+      "minPrice": 400000,
       "maxPrice": 700000,
-      "averagePrice": 525000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "averagePrice": 550000,
+      "changePercent": 4.76,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعمیر-یا-تعویض-موتور-آینه-تاشو-برقی",
@@ -862,10 +862,10 @@
       "title": "تعمیر یا تعویض موتور آینه تاشو برقی",
       "unit": "هر سرویس",
       "minPrice": 500000,
-      "maxPrice": 950000,
-      "averagePrice": 725000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "maxPrice": 1000000,
+      "averagePrice": 750000,
+      "changePercent": 3.45,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعمیر-یا-تعویض-کلیدهای-آینه-تاشو-برقی",
@@ -873,11 +873,11 @@
       "type": "آینه",
       "title": "تعمیر یا تعویض کلیدهای آینه تاشو برقی",
       "unit": "هر سرویس",
-      "minPrice": 300000,
-      "maxPrice": 650000,
-      "averagePrice": 475000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "minPrice": 350000,
+      "maxPrice": 675000,
+      "averagePrice": 512500,
+      "changePercent": 7.89,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "بازبینی-و-تعمیر-سیم‌کشی-آینه-تاشو-برقی",
@@ -885,11 +885,11 @@
       "type": "آینه",
       "title": "بازبینی و تعمیر سیم‌کشی آینه تاشو برقی",
       "unit": "هر سرویس",
-      "minPrice": 400000,
+      "minPrice": 450000,
       "maxPrice": 800000,
-      "averagePrice": 600000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T06:56:00.000Z"
+      "averagePrice": 625000,
+      "changePercent": 4.17,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -909,11 +909,11 @@
       "type": "مکانیک سیار",
       "title": "بازدید و عیب یابی",
       "unit": "هر سرویس",
-      "minPrice": 350000,
-      "maxPrice": 575000,
-      "averagePrice": 462500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 375000,
+      "maxPrice": 650000,
+      "averagePrice": 512500,
+      "changePercent": 10.81,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعمیر-موتور-کامل-خودرو",
@@ -921,11 +921,11 @@
       "type": "مکانیک سیار",
       "title": "تعمیر موتور کامل خودرو",
       "unit": "هر دستگاه",
-      "minPrice": 9000000,
+      "minPrice": 8000000,
       "maxPrice": 25000000,
-      "averagePrice": 17000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 16500000,
+      "changePercent": -2.94,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعمیر-نیم-موتور",
@@ -934,10 +934,10 @@
       "title": "تعمیر نیم موتور",
       "unit": "هر دستگاه",
       "minPrice": 5000000,
-      "maxPrice": 12000000,
-      "averagePrice": 8500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 13000000,
+      "averagePrice": 9000000,
+      "changePercent": 5.88,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-پمپ-بنزین",
@@ -945,11 +945,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض پمپ بنزین",
       "unit": "هر قطعه",
-      "minPrice": 800000,
-      "maxPrice": 1800000,
-      "averagePrice": 1300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 750000,
+      "maxPrice": 1650000,
+      "averagePrice": 1200000,
+      "changePercent": -7.69,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-کوئل",
@@ -994,10 +994,10 @@
       "title": "تعویض رله‌های فن",
       "unit": "هر قطعه",
       "minPrice": 300000,
-      "maxPrice": 750000,
-      "averagePrice": 525000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 800000,
+      "averagePrice": 550000,
+      "changePercent": 4.76,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-مقاومت-فن",
@@ -1018,10 +1018,10 @@
       "title": "تعویض فشنگی فن",
       "unit": "هر قطعه",
       "minPrice": 300000,
-      "maxPrice": 875000,
-      "averagePrice": 587500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 800000,
+      "averagePrice": 550000,
+      "changePercent": -6.38,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-رادیاتور",
@@ -1029,11 +1029,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض رادیاتور",
       "unit": "هر قطعه",
-      "minPrice": 600000,
-      "maxPrice": 2000000,
-      "averagePrice": 1300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 500000,
+      "maxPrice": 1690000,
+      "averagePrice": 1095000,
+      "changePercent": -15.77,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-رادیاتور-بخاری",
@@ -1053,11 +1053,11 @@
       "type": "مکانیک سیار",
       "title": "تعمیر و تعویض شیشه بالابر",
       "unit": "هر قطعه",
-      "minPrice": 550000,
-      "maxPrice": 1500000,
-      "averagePrice": 1025000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 500000,
+      "maxPrice": 1300000,
+      "averagePrice": 900000,
+      "changePercent": -12.2,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-لامپ-چراغ‌-جلو،-عقب-و-مه‌شکن-خودرو",
@@ -1065,11 +1065,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض لامپ چراغ‌ جلو، عقب و مه‌شکن خودرو",
       "unit": "هر عدد",
-      "minPrice": 250000,
-      "maxPrice": 600000,
-      "averagePrice": 425000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 225000,
+      "maxPrice": 675000,
+      "averagePrice": 450000,
+      "changePercent": 5.88,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "باز-و-بست-داشبورد",
@@ -1089,11 +1089,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض دینام",
       "unit": "هر قطعه",
-      "minPrice": 775000,
+      "minPrice": 750000,
       "maxPrice": 2500000,
-      "averagePrice": 1637500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 1625000,
+      "changePercent": -0.76,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-استارت",
@@ -1126,10 +1126,10 @@
       "title": "تعویض تسمه دینام",
       "unit": "هر قطعه",
       "minPrice": 400000,
-      "maxPrice": 1200000,
-      "averagePrice": 800000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 1000000,
+      "averagePrice": 700000,
+      "changePercent": -12.5,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-تسمه-تایم",
@@ -1161,11 +1161,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض لنت‌های ترمز عقب (دیسکی و کاسه‌ای)",
       "unit": "هر قطعه",
-      "minPrice": 700000,
-      "maxPrice": 1500000,
-      "averagePrice": 1100000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 500000,
+      "maxPrice": 1300000,
+      "averagePrice": 900000,
+      "changePercent": -18.18,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-شلنگ‌های-رادیاتور",
@@ -1174,10 +1174,10 @@
       "title": "تعویض شلنگ‌های رادیاتور",
       "unit": "هر قطعه",
       "minPrice": 300000,
-      "maxPrice": 800000,
-      "averagePrice": 550000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 775000,
+      "averagePrice": 537500,
+      "changePercent": -2.27,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-شلنگ‌های-بخاری",
@@ -1186,10 +1186,10 @@
       "title": "تعویض شلنگ‌های بخاری",
       "unit": "هر قطعه",
       "minPrice": 300000,
-      "maxPrice": 950000,
-      "averagePrice": 625000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 1000000,
+      "averagePrice": 650000,
+      "changePercent": 4,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-ترموستات",
@@ -1197,11 +1197,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض ترموستات",
       "unit": "هر عدد",
-      "minPrice": 400000,
+      "minPrice": 350000,
       "maxPrice": 800000,
-      "averagePrice": 600000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 575000,
+      "changePercent": -4.17,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-هوزینگ-ترموستات",
@@ -1221,11 +1221,11 @@
       "type": "مکانیک سیار",
       "title": "تعمیر یا تعویض بلبرینگ چرخ",
       "unit": "هر قطعه",
-      "minPrice": 600000,
-      "maxPrice": 2000000,
-      "averagePrice": 1300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 500000,
+      "maxPrice": 1500000,
+      "averagePrice": 1000000,
+      "changePercent": -23.08,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-سیبک-فرمان",
@@ -1365,11 +1365,11 @@
       "type": "مکانیک سیار",
       "title": "باتری به باتری",
       "unit": "هر سرویس",
-      "minPrice": 261000,
-      "maxPrice": 345000,
-      "averagePrice": 303000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 283000,
+      "maxPrice": 374000,
+      "averagePrice": 328500,
+      "changePercent": 8.42,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض-بست-باتری",
@@ -1378,10 +1378,10 @@
       "title": "تعویض بست باتری",
       "unit": "هر سرویس",
       "minPrice": 200000,
-      "maxPrice": 425000,
-      "averagePrice": 312500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 450000,
+      "averagePrice": 325000,
+      "changePercent": 4,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تعویض،-تست-و-نصب-باتری",
@@ -1401,11 +1401,11 @@
       "type": "مکانیک سیار",
       "title": "تعویض سیم کلاچ",
       "unit": "هر قطعه",
-      "minPrice": 400000,
+      "minPrice": 500000,
       "maxPrice": 1000000,
-      "averagePrice": 700000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 750000,
+      "changePercent": 7.14,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "واکس-و-پولیش-هاچ-بک",
@@ -1414,10 +1414,10 @@
       "title": "واکس و پولیش هاچ بک",
       "unit": "هر دستگاه",
       "minPrice": 3000000,
-      "maxPrice": 4300000,
-      "averagePrice": 3650000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 4000000,
+      "averagePrice": 3500000,
+      "changePercent": -4.11,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "واکس-و-پولیش-سدان",
@@ -1425,11 +1425,11 @@
       "type": "واکس و پولیش",
       "title": "واکس و پولیش سدان",
       "unit": "هر دستگاه",
-      "minPrice": 3800000,
-      "maxPrice": 5000000,
-      "averagePrice": 4400000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 3500000,
+      "maxPrice": 4900000,
+      "averagePrice": 4200000,
+      "changePercent": -4.55,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "واکس-و-پولیش-نیم-شاسی",
@@ -1438,10 +1438,10 @@
       "title": "واکس و پولیش نیم شاسی",
       "unit": "هر دستگاه",
       "minPrice": 4500000,
-      "maxPrice": 6000000,
-      "averagePrice": 5250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 5000000,
+      "averagePrice": 4750000,
+      "changePercent": -9.52,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "واکس-و-پولیش-شاسی-بلند",
@@ -1450,10 +1450,10 @@
       "title": "واکس و پولیش شاسی بلند",
       "unit": "هر دستگاه",
       "minPrice": 5800000,
-      "maxPrice": 7000000,
-      "averagePrice": 6400000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 6500000,
+      "averagePrice": 6150000,
+      "changePercent": -3.91,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -1485,11 +1485,11 @@
       "type": "کارشناسی خودرو",
       "title": "بررسی رنگ و بدنه",
       "unit": "جلسه‌ای",
-      "minPrice": 1500000,
+      "minPrice": 1800000,
       "maxPrice": 4000000,
-      "averagePrice": 2750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 2900000,
+      "changePercent": 5.45,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "بررسی-قطعات-فنی-و-عملکرد",
@@ -1497,11 +1497,11 @@
       "type": "کارشناسی خودرو",
       "title": "بررسی قطعات فنی و عملکرد",
       "unit": "جلسه‌ای",
-      "minPrice": 500000,
+      "minPrice": 600000,
       "maxPrice": 2000000,
-      "averagePrice": 1250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "averagePrice": 1300000,
+      "changePercent": 4,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "تست-رانندگی-و-عملکرد-خودرو",
@@ -1522,10 +1522,10 @@
       "title": "بررسی سیستم‌های الکتریکی و الکترونیکی",
       "unit": "جلسه‌ای",
       "minPrice": 500000,
-      "maxPrice": 1250000,
-      "averagePrice": 875000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "maxPrice": 1500000,
+      "averagePrice": 1000000,
+      "changePercent": 14.29,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "بررسی-شاسی-خودرو-با-جک",
@@ -1545,11 +1545,11 @@
       "type": "کارشناسی خودرو",
       "title": "قیمت گذاری",
       "unit": "جلسه‌ای",
-      "minPrice": 200000,
-      "maxPrice": 400000,
-      "averagePrice": 300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 300000,
+      "maxPrice": 500000,
+      "averagePrice": 400000,
+      "changePercent": 33.33,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "ارزیابی-کیلومتر-خودرو",
@@ -1557,11 +1557,11 @@
       "type": "کارشناسی خودرو",
       "title": "ارزیابی کیلومتر خودرو",
       "unit": "جلسه‌ای",
-      "minPrice": 300000,
-      "maxPrice": 800000,
-      "averagePrice": 550000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 350000,
+      "maxPrice": 900000,
+      "averagePrice": 625000,
+      "changePercent": 13.64,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "ارائه-گزارش-رسمی-و-ضمانت",
@@ -1569,11 +1569,11 @@
       "type": "کارشناسی خودرو",
       "title": "ارائه گزارش رسمی و ضمانت",
       "unit": "جلسه‌ای",
-      "minPrice": 500000,
-      "maxPrice": 1000000,
-      "averagePrice": 750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 400000,
+      "maxPrice": 700000,
+      "averagePrice": 550000,
+      "changePercent": -26.67,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -1581,11 +1581,11 @@
       "type": "کارشناسی خودرو",
       "title": "ایاب و ذهاب",
       "unit": "هر سرویس",
-      "minPrice": 261000,
-      "maxPrice": 345000,
-      "averagePrice": 303000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:15:56.844Z"
+      "minPrice": 217000,
+      "maxPrice": 288000,
+      "averagePrice": 252500,
+      "changePercent": -16.67,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "حداقل-دستمزد-و-کارشناسی",
@@ -1606,10 +1606,10 @@
       "title": "نصب روکش صندلی خودروی ایرانی",
       "unit": "هر عدد",
       "minPrice": 500000,
-      "maxPrice": 825000,
-      "averagePrice": 662500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:51:51.690Z"
+      "maxPrice": 850000,
+      "averagePrice": 675000,
+      "changePercent": 1.89,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "نصب-روکش-صندلی-خودروی-خارجی",
@@ -1617,11 +1617,11 @@
       "type": "روکش صندلی",
       "title": "نصب روکش صندلی خودروی خارجی",
       "unit": "هر عدد",
-      "minPrice": 900000,
+      "minPrice": 1000000,
       "maxPrice": 1500000,
-      "averagePrice": 1200000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:51:51.690Z"
+      "averagePrice": 1250000,
+      "changePercent": 4.17,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "نصب-سر-دنده",
@@ -1629,11 +1629,11 @@
       "type": "روکش صندلی",
       "title": "نصب سر دنده",
       "unit": "هر عدد",
-      "minPrice": 200000,
-      "maxPrice": 350000,
-      "averagePrice": 275000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:51:51.690Z"
+      "minPrice": 185000,
+      "maxPrice": 325000,
+      "averagePrice": 255000,
+      "changePercent": -7.27,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "باز-و-بست-صندلی-جهت-نصب-روکش",
@@ -1641,11 +1641,11 @@
       "type": "روکش صندلی",
       "title": "باز و بست صندلی جهت نصب روکش",
       "unit": "هر عدد",
-      "minPrice": 300000,
+      "minPrice": 275000,
       "maxPrice": 500000,
-      "averagePrice": 400000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:51:51.690Z"
+      "averagePrice": 387500,
+      "changePercent": -3.12,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "نصب-روکش-فرمان",
@@ -1666,10 +1666,10 @@
       "title": "اجرای روکش فرمان دوختنی",
       "unit": "هر عدد",
       "minPrice": 300000,
-      "maxPrice": 600000,
-      "averagePrice": 450000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:51:51.690Z"
+      "maxPrice": 550000,
+      "averagePrice": 425000,
+      "changePercent": -5.56,
+      "updatedAt": "2026-10-30T08:52:12.990Z"
     },
     {
       "id": "حداقل-دستمزد-و-کارشناسی",
