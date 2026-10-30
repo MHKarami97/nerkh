@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "building",
   "currency": "تومان",
-  "generatedAt": "2026-10-25T07:52:28.502Z",
+  "generatedAt": "2026-10-30T10:20:41.780Z",
   "types": [
     {
       "id": "building-painting",
@@ -10,8 +10,8 @@
       "slug": "نقاشی-ساختمان",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "flooring",
@@ -19,8 +19,8 @@
       "slug": "نصب-کفپوش",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "kitchen-cabinet",
@@ -28,8 +28,8 @@
       "slug": "طراحی-و-ساخت-کابینت-آشپزخانه",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "carpentry",
@@ -37,8 +37,8 @@
       "slug": "نجاری",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "double-glazed",
@@ -46,8 +46,8 @@
       "slug": "نصب-شیشه-دوجداره",
       "order": 4,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "steel-shutter",
@@ -55,8 +55,8 @@
       "slug": "ساخت-کرکره-آهنی-مغازه",
       "order": 5,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "prefab",
@@ -64,8 +64,8 @@
       "slug": "ساخت-نصب-و-تعمیر-سوله-و-کانکس",
       "order": 6,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "common-area-sensor",
@@ -73,8 +73,8 @@
       "slug": "نصب-و-تعمیر-سنسور-و-تایمر-مشاعات",
       "order": 7,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "electric-fence",
@@ -82,8 +82,8 @@
       "slug": "طراحی-و-اجرای-فنس-الکتریکی",
       "order": 8,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "pool-painting",
@@ -91,8 +91,8 @@
       "slug": "رنگ-آمیزی-استخر",
       "order": 9,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "pool-service",
@@ -100,8 +100,8 @@
       "slug": "سرویس-و-نگهداری-استخر",
       "order": 10,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:28.502Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:20:41.780Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     }
   ],
   "items": [
@@ -112,10 +112,10 @@
       "title": "رنگ روغن ساختمان با مصالح",
       "unit": "هر متر مربع",
       "minPrice": 300000,
-      "maxPrice": 350000,
-      "averagePrice": 325000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 353000,
+      "averagePrice": 326500,
+      "changePercent": 0.46,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-روغن-ساختمان-بدون-مصالح",
@@ -148,10 +148,10 @@
       "title": "رنگ پلاستیک ساختمان بدون مصالح",
       "unit": "هر متر مربع",
       "minPrice": 150000,
-      "maxPrice": 190000,
-      "averagePrice": 170000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 200000,
+      "averagePrice": 175000,
+      "changePercent": 2.94,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-اکریلیک-ساختمان-با-مصالح",
@@ -159,11 +159,11 @@
       "type": "نقاشی ساختمان",
       "title": "رنگ اکریلیک ساختمان با مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 250000,
+      "minPrice": 270000,
       "maxPrice": 350000,
-      "averagePrice": 300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 310000,
+      "changePercent": 3.33,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-اکریلیک-ساختمان-بدون-مصالح",
@@ -184,10 +184,10 @@
       "title": "نقاشی روی کناف",
       "unit": "هر متر مربع",
       "minPrice": 300000,
-      "maxPrice": 380000,
-      "averagePrice": 340000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 400000,
+      "averagePrice": 350000,
+      "changePercent": 2.94,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-درب-و-پنجره",
@@ -268,10 +268,10 @@
       "title": "نصب کفپوش pvc رولی",
       "unit": "هر متر مربع",
       "minPrice": 120000,
-      "maxPrice": 175000,
-      "averagePrice": 147500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 190000,
+      "averagePrice": 155000,
+      "changePercent": 5.08,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-کفپوش-pvc-تایلی",
@@ -280,10 +280,10 @@
       "title": "نصب کفپوش pvc تایلی",
       "unit": "هر متر مربع",
       "minPrice": 150000,
-      "maxPrice": 210000,
-      "averagePrice": 180000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 225000,
+      "averagePrice": 187500,
+      "changePercent": 4.17,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "اجرای-کفپوش-اپوکسی-بدون-مصالح",
@@ -292,10 +292,10 @@
       "title": "اجرای کفپوش اپوکسی بدون مصالح",
       "unit": "هر متر مربع",
       "minPrice": 200000,
-      "maxPrice": 300000,
-      "averagePrice": 250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 250000,
+      "averagePrice": 225000,
+      "changePercent": -10,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-کفپوش-وینیل",
@@ -304,10 +304,10 @@
       "title": "نصب کفپوش وینیل",
       "unit": "هر متر مربع",
       "minPrice": 100000,
-      "maxPrice": 160000,
-      "averagePrice": 130000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 250000,
+      "averagePrice": 175000,
+      "changePercent": 34.62,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-کفپوش-زیر-50-متر",
@@ -316,10 +316,10 @@
       "title": "نصب کفپوش زیر 50 متر",
       "unit": "پروژه‌ای",
       "minPrice": 3000000,
-      "maxPrice": 4000000,
-      "averagePrice": 3500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 4750000,
+      "averagePrice": 3875000,
+      "changePercent": 10.71,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "زیرسازی",
@@ -339,11 +339,11 @@
       "type": "کفپوش",
       "title": "حداقل دستمزد و کارشناسی",
       "unit": "پروژه‌ای",
-      "minPrice": 1000000,
+      "minPrice": 700000,
       "maxPrice": 1500000,
-      "averagePrice": 1250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 1100000,
+      "changePercent": -12,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -376,10 +376,10 @@
       "title": "طراحی و ساخت کابینت ام‌دی‌اف",
       "unit": "هر متر طول",
       "minPrice": 27000000,
-      "maxPrice": 34000000,
-      "averagePrice": 30500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 35000000,
+      "averagePrice": 31000000,
+      "changePercent": 1.64,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کابینت-ام‌دی‌اف-با-روکش-ممبران",
@@ -387,11 +387,11 @@
       "type": "کابینت آشپزخانه",
       "title": "ساخت کابینت ام‌دی‌اف با روکش ممبران",
       "unit": "هر متر طول",
-      "minPrice": 35000000,
+      "minPrice": 37000000,
       "maxPrice": 45000000,
-      "averagePrice": 40000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 41000000,
+      "changePercent": 2.5,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کابینت-ام‌دی‌اف-با-روکش-PVC",
@@ -399,11 +399,11 @@
       "type": "کابینت آشپزخانه",
       "title": "ساخت کابینت ام‌دی‌اف با روکش PVC",
       "unit": "هر متر طول",
-      "minPrice": 28000000,
+      "minPrice": 29000000,
       "maxPrice": 35000000,
-      "averagePrice": 31500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 32000000,
+      "changePercent": 1.59,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کابینت-ام‌دی‌اف-با-روکش-پلی‌اورتان",
@@ -411,11 +411,11 @@
       "type": "کابینت آشپزخانه",
       "title": "ساخت کابینت ام‌دی‌اف با روکش پلی‌اورتان",
       "unit": "هر متر طول",
-      "minPrice": 45000000,
+      "minPrice": 44000000,
       "maxPrice": 50000000,
-      "averagePrice": 47500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 47000000,
+      "changePercent": -1.05,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کابینت-ام‌دی‌اف-با-روکش-چوب",
@@ -423,11 +423,11 @@
       "type": "کابینت آشپزخانه",
       "title": "ساخت کابینت ام‌دی‌اف با روکش چوب",
       "unit": "هر متر طول",
-      "minPrice": 43000000,
-      "maxPrice": 49000000,
-      "averagePrice": 46000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 45000000,
+      "maxPrice": 50000000,
+      "averagePrice": 47500000,
+      "changePercent": 3.26,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کابینت-ام‌دی‌اف-با-روکش-هایگلاس",
@@ -435,11 +435,11 @@
       "type": "کابینت آشپزخانه",
       "title": "ساخت کابینت ام‌دی‌اف با روکش هایگلاس",
       "unit": "هر متر طول",
-      "minPrice": 33000000,
-      "maxPrice": 39000000,
-      "averagePrice": 36000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 34000000,
+      "maxPrice": 40000000,
+      "averagePrice": 37000000,
+      "changePercent": 2.78,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کابینت-ام‌دی‌اف-با-روکش-لمینت",
@@ -447,11 +447,11 @@
       "type": "کابینت آشپزخانه",
       "title": "ساخت کابینت ام‌دی‌اف با روکش لمینت",
       "unit": "هر متر طول",
-      "minPrice": 21000000,
+      "minPrice": 22000000,
       "maxPrice": 28000000,
-      "averagePrice": 24500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 25000000,
+      "changePercent": 2.04,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-و-طراحی-کابینت-فلزی",
@@ -460,10 +460,10 @@
       "title": "ساخت و طراحی کابینت فلزی",
       "unit": "هر متر طول",
       "minPrice": 15000000,
-      "maxPrice": 23000000,
-      "averagePrice": 19000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 22000000,
+      "averagePrice": 18500000,
+      "changePercent": -2.63,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "اجرت-نصب-کابینت",
@@ -484,10 +484,10 @@
       "title": "بازدید اولیه و تهیه 3d کامپیوتری",
       "unit": "پروژه‌ای",
       "minPrice": 1500000,
-      "maxPrice": 3000000,
-      "averagePrice": 2250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 3100000,
+      "averagePrice": 2300000,
+      "changePercent": 2.22,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "حداقل-دستمزد-و-کارشناسی",
@@ -543,11 +543,11 @@
       "type": "نجاری",
       "title": "ساخت بوفه و کنسول چوبی",
       "unit": "کل کار",
-      "minPrice": 12000000,
-      "maxPrice": 45000000,
-      "averagePrice": 28500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 13500000,
+      "maxPrice": 62500000,
+      "averagePrice": 38000000,
+      "changePercent": 33.33,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-قفسه-و-شلف-چوبی",
@@ -556,10 +556,10 @@
       "title": "ساخت قفسه و شلف چوبی",
       "unit": "کل کار",
       "minPrice": 3000000,
-      "maxPrice": 15000000,
-      "averagePrice": 9000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 12500000,
+      "averagePrice": 7750000,
+      "changePercent": -13.89,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کمد-دیواری-چوبی",
@@ -567,11 +567,11 @@
       "type": "نجاری",
       "title": "ساخت کمد دیواری چوبی",
       "unit": "کل کار",
-      "minPrice": 12800000,
-      "maxPrice": 32000000,
-      "averagePrice": 22400000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 13500000,
+      "maxPrice": 30000000,
+      "averagePrice": 21750000,
+      "changePercent": -2.9,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-میز-ناهارخوری-چوبی",
@@ -592,10 +592,10 @@
       "title": "ساخت تخت خواب چوبی",
       "unit": "کل کار",
       "minPrice": 12000000,
-      "maxPrice": 45000000,
-      "averagePrice": 28500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 40000000,
+      "averagePrice": 26000000,
+      "changePercent": -8.77,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-نرده-چوبی",
@@ -603,11 +603,11 @@
       "type": "نجاری",
       "title": "ساخت نرده چوبی",
       "unit": "کل کار",
-      "minPrice": 5250000,
-      "maxPrice": 14300000,
-      "averagePrice": 9775000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 2000000,
+      "maxPrice": 8500000,
+      "averagePrice": 5250000,
+      "changePercent": -46.29,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-جاکفشی-چوبی",
@@ -616,10 +616,10 @@
       "title": "ساخت جاکفشی چوبی",
       "unit": "کل کار",
       "minPrice": 5000000,
-      "maxPrice": 10000000,
-      "averagePrice": 7500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 11000000,
+      "averagePrice": 8000000,
+      "changePercent": 6.67,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-دراور-چوبی",
@@ -628,10 +628,10 @@
       "title": "ساخت دراور چوبی",
       "unit": "کل کار",
       "minPrice": 10000000,
-      "maxPrice": 30000000,
-      "averagePrice": 20000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 25000000,
+      "averagePrice": 17500000,
+      "changePercent": -12.5,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-کتابخانه-چوبی",
@@ -639,11 +639,11 @@
       "type": "نجاری",
       "title": "ساخت کتابخانه چوبی",
       "unit": "کل کار",
-      "minPrice": 14000000,
-      "maxPrice": 33000000,
-      "averagePrice": 23500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 13500000,
+      "maxPrice": 31000000,
+      "averagePrice": 22250000,
+      "changePercent": -5.32,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ساخت-صندلی-چوبی",
@@ -711,11 +711,11 @@
       "type": "شیشه دوجداره",
       "title": "نصب شیشه دوجداره ساده",
       "unit": "هر متر مربع",
-      "minPrice": 1950000,
-      "maxPrice": 2400000,
-      "averagePrice": 2175000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 1500000,
+      "maxPrice": 1900000,
+      "averagePrice": 1700000,
+      "changePercent": -21.84,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-شیشه-رفلکس-دوجداره",
@@ -723,11 +723,11 @@
       "type": "شیشه دوجداره",
       "title": "نصب شیشه رفلکس دوجداره",
       "unit": "هر متر مربع",
-      "minPrice": 850000,
-      "maxPrice": 1350000,
-      "averagePrice": 1100000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 1500000,
+      "maxPrice": 2500000,
+      "averagePrice": 2000000,
+      "changePercent": 81.82,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-شیشه-سکوریت-دوجداره",
@@ -760,10 +760,10 @@
       "title": "شیشه دوجداره با گاز آرگون",
       "unit": "هر متر مربع",
       "minPrice": 850000,
-      "maxPrice": 1500000,
-      "averagePrice": 1175000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 1580000,
+      "averagePrice": 1215000,
+      "changePercent": 3.4,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "شیشه-دوجداره-با-گاز-کرپتون",
@@ -783,11 +783,11 @@
       "type": "شیشه دوجداره",
       "title": "برش شیشه دو جداره",
       "unit": "هر متر مربع",
-      "minPrice": 165000,
+      "minPrice": 150000,
       "maxPrice": 350000,
-      "averagePrice": 257500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 250000,
+      "changePercent": -2.91,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعمیر-شیشه-دوجداره",
@@ -808,10 +808,10 @@
       "title": "حداقل دستمزد و کارشناسی",
       "unit": "پروژه‌ای",
       "minPrice": 500000,
-      "maxPrice": 600000,
-      "averagePrice": 550000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 700000,
+      "averagePrice": 600000,
+      "changePercent": 9.09,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -999,11 +999,11 @@
       "type": "سنسور و تایمر مشاعات",
       "title": "تنظیم تایمر",
       "unit": "هر عدد",
-      "minPrice": 200000,
+      "minPrice": 225000,
       "maxPrice": 300000,
-      "averagePrice": 250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 262500,
+      "changePercent": 5,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-سنسور",
@@ -1023,11 +1023,11 @@
       "type": "سنسور و تایمر مشاعات",
       "title": "تنظیم سنسور",
       "unit": "هر عدد",
-      "minPrice": 150000,
+      "minPrice": 178000,
       "maxPrice": 250000,
-      "averagePrice": 200000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 214000,
+      "changePercent": 7,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعویض-سنسور",
@@ -1071,11 +1071,11 @@
       "type": "سنسور و تایمر مشاعات",
       "title": "نصب یا تعویض فتوسل (چشمی)",
       "unit": "هر عدد",
-      "minPrice": 350000,
+      "minPrice": 375000,
       "maxPrice": 500000,
-      "averagePrice": 425000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 437500,
+      "changePercent": 2.94,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-سنسور-و-تایمر-به-همراه-کنتاکتور",
@@ -1083,11 +1083,11 @@
       "type": "سنسور و تایمر مشاعات",
       "title": "نصب سنسور و تایمر به همراه کنتاکتور",
       "unit": "هر عدد",
-      "minPrice": 675000,
-      "maxPrice": 925000,
-      "averagePrice": 800000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 700000,
+      "maxPrice": 950000,
+      "averagePrice": 825000,
+      "changePercent": 3.13,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "سیم-کشی-روکار",
@@ -1095,11 +1095,11 @@
       "type": "سنسور و تایمر مشاعات",
       "title": "سیم کشی روکار",
       "unit": "متری",
-      "minPrice": 70000,
+      "minPrice": 73800,
       "maxPrice": 100000,
-      "averagePrice": 85000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 86900,
+      "changePercent": 2.24,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "سیم-کشی-توکار",
@@ -1108,10 +1108,10 @@
       "title": "سیم کشی توکار",
       "unit": "متری",
       "minPrice": 80000,
-      "maxPrice": 135000,
-      "averagePrice": 107500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 150000,
+      "averagePrice": 115000,
+      "changePercent": 6.98,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "عیب-یابی-و-تست",
@@ -1143,11 +1143,11 @@
       "type": "سنسور و تایمر مشاعات",
       "title": "ایاب و ذهاب",
       "unit": "هر سرویس",
-      "minPrice": 304000,
-      "maxPrice": 402000,
-      "averagePrice": 353000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 348000,
+      "maxPrice": 460000,
+      "averagePrice": 404000,
+      "changePercent": 14.45,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "اجرای-فنس-استاندارد-تا-ارتفاع-1-متر",
@@ -1167,11 +1167,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "رنگ نانو بدون مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 300000,
+      "minPrice": 325000,
       "maxPrice": 400000,
-      "averagePrice": 350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 362500,
+      "changePercent": 3.57,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-نانو-با-مصالح",
@@ -1180,10 +1180,10 @@
       "title": "رنگ نانو با مصالح",
       "unit": "هر متر مربع",
       "minPrice": 500000,
-      "maxPrice": 595000,
-      "averagePrice": 547500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 590000,
+      "averagePrice": 545000,
+      "changePercent": -0.46,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-پلیمری-بدون-مصالح",
@@ -1191,11 +1191,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "رنگ پلیمری بدون مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 325000,
-      "maxPrice": 385000,
-      "averagePrice": 355000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 200000,
+      "maxPrice": 250000,
+      "averagePrice": 225000,
+      "changePercent": -36.62,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-پلیمری-با-مصالح",
@@ -1203,11 +1203,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "رنگ پلیمری با مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 425000,
-      "maxPrice": 470000,
-      "averagePrice": 447500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 340000,
+      "maxPrice": 400000,
+      "averagePrice": 370000,
+      "changePercent": -17.32,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-اپوکسی-بدون-مصالح",
@@ -1215,11 +1215,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "رنگ اپوکسی بدون مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 400000,
-      "maxPrice": 450000,
-      "averagePrice": 425000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 300000,
+      "maxPrice": 400000,
+      "averagePrice": 350000,
+      "changePercent": -17.65,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-اپوکسی-با-مصالح",
@@ -1239,11 +1239,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "رنگ روغنی بدون مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 250000,
-      "maxPrice": 300000,
-      "averagePrice": 275000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 150000,
+      "maxPrice": 200000,
+      "averagePrice": 175000,
+      "changePercent": -36.36,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "رنگ-روغنی-با-مصالح",
@@ -1251,11 +1251,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "رنگ روغنی با مصالح",
       "unit": "هر متر مربع",
-      "minPrice": 325000,
-      "maxPrice": 425000,
-      "averagePrice": 375000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 230000,
+      "maxPrice": 300000,
+      "averagePrice": 265000,
+      "changePercent": -29.33,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "بازدید-و-کارشناسی-اولیه",
@@ -1275,11 +1275,11 @@
       "type": "رنگ‌آمیزی استخر",
       "title": "ایاب و ذهاب",
       "unit": "هر سرویس",
-      "minPrice": 263000,
-      "maxPrice": 347000,
-      "averagePrice": 305000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 264000,
+      "maxPrice": 350000,
+      "averagePrice": 307000,
+      "changePercent": 0.66,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "جاروی-استخر",
@@ -1287,11 +1287,11 @@
       "type": "سرویس استخر",
       "title": "جاروی استخر",
       "unit": "هر متر مربع",
-      "minPrice": 1200000,
-      "maxPrice": 1800000,
-      "averagePrice": 1500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 1000000,
+      "maxPrice": 1500000,
+      "averagePrice": 1250000,
+      "changePercent": -16.67,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعمیر-جت-پمپ-استخر",
@@ -1299,11 +1299,11 @@
       "type": "سرویس استخر",
       "title": "تعمیر جت پمپ استخر",
       "unit": "هر عدد",
-      "minPrice": 4500000,
+      "minPrice": 4000000,
       "maxPrice": 10000000,
-      "averagePrice": 7250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 7000000,
+      "changePercent": -3.45,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعویض-چراغ-و-لامپ-استخر",
@@ -1311,11 +1311,11 @@
       "type": "سرویس استخر",
       "title": "تعویض چراغ و لامپ استخر",
       "unit": "هر عدد",
-      "minPrice": 1500000,
+      "minPrice": 1250000,
       "maxPrice": 3000000,
-      "averagePrice": 2250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 2125000,
+      "changePercent": -5.56,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعمیر-و-نگهداری-لوله-کشی-استخر",
@@ -1324,10 +1324,10 @@
       "title": "تعمیر و نگهداری لوله کشی استخر",
       "unit": "پروژه‌ای",
       "minPrice": 5000000,
-      "maxPrice": 20000000,
-      "averagePrice": 12500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 22500000,
+      "averagePrice": 13750000,
+      "changePercent": 10,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "بازدید-و-بررسی-کیفیت-آب-استخر",
@@ -1335,11 +1335,11 @@
       "type": "سرویس استخر",
       "title": "بازدید و بررسی کیفیت آب استخر",
       "unit": "هر سرویس",
-      "minPrice": 1750000,
-      "maxPrice": 4000000,
-      "averagePrice": 2875000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 1500000,
+      "maxPrice": 3000000,
+      "averagePrice": 2250000,
+      "changePercent": -21.74,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "کلر-زنی",
@@ -1347,11 +1347,11 @@
       "type": "سرویس استخر",
       "title": "کلر زنی",
       "unit": "هر متر ‌مکعب",
-      "minPrice": 1000000,
-      "maxPrice": 2000000,
-      "averagePrice": 1500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 850000,
+      "maxPrice": 1500000,
+      "averagePrice": 1175000,
+      "changePercent": -21.67,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "نصب-سخت-گیر",
@@ -1360,10 +1360,10 @@
       "title": "نصب سخت گیر",
       "unit": "پروژه‌ای",
       "minPrice": 5000000,
-      "maxPrice": 15000000,
-      "averagePrice": 10000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 17500000,
+      "averagePrice": 11250000,
+      "changePercent": 12.5,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعمیر-تابلو-برق",
@@ -1371,11 +1371,11 @@
       "type": "سرویس استخر",
       "title": "تعمیر تابلو برق",
       "unit": "هر عدد",
-      "minPrice": 3500000,
+      "minPrice": 2000000,
       "maxPrice": 10000000,
-      "averagePrice": 6750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 6000000,
+      "changePercent": -11.11,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعویض-اورینگ-و-واشر",
@@ -1384,10 +1384,10 @@
       "title": "تعویض اورینگ و واشر",
       "unit": "پروژه‌ای",
       "minPrice": 2000000,
-      "maxPrice": 4000000,
-      "averagePrice": 3000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 5000000,
+      "averagePrice": 3500000,
+      "changePercent": 16.67,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "تعویض-گیج-فشار",
@@ -1396,10 +1396,10 @@
       "title": "تعویض گیج فشار",
       "unit": "هر عدد",
       "minPrice": 1000000,
-      "maxPrice": 2300000,
-      "averagePrice": 1650000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 2150000,
+      "averagePrice": 1575000,
+      "changePercent": -4.55,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "سرویس-پمپ-تصفیه",
@@ -1407,11 +1407,11 @@
       "type": "سرویس استخر",
       "title": "سرویس پمپ تصفیه",
       "unit": "پروژه‌ای",
-      "minPrice": 3500000,
+      "minPrice": 3750000,
       "maxPrice": 10000000,
-      "averagePrice": 6750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 6875000,
+      "changePercent": 1.85,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "عایق-کاری-موتورخانه",
@@ -1419,11 +1419,11 @@
       "type": "سرویس استخر",
       "title": "عایق کاری موتورخانه",
       "unit": "پروژه‌ای",
-      "minPrice": 7500000,
-      "maxPrice": 15500000,
-      "averagePrice": 11500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 10000000,
+      "maxPrice": 16000000,
+      "averagePrice": 13000000,
+      "changePercent": 13.04,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "سرویس-و-تعویض-فیلتر",
@@ -1432,10 +1432,10 @@
       "title": "سرویس و تعویض فیلتر",
       "unit": "هر عدد",
       "minPrice": 3000000,
-      "maxPrice": 5000000,
-      "averagePrice": 4000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "maxPrice": 5500000,
+      "averagePrice": 4250000,
+      "changePercent": 6.25,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "بازدید-و-مشاوره",
@@ -1443,11 +1443,11 @@
       "type": "سرویس استخر",
       "title": "بازدید و مشاوره",
       "unit": "جلسه‌ای",
-      "minPrice": 1200000,
+      "minPrice": 1350000,
       "maxPrice": 3000000,
-      "averagePrice": 2100000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "averagePrice": 2175000,
+      "changePercent": 3.57,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -1467,11 +1467,11 @@
       "type": "سرویس استخر",
       "title": "ایاب و ذهاب برون‌شهری",
       "unit": "هر سرویس",
-      "minPrice": 1200000,
-      "maxPrice": 2000000,
-      "averagePrice": 1600000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:28.502Z"
+      "minPrice": 1350000,
+      "maxPrice": 2250000,
+      "averagePrice": 1800000,
+      "changePercent": 12.5,
+      "updatedAt": "2026-10-30T10:20:41.780Z"
     }
   ]
 }
