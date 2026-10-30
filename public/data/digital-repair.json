@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "digital",
   "currency": "تومان",
-  "generatedAt": "2026-10-25T07:52:43.340Z",
+  "generatedAt": "2026-10-30T10:59:34.364Z",
   "types": [
     {
       "id": "laptop",
@@ -10,8 +10,8 @@
       "slug": "تعمیر-لپ-تاپ",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:43.340Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:59:34.364Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "mobile-software",
@@ -19,8 +19,8 @@
       "slug": "نصب-و-عیب-یابی-نرم-افزارهای-موبایلی",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:43.340Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:59:34.364Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "projector",
@@ -28,8 +28,8 @@
       "slug": "نصب-و-تعمیر-ویدیو-پروژکتور",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:43.340Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:59:34.364Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     },
     {
       "id": "blender",
@@ -37,8 +37,8 @@
       "slug": "تعمیر-آسیاب-و-مخلوط-کن",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-10-25T07:52:43.340Z",
-      "sourceUpdatedAt": "3 آبان 1405"
+      "checkedAt": "2026-10-30T10:59:34.364Z",
+      "sourceUpdatedAt": "8 آبان 1405"
     }
   ],
   "items": [
@@ -49,10 +49,10 @@
       "title": "بازدید و عیب یابی",
       "unit": "هر سرویس",
       "minPrice": 500000,
-      "maxPrice": 800000,
-      "averagePrice": 650000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 900000,
+      "averagePrice": 700000,
+      "changePercent": 7.69,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "باز-و-بست-دستگاه",
@@ -108,11 +108,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض کیبورد بدون نیاز به جوش",
       "unit": "هر قطعه",
-      "minPrice": 500000,
+      "minPrice": 550000,
       "maxPrice": 1000000,
-      "averagePrice": 750000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 775000,
+      "changePercent": 3.33,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-کیبورد-با-جوش-پلاستیک",
@@ -132,11 +132,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض کابل آداپتور یا شارژر",
       "unit": "هر قطعه",
-      "minPrice": 470000,
-      "maxPrice": 925000,
-      "averagePrice": 697500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 450000,
+      "maxPrice": 850000,
+      "averagePrice": 650000,
+      "changePercent": -6.81,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-آداپتور",
@@ -156,11 +156,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر یا تعویض مدار شارژ",
       "unit": "هر قطعه",
-      "minPrice": 850000,
-      "maxPrice": 2800000,
-      "averagePrice": 1825000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 900000,
+      "maxPrice": 2500000,
+      "averagePrice": 1700000,
+      "changePercent": -6.85,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-سوکت-شارژر",
@@ -168,11 +168,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر سوکت شارژر",
       "unit": "هر عدد",
-      "minPrice": 700000,
-      "maxPrice": 2000000,
-      "averagePrice": 1350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 600000,
+      "maxPrice": 1500000,
+      "averagePrice": 1050000,
+      "changePercent": -22.22,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-سوکت-شارژر",
@@ -180,11 +180,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض سوکت شارژر",
       "unit": "هر قطعه",
-      "minPrice": 700000,
+      "minPrice": 500000,
       "maxPrice": 2000000,
-      "averagePrice": 1350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 1250000,
+      "changePercent": -7.41,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-یا-تعویض-پورت‌های-ارتباطی-(LAN،-USB-..)",
@@ -193,10 +193,10 @@
       "title": "تعمیر یا تعویض پورت‌های ارتباطی (LAN، USB ..)",
       "unit": "هر قطعه",
       "minPrice": 650000,
-      "maxPrice": 2000000,
-      "averagePrice": 1325000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 1500000,
+      "averagePrice": 1075000,
+      "changePercent": -18.87,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-یا-ریبال-چیپ",
@@ -205,10 +205,10 @@
       "title": "تعویض یا ریبال چیپ",
       "unit": "هر قطعه",
       "minPrice": 2000000,
-      "maxPrice": 4500000,
-      "averagePrice": 3250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 4750000,
+      "averagePrice": 3375000,
+      "changePercent": 3.85,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-CPU-سوکت‌دار",
@@ -228,11 +228,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض CPU آنبرد",
       "unit": "هر قطعه",
-      "minPrice": 1400000,
-      "maxPrice": 2950000,
-      "averagePrice": 2175000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 1600000,
+      "maxPrice": 3100000,
+      "averagePrice": 2350000,
+      "changePercent": 8.05,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-CPU",
@@ -241,10 +241,10 @@
       "title": "تعمیر CPU",
       "unit": "هر سرویس",
       "minPrice": 1000000,
-      "maxPrice": 4000000,
-      "averagePrice": 2500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 5000000,
+      "averagePrice": 3000000,
+      "changePercent": 20,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-یا-ارتقای-RAM",
@@ -253,10 +253,10 @@
       "title": "تعویض یا ارتقای RAM",
       "unit": "هر قطعه",
       "minPrice": 500000,
-      "maxPrice": 975000,
-      "averagePrice": 737500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 925000,
+      "averagePrice": 712500,
+      "changePercent": -3.39,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "ارتقای-هارد",
@@ -264,11 +264,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "ارتقای هارد",
       "unit": "هر قطعه",
-      "minPrice": 800000,
-      "maxPrice": 1500000,
-      "averagePrice": 1150000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 700000,
+      "maxPrice": 1300000,
+      "averagePrice": 1000000,
+      "changePercent": -13.04,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-و-تعویض-برد-اینورتر",
@@ -276,11 +276,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر و تعویض برد اینورتر",
       "unit": "هر عدد",
-      "minPrice": 600000,
-      "maxPrice": 2000000,
-      "averagePrice": 1300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 800000,
+      "maxPrice": 2250000,
+      "averagePrice": 1525000,
+      "changePercent": 17.31,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "سرویس-فن-و-خمیر-سیلیکون",
@@ -300,11 +300,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر فن",
       "unit": "هر عدد",
-      "minPrice": 550000,
-      "maxPrice": 1200000,
-      "averagePrice": 875000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 500000,
+      "maxPrice": 1000000,
+      "averagePrice": 750000,
+      "changePercent": -14.29,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-فن",
@@ -312,11 +312,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض فن",
       "unit": "هر قطعه",
-      "minPrice": 500000,
+      "minPrice": 550000,
       "maxPrice": 1100000,
-      "averagePrice": 800000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 825000,
+      "changePercent": 3.13,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-یا-تعویض-تاچ-پد",
@@ -324,11 +324,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر یا تعویض تاچ پد",
       "unit": "هر قطعه",
-      "minPrice": 950000,
+      "minPrice": 900000,
       "maxPrice": 2500000,
-      "averagePrice": 1725000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 1700000,
+      "changePercent": -1.45,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-LCD-تاچ",
@@ -337,10 +337,10 @@
       "title": "تعویض LCD تاچ",
       "unit": "هر قطعه",
       "minPrice": 1000000,
-      "maxPrice": 3000000,
-      "averagePrice": 2000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 2500000,
+      "averagePrice": 1750000,
+      "changePercent": -12.5,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-مادربرد",
@@ -348,11 +348,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض مادربرد",
       "unit": "کل کار",
-      "minPrice": 1100000,
+      "minPrice": 1200000,
       "maxPrice": 3000000,
-      "averagePrice": 2050000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 2100000,
+      "changePercent": 2.44,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-قاب-A-و-B",
@@ -360,11 +360,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض قاب A و B",
       "unit": "هر قطعه",
-      "minPrice": 700000,
+      "minPrice": 1000000,
       "maxPrice": 2000000,
-      "averagePrice": 1350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 1500000,
+      "changePercent": 11.11,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-قاب-C-و-D",
@@ -372,11 +372,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعویض قاب C و D",
       "unit": "هر قطعه",
-      "minPrice": 700000,
-      "maxPrice": 1900000,
-      "averagePrice": 1300000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 750000,
+      "maxPrice": 2000000,
+      "averagePrice": 1375000,
+      "changePercent": 5.77,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-قاب",
@@ -384,11 +384,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر قاب",
       "unit": "هر قطعه",
-      "minPrice": 750000,
+      "minPrice": 675000,
       "maxPrice": 2000000,
-      "averagePrice": 1375000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 1337500,
+      "changePercent": -2.73,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-یا-تعویض-لولا",
@@ -396,11 +396,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر یا تعویض لولا",
       "unit": "هر قطعه",
-      "minPrice": 1000000,
+      "minPrice": 900000,
       "maxPrice": 2000000,
-      "averagePrice": 1500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 1450000,
+      "changePercent": -3.33,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-یا-تعویض-کارت-گرافیک",
@@ -421,10 +421,10 @@
       "title": "تعمیر یا تعویض چیپ وای‌فای و شبکه",
       "unit": "هر قطعه",
       "minPrice": 800000,
-      "maxPrice": 1500000,
-      "averagePrice": 1150000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 1750000,
+      "averagePrice": 1275000,
+      "changePercent": 10.87,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-یا-تعویض-اسپیکر",
@@ -432,11 +432,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر یا تعویض اسپیکر",
       "unit": "هر قطعه",
-      "minPrice": 575000,
+      "minPrice": 550000,
       "maxPrice": 1500000,
-      "averagePrice": 1037500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "averagePrice": 1025000,
+      "changePercent": -1.2,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-یا-تعویض-وب‌کم",
@@ -444,11 +444,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر یا تعویض وب‌کم",
       "unit": "هر قطعه",
-      "minPrice": 650000,
-      "maxPrice": 1750000,
-      "averagePrice": 1200000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 550000,
+      "maxPrice": 1500000,
+      "averagePrice": 1025000,
+      "changePercent": -14.58,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعمیر-و-تعویض-فلت",
@@ -456,11 +456,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "تعمیر و تعویض فلت",
       "unit": "هر عدد",
-      "minPrice": 800000,
-      "maxPrice": 2000000,
-      "averagePrice": 1400000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 775000,
+      "maxPrice": 1900000,
+      "averagePrice": 1337500,
+      "changePercent": -4.46,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "رفع-اشکالات-نرم‌افزاری",
@@ -468,11 +468,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "رفع اشکالات نرم‌افزاری",
       "unit": "هر دستگاه",
-      "minPrice": 475000,
-      "maxPrice": 1350000,
-      "averagePrice": 912500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 450000,
+      "maxPrice": 1200000,
+      "averagePrice": 825000,
+      "changePercent": -9.59,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "بازیابی-اطلاعات-از-دست-رفته",
@@ -540,11 +540,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "ویروس یابی و ویروس زدایی سیستم",
       "unit": "هر سیستم",
-      "minPrice": 522000,
-      "maxPrice": 690000,
-      "averagePrice": 606000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 478000,
+      "maxPrice": 633000,
+      "averagePrice": 555500,
+      "changePercent": -8.33,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "نصب-آنتی-ویروس",
@@ -552,11 +552,11 @@
       "type": "تعمیر لپ‌تاپ",
       "title": "نصب آنتی ویروس",
       "unit": "هر سیستم",
-      "minPrice": 413000,
-      "maxPrice": 546000,
-      "averagePrice": 479500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 370000,
+      "maxPrice": 489000,
+      "averagePrice": 429500,
+      "changePercent": -10.43,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "نصب-نرم‌افزاری-تجهیزات-جانبی-(پرینتر،-اسکنر،..)",
@@ -588,11 +588,11 @@
       "type": "نرم‌افزار موبایل",
       "title": "نصب سیستم عامل (فلش و نرم افزار جانبی)",
       "unit": "کل کار",
-      "minPrice": 345000,
-      "maxPrice": 2250000,
-      "averagePrice": 1297500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 300000,
+      "maxPrice": 3000000,
+      "averagePrice": 1650000,
+      "changePercent": 27.17,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "رفع-عیوب-تخصصی-نرم-افزاری-(گوگل-اکانت---شماره-سریال)",
@@ -600,11 +600,11 @@
       "type": "نرم‌افزار موبایل",
       "title": "رفع عیوب تخصصی نرم افزاری (گوگل اکانت - شماره سریال)",
       "unit": "کل کار",
-      "minPrice": 550000,
-      "maxPrice": 2000000,
-      "averagePrice": 1275000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 425000,
+      "maxPrice": 2500000,
+      "averagePrice": 1462500,
+      "changePercent": 14.71,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "رجیستری-گوشی",
@@ -613,10 +613,10 @@
       "title": "رجیستری گوشی",
       "unit": "هر دستگاه",
       "minPrice": 400000,
-      "maxPrice": 1000000,
-      "averagePrice": 700000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 1050000,
+      "averagePrice": 725000,
+      "changePercent": 3.57,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "نصب-نرم-افزارهای-تخصصی",
@@ -793,10 +793,10 @@
       "title": "تعویض میکروسوئیچ",
       "unit": "هر عدد",
       "minPrice": 200000,
-      "maxPrice": 350000,
-      "averagePrice": 275000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 450000,
+      "averagePrice": 325000,
+      "changePercent": 18.18,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-موتور",
@@ -805,10 +805,10 @@
       "title": "تعویض موتور",
       "unit": "هر عدد",
       "minPrice": 500000,
-      "maxPrice": 890000,
-      "averagePrice": 695000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 1000000,
+      "averagePrice": 750000,
+      "changePercent": 7.91,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-تیغه",
@@ -817,10 +817,10 @@
       "title": "تعویض تیغه",
       "unit": "هر عدد",
       "minPrice": 200000,
-      "maxPrice": 365000,
-      "averagePrice": 282500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 500000,
+      "averagePrice": 350000,
+      "changePercent": 23.89,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-پارچ",
@@ -829,10 +829,10 @@
       "title": "تعویض پارچ",
       "unit": "هر عدد",
       "minPrice": 250000,
-      "maxPrice": 450000,
-      "averagePrice": 350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 500000,
+      "averagePrice": 375000,
+      "changePercent": 7.14,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-چرخ-دنده",
@@ -841,10 +841,10 @@
       "title": "تعویض چرخ دنده",
       "unit": "هر عدد",
       "minPrice": 350000,
-      "maxPrice": 600000,
-      "averagePrice": 475000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 700000,
+      "averagePrice": 525000,
+      "changePercent": 10.53,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "رفع-قطعی",
@@ -864,11 +864,11 @@
       "type": "آسیاب و مخلوط‌کن",
       "title": "تعویض ذغال",
       "unit": "هر عدد",
-      "minPrice": 275000,
-      "maxPrice": 425000,
-      "averagePrice": 350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 300000,
+      "maxPrice": 450000,
+      "averagePrice": 375000,
+      "changePercent": 7.14,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-سیم-کشی-کامل",
@@ -877,10 +877,10 @@
       "title": "تعویض سیم کشی کامل",
       "unit": "پروژه‌ای",
       "minPrice": 400000,
-      "maxPrice": 525000,
-      "averagePrice": 462500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 550000,
+      "averagePrice": 475000,
+      "changePercent": 2.7,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-شاستی",
@@ -889,10 +889,10 @@
       "title": "تعویض شاستی",
       "unit": "هر عدد",
       "minPrice": 400000,
-      "maxPrice": 450000,
-      "averagePrice": 425000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 500000,
+      "averagePrice": 450000,
+      "changePercent": 5.88,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-واشر",
@@ -901,10 +901,10 @@
       "title": "تعویض واشر",
       "unit": "هر عدد",
       "minPrice": 100000,
-      "maxPrice": 200000,
-      "averagePrice": 150000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 250000,
+      "averagePrice": 175000,
+      "changePercent": 16.67,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-کاسه",
@@ -912,11 +912,11 @@
       "type": "آسیاب و مخلوط‌کن",
       "title": "تعویض کاسه",
       "unit": "هر عدد",
-      "minPrice": 200000,
-      "maxPrice": 300000,
-      "averagePrice": 250000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 225000,
+      "maxPrice": 325000,
+      "averagePrice": 275000,
+      "changePercent": 10,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "تعویض-لرزه-گیر",
@@ -924,11 +924,11 @@
       "type": "آسیاب و مخلوط‌کن",
       "title": "تعویض لرزه گیر",
       "unit": "هر عدد",
-      "minPrice": 150000,
-      "maxPrice": 250000,
-      "averagePrice": 200000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 200000,
+      "maxPrice": 260000,
+      "averagePrice": 230000,
+      "changePercent": 15,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "بازدید-و-عیب-یابی",
@@ -937,10 +937,10 @@
       "title": "بازدید و عیب یابی",
       "unit": "هر سرویس",
       "minPrice": 200000,
-      "maxPrice": 265000,
-      "averagePrice": 232500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "maxPrice": 280000,
+      "averagePrice": 240000,
+      "changePercent": 3.23,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "حداقل-دستمزد-و-کارشناسی",
@@ -948,11 +948,11 @@
       "type": "آسیاب و مخلوط‌کن",
       "title": "حداقل دستمزد و کارشناسی",
       "unit": "پروژه‌ای",
-      "minPrice": 265000,
-      "maxPrice": 450000,
-      "averagePrice": 357500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 300000,
+      "maxPrice": 500000,
+      "averagePrice": 400000,
+      "changePercent": 11.89,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     },
     {
       "id": "ایاب-و-ذهاب",
@@ -960,11 +960,11 @@
       "type": "آسیاب و مخلوط‌کن",
       "title": "ایاب و ذهاب",
       "unit": "هر سرویس",
-      "minPrice": 174000,
-      "maxPrice": 230000,
-      "averagePrice": 202000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:52:43.340Z"
+      "minPrice": 217000,
+      "maxPrice": 288000,
+      "averagePrice": 252500,
+      "changePercent": 25,
+      "updatedAt": "2026-10-30T10:59:34.364Z"
     }
   ]
 }
