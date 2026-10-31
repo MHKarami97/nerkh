@@ -98,6 +98,7 @@ function openDetail() {
       <span v-if="asset.foodMeta.updatedLabel">{{
         asset.foodMeta.updatedLabel
       }}</span>
+      <span v-if="asset.foodMeta.note">{{ asset.foodMeta.note }}</span>
     </div>
   </article>
 </template>

@@ -1,5 +1,6 @@
 import { CATEGORY } from './categories.js'
 import { formatRelativeJalaliDate } from '../utils/relativeDate.js'
+import { produceMarkup } from './produceMarkup.js'
 
 const RIAL_PER_TOMAN = 10
 
@@ -26,16 +27,21 @@ export function normalizeProducePayload(payload) {
       symbol: buildSymbol('produce', index, item.title),
       label: item.title,
       category: CATEGORY.FOOD_PRODUCE,
-      price: toRial(item.averagePrice),
+      price: toRial(produceMarkup.apply(item.averagePrice)),
       changePercent: typeof item.changePercent === 'number' ? item.changePercent : 0,
       changeDirection: changeDirectionFromPercent(item.changePercent),
       unit: 'ریال',
       updatedAt,
       source: 'avalkeshavarz',
       priceRange: {
-        min: toRial(item.minPrice),
-        average: toRial(item.averagePrice),
-        max: toRial(item.maxPrice),
+        min: toRial(produceMarkup.apply(item.minPrice)),
+        average: toRial(produceMarkup.apply(item.averagePrice)),
+        max: toRial(produceMarkup.apply(item.maxPrice)),
+      },
+      foodMeta: {
+        unit: '',
+        updatedLabel: '',
+        note: produceMarkup.describe(item.averagePrice),
       },
     }))
     .filter((asset) => asset.price !== null)
