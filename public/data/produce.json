@@ -1,6 +1,6 @@
 {
   "source": "https://avalkeshavarz.ir/prices",
-  "generatedAt": "2026-11-02T08:02:50.443Z",
+  "generatedAt": "2026-11-02T18:43:49.556Z",
   "sourceUpdatedAt": "۱۴۰۵/۰۸/۱۱",
   "validUntil": "۱۴۰۵/۰۸/۱۷",
   "isExpired": false,
@@ -189,6 +189,14 @@
       "maxPrice": 110000,
       "averagePrice": 87000,
       "changePercent": 0
+    },
+    {
+      "id": "بادمجان-گلخانه-ای",
+      "title": "بادمجان گلخانه ای",
+      "minPrice": 70000,
+      "maxPrice": 100000,
+      "averagePrice": 84000,
+      "changePercent": 23.08
     },
     {
       "id": "سیر-تازه",
@@ -529,10 +537,10 @@
     {
       "id": "بادمجان-لامپی",
       "title": "بادمجان لامپی",
-      "minPrice": 100000,
-      "maxPrice": 130000,
-      "averagePrice": 115000,
-      "changePercent": 0
+      "minPrice": 70000,
+      "maxPrice": 100000,
+      "averagePrice": 75000,
+      "changePercent": 23.08
     },
     {
       "id": "ترب-سفید",
