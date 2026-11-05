@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/meat-chicken/",
-  "generatedAt": "2026-11-05T04:55:17.865Z",
-  "sourceUpdatedAt": "۱۳ آبان ۱۴۰۵",
+  "generatedAt": "2026-11-05T13:55:59.606Z",
+  "sourceUpdatedAt": "۱۴ آبان ۱۴۰۵",
   "category": "پروتئین - مرغ",
   "currency": "تومان",
   "items": [
@@ -10,7 +10,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۳/۰۸/۱۴۰۵",
+      "date": "۱۴/۰۸/۱۴۰۵",
       "price": 319300
     },
     {
@@ -18,7 +18,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "عدد",
-      "date": "۱۳/۰۸/۱۴۰۵",
+      "date": "۱۴/۰۸/۱۴۰۵",
       "price": 713730
     },
     {
@@ -26,15 +26,15 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۳/۰۸/۱۴۰۵",
-      "price": 270880
+      "date": "۱۴/۰۸/۱۴۰۵",
+      "price": 273430
     },
     {
       "title": "ران مرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۲/۰۸/۱۴۰۵",
+      "date": "۱۴/۰۸/۱۴۰۵",
       "price": 293550
     },
     {
@@ -42,7 +42,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۲/۰۸/۱۴۰۵",
+      "date": "۱۴/۰۸/۱۴۰۵",
       "price": 586330
     },
     {
@@ -50,8 +50,8 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۳/۰۸/۱۴۰۵",
-      "price": 679800
+      "date": "۱۴/۰۸/۱۴۰۵",
+      "price": 684950
     }
   ]
 }
