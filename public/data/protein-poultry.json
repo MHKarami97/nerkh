@@ -1,10 +1,18 @@
 {
   "source": "https://stdt.ir/product-category/poultry/",
-  "generatedAt": "2026-11-06T13:45:06.051Z",
-  "sourceUpdatedAt": "۱۵ آبان ۱۴۰۵",
+  "generatedAt": "2026-11-06T22:40:49.882Z",
+  "sourceUpdatedAt": "۱۶ آبان ۱۴۰۵",
   "category": "پروتئین - ماکیان",
   "currency": "تومان",
   "items": [
+    {
+      "title": "بوقلمون زنده",
+      "freshness": "گرم",
+      "origin": "داخلی",
+      "unit": "کیلوگرم",
+      "date": "۱۵/۰۸/۱۴۰۵",
+      "price": 93000
+    },
     {
       "title": "بوقلمون کشتار",
       "freshness": "گرم",
@@ -18,7 +26,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۵/۰۸/۱۴۰۵",
+      "date": "۱۶/۰۸/۱۴۰۵",
       "price": 281710
     },
     {
