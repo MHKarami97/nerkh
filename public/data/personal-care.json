@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "personal",
   "currency": "تومان",
-  "generatedAt": "2026-10-30T13:20:12.138Z",
+  "generatedAt": "2026-11-06T14:30:36.253Z",
   "types": [
     {
       "id": "hair-color",
@@ -10,8 +10,8 @@
       "slug": "رنگ-موی-ساده-بانوان",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-30T13:20:12.138Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T14:30:36.253Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     },
     {
       "id": "nails",
@@ -19,8 +19,8 @@
       "slug": "ترمیم-و-کاشت-ناخن-بانوان",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-30T13:20:12.138Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T14:30:36.253Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     },
     {
       "id": "facial",
@@ -28,8 +28,8 @@
       "slug": "پاکسازی-صورت-بانوان",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-30T13:20:12.138Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T14:30:36.253Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     },
     {
       "id": "suit",
@@ -37,8 +37,8 @@
       "slug": "دوخت-کت-و-شلوار",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-10-30T13:20:12.138Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T14:30:36.253Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     }
   ],
   "items": [
@@ -61,10 +61,10 @@
       "title": "رنگ موی کوتاه بدون مواد",
       "unit": "هر نفر",
       "minPrice": 600000,
-      "maxPrice": 795000,
-      "averagePrice": 697500,
-      "changePercent": -6.69,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 800000,
+      "averagePrice": 700000,
+      "changePercent": 0.36,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "رنگ-موی-تا-سرشانه-با-مواد",
@@ -72,11 +72,11 @@
       "type": "رنگ مو",
       "title": "رنگ موی تا سرشانه با مواد",
       "unit": "هر نفر",
-      "minPrice": 1500000,
-      "maxPrice": 2000000,
-      "averagePrice": 1750000,
-      "changePercent": -2.78,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 1700000,
+      "maxPrice": 2200000,
+      "averagePrice": 1950000,
+      "changePercent": 11.43,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "رنگ-موی-تا-سرشانه-بدون-مواد",
@@ -84,11 +84,11 @@
       "type": "رنگ مو",
       "title": "رنگ موی تا سرشانه بدون مواد",
       "unit": "هر نفر",
-      "minPrice": 850000,
-      "maxPrice": 1200000,
-      "averagePrice": 1025000,
-      "changePercent": -18,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 1000000,
+      "maxPrice": 1500000,
+      "averagePrice": 1250000,
+      "changePercent": 21.95,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "رنگ-موی-بلند-با-مواد",
@@ -96,11 +96,11 @@
       "type": "رنگ مو",
       "title": "رنگ موی بلند با مواد",
       "unit": "هر نفر",
-      "minPrice": 2300000,
-      "maxPrice": 3100000,
-      "averagePrice": 2700000,
-      "changePercent": -10,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 2500000,
+      "maxPrice": 3500000,
+      "averagePrice": 3000000,
+      "changePercent": 11.11,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "رنگ-موی-بلند-بدون-مواد",
@@ -108,11 +108,11 @@
       "type": "رنگ مو",
       "title": "رنگ موی بلند بدون مواد",
       "unit": "هر نفر",
-      "minPrice": 1250000,
-      "maxPrice": 1850000,
-      "averagePrice": 1550000,
-      "changePercent": -11.43,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 1500000,
+      "maxPrice": 2000000,
+      "averagePrice": 1750000,
+      "changePercent": 12.9,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "رنگ-ریشه",
@@ -121,10 +121,10 @@
       "title": "رنگ ریشه",
       "unit": "هر نفر",
       "minPrice": 800000,
-      "maxPrice": 1200000,
-      "averagePrice": 1000000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:05.830Z"
+      "maxPrice": 1100000,
+      "averagePrice": 950000,
+      "changePercent": -5,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دکوپاژ-موی-کوتاه",
@@ -132,11 +132,11 @@
       "type": "رنگ مو",
       "title": "دکوپاژ موی کوتاه",
       "unit": "هر نفر",
-      "minPrice": 1500000,
-      "maxPrice": 2000000,
-      "averagePrice": 1750000,
-      "changePercent": -2.78,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 1600000,
+      "maxPrice": 2350000,
+      "averagePrice": 1975000,
+      "changePercent": 12.86,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دکوپاژ-مو-تا-سرشانه",
@@ -144,11 +144,11 @@
       "type": "رنگ مو",
       "title": "دکوپاژ مو تا سرشانه",
       "unit": "هر نفر",
-      "minPrice": 2000000,
-      "maxPrice": 2500000,
-      "averagePrice": 2250000,
-      "changePercent": -10,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 2150000,
+      "maxPrice": 3250000,
+      "averagePrice": 2700000,
+      "changePercent": 20,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دکوپاژ-موی-بلند",
@@ -157,10 +157,10 @@
       "title": "دکوپاژ موی بلند",
       "unit": "هر نفر",
       "minPrice": 3000000,
-      "maxPrice": 4000000,
-      "averagePrice": 3500000,
-      "changePercent": -3.45,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 4950000,
+      "averagePrice": 3975000,
+      "changePercent": 13.57,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "کاشت-پودر",
@@ -181,10 +181,10 @@
       "title": "کاشت ژل",
       "unit": "کل کار",
       "minPrice": 800000,
-      "maxPrice": 900000,
-      "averagePrice": 850000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:05.830Z"
+      "maxPrice": 975000,
+      "averagePrice": 887500,
+      "changePercent": 4.41,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "ترمیم-پودر",
@@ -192,11 +192,11 @@
       "type": "کاشت ناخن",
       "title": "ترمیم پودر",
       "unit": "کل کار",
-      "minPrice": 550000,
+      "minPrice": 565000,
       "maxPrice": 650000,
-      "averagePrice": 600000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:05.830Z"
+      "averagePrice": 607500,
+      "changePercent": 1.25,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "ترمیم-ژل",
@@ -216,11 +216,11 @@
       "type": "کاشت ناخن",
       "title": "کاشت فیبر",
       "unit": "کل کار",
-      "minPrice": 1350000,
-      "maxPrice": 1350000,
-      "averagePrice": 1350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 800000,
+      "maxPrice": 900000,
+      "averagePrice": 850000,
+      "changePercent": -37.04,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "ترمیم-فیبر",
@@ -228,11 +228,11 @@
       "type": "کاشت ناخن",
       "title": "ترمیم فیبر",
       "unit": "کل کار",
-      "minPrice": 825000,
-      "maxPrice": 825000,
-      "averagePrice": 825000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 600000,
+      "maxPrice": 670000,
+      "averagePrice": 635000,
+      "changePercent": -23.03,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "کاشت-گریم",
@@ -241,10 +241,10 @@
       "title": "کاشت گریم",
       "unit": "کل کار",
       "minPrice": 1500000,
-      "maxPrice": 2500000,
-      "averagePrice": 2000000,
-      "changePercent": -16.67,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 2000000,
+      "averagePrice": 1750000,
+      "changePercent": -12.5,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "کاشت-فرنچ-ثابت",
@@ -253,10 +253,10 @@
       "title": "کاشت فرنچ ثابت",
       "unit": "کل کار",
       "minPrice": 1000000,
-      "maxPrice": 1150000,
-      "averagePrice": 1075000,
-      "changePercent": 2.38,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 1130000,
+      "averagePrice": 1065000,
+      "changePercent": -0.93,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "کاشت-بیبی-بومر",
@@ -264,11 +264,11 @@
       "type": "کاشت ناخن",
       "title": "کاشت بیبی بومر",
       "unit": "کل کار",
-      "minPrice": 1200000,
+      "minPrice": 1250000,
       "maxPrice": 1500000,
-      "averagePrice": 1350000,
-      "changePercent": -10,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "averagePrice": 1375000,
+      "changePercent": 1.85,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "کاشت-قالبی-پودر",
@@ -277,10 +277,10 @@
       "title": "کاشت قالبی پودر",
       "unit": "کل کار",
       "minPrice": 800000,
-      "maxPrice": 900000,
-      "averagePrice": 850000,
-      "changePercent": -10.53,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 1000000,
+      "averagePrice": 900000,
+      "changePercent": 5.88,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "لمینیت",
@@ -313,10 +313,10 @@
       "title": "کاور پودر",
       "unit": "کل کار",
       "minPrice": 700000,
-      "maxPrice": 900000,
-      "averagePrice": 800000,
-      "changePercent": 11.11,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 800000,
+      "averagePrice": 750000,
+      "changePercent": -6.25,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "کاور-با-ژل",
@@ -324,11 +324,11 @@
       "type": "کاشت ناخن",
       "title": "کاور با ژل",
       "unit": "کل کار",
-      "minPrice": 600000,
-      "maxPrice": 675000,
-      "averagePrice": 637500,
-      "changePercent": -1.92,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "minPrice": 650000,
+      "maxPrice": 700000,
+      "averagePrice": 675000,
+      "changePercent": 5.88,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "پاکسازی-صورت-با-بخور-و-ماسک",
@@ -349,10 +349,10 @@
       "title": "فیشیال وی ای پی",
       "unit": "جلسه‌ای",
       "minPrice": 2000000,
-      "maxPrice": 2500000,
-      "averagePrice": 2250000,
-      "changePercent": 12.5,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 2850000,
+      "averagePrice": 2425000,
+      "changePercent": 7.78,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دوخت-کت-و-شلوار-مردانه",
@@ -384,11 +384,11 @@
       "type": "دوخت کت و شلوار",
       "title": "دوخت جلیقه مردانه",
       "unit": "هر عدد",
-      "minPrice": 975000,
+      "minPrice": 1050000,
       "maxPrice": 1500000,
-      "averagePrice": 1237500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:05.830Z"
+      "averagePrice": 1275000,
+      "changePercent": 3.03,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دوخت-شلوار-مردانه",
@@ -397,10 +397,10 @@
       "title": "دوخت شلوار مردانه",
       "unit": "هر عدد",
       "minPrice": 1100000,
-      "maxPrice": 1500000,
-      "averagePrice": 1300000,
-      "changePercent": 4,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 1650000,
+      "averagePrice": 1375000,
+      "changePercent": 5.77,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دوخت-کت-و-شلوار-زنانه",
@@ -409,10 +409,10 @@
       "title": "دوخت کت و شلوار زنانه",
       "unit": "هر دست",
       "minPrice": 2800000,
-      "maxPrice": 3500000,
-      "averagePrice": 3150000,
-      "changePercent": -7.35,
-      "updatedAt": "2026-10-30T13:20:12.138Z"
+      "maxPrice": 4000000,
+      "averagePrice": 3400000,
+      "changePercent": 7.94,
+      "updatedAt": "2026-11-06T14:30:36.253Z"
     },
     {
       "id": "دوخت-کت-دامن-ساده",
