@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "misc",
   "currency": "تومان",
-  "generatedAt": "2026-10-30T14:24:38.005Z",
+  "generatedAt": "2026-11-06T15:28:28.498Z",
   "types": [
     {
       "id": "legal",
@@ -10,8 +10,8 @@
       "slug": "مشاوره-حقوقی",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-10-30T14:24:38.005Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T15:28:28.498Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     },
     {
       "id": "subtitle",
@@ -19,8 +19,8 @@
       "slug": "زیرنویس-فیلم",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-10-30T14:24:38.005Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T15:28:28.498Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     },
     {
       "id": "child-photo",
@@ -28,8 +28,8 @@
       "slug": "عکاسی-کودک",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-10-30T14:24:38.005Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T15:28:28.498Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     },
     {
       "id": "bicycle",
@@ -37,8 +37,8 @@
       "slug": "سرویس-و-تعمیر-دوچرخه",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-10-30T14:24:38.005Z",
-      "sourceUpdatedAt": "8 آبان 1405"
+      "checkedAt": "2026-11-06T15:28:28.498Z",
+      "sourceUpdatedAt": "15 آبان 1405"
     }
   ],
   "items": [
@@ -61,10 +61,10 @@
       "title": "جلسه مشاوره آنلاین خصوصی",
       "unit": "ساعتی",
       "minPrice": 500000,
-      "maxPrice": 750000,
-      "averagePrice": 625000,
-      "changePercent": 4.17,
-      "updatedAt": "2026-10-30T14:24:38.005Z"
+      "maxPrice": 800000,
+      "averagePrice": 650000,
+      "changePercent": 4,
+      "updatedAt": "2026-11-06T15:28:28.498Z"
     },
     {
       "id": "جلسه-مشاوره-حضوری-خصوصی",
@@ -72,11 +72,11 @@
       "type": "مشاوره حقوقی",
       "title": "جلسه مشاوره حضوری خصوصی",
       "unit": "ساعتی",
-      "minPrice": 900000,
-      "maxPrice": 1000000,
-      "averagePrice": 950000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "minPrice": 1000000,
+      "maxPrice": 1200000,
+      "averagePrice": 1100000,
+      "changePercent": 15.79,
+      "updatedAt": "2026-11-06T15:28:28.498Z"
     },
     {
       "id": "ترجمه-عمومی-زیرنویس-آماده",
@@ -241,10 +241,10 @@
       "title": "ایاب و ذهاب درون‌شهری",
       "unit": "هر سرویس",
       "minPrice": 200000,
-      "maxPrice": 500000,
-      "averagePrice": 350000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "maxPrice": 450000,
+      "averagePrice": 325000,
+      "changePercent": -7.14,
+      "updatedAt": "2026-11-06T15:28:28.498Z"
     },
     {
       "id": "ایاب-و-ذهاب-برون‌شهری",
