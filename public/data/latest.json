@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T16:13:12.230Z",
+  "generatedAt": "2026-11-08T20:41:27.221Z",
   "source": "tgju",
   "assets": [
     {
@@ -117,10 +117,10 @@
       "label": "شاخص طلای ۱۸ عیار (پیش‌گشایی)",
       "category": "gold",
       "price": 251045000,
-      "changePercent": 0.66,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -128,10 +128,10 @@
       "label": "شاخص طلای ۱۸ عیار تی‌جی‌جی‌یو",
       "category": "gold",
       "price": 252871000,
-      "changePercent": 0.66,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -139,10 +139,10 @@
       "label": "توکن طلای تتر (XAUt)",
       "category": "gold",
       "price": 4055.45,
-      "changePercent": 0.2,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -161,10 +161,10 @@
       "label": "نقره خالص ۹۹۹ (هر گرم)",
       "category": "gold",
       "price": 4674800,
-      "changePercent": 1.34,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:41:47.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -172,10 +172,10 @@
       "label": "نقره استرلینگ ۹۲۵ (هر گرم)",
       "category": "gold",
       "price": 4324230,
-      "changePercent": 1.34,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:42:54.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -194,10 +194,10 @@
       "label": "سکه امامی (بازار آزاد)",
       "category": "gold",
       "price": 2480611000,
-      "changePercent": 0.7,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -205,10 +205,10 @@
       "label": "سکه امامی (پایین بازار)",
       "category": "gold",
       "price": 2490000000,
-      "changePercent": 0.8,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T09:56:24.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -238,10 +238,10 @@
       "label": "سکه امامی",
       "category": "gold",
       "price": 2574100000,
-      "changePercent": 0.55,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -260,10 +260,10 @@
       "label": "حباب سکه بهار آزادی",
       "category": "gold",
       "price": 55180000,
-      "changePercent": 41.16,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -271,10 +271,10 @@
       "label": "سکه بهار آزادی",
       "category": "gold",
       "price": 2484200000,
-      "changePercent": 1.11,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -282,10 +282,10 @@
       "label": "ربع سکه (پایین بازار)",
       "category": "gold",
       "price": 630000000,
-      "changePercent": 1.59,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T08:28:33.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -293,10 +293,10 @@
       "label": "حباب ربع سکه",
       "category": "gold",
       "price": 82620000,
-      "changePercent": 5.87,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -304,10 +304,10 @@
       "label": "ربع سکه",
       "category": "gold",
       "price": 717300000,
-      "changePercent": 1.07,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:41.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -315,10 +315,10 @@
       "label": "سکه امامی (خرد فروشی)",
       "category": "gold",
       "price": 2584100000,
-      "changePercent": 0.54,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -326,10 +326,10 @@
       "label": "سکه بهار آزادی (خرد فروشی)",
       "category": "gold",
       "price": 2490300000,
-      "changePercent": 1.1,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -337,10 +337,10 @@
       "label": "ربع سکه (خرد فروشی)",
       "category": "gold",
       "price": 720300000,
-      "changePercent": 1.07,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:45.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -348,10 +348,10 @@
       "label": "نیم سکه (خرد فروشی)",
       "category": "gold",
       "price": 1359300000,
-      "changePercent": 0.84,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:52:59.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -362,7 +362,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T07:38:52.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -370,10 +370,10 @@
       "label": "نرخ کواچای زامبیا",
       "category": "currency",
       "price": 126700,
-      "changePercent": 0.47,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -381,10 +381,10 @@
       "label": "نرخ رند آفریقای‌جنوبی",
       "category": "currency",
       "price": 160000,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -392,10 +392,10 @@
       "label": "نرخ ریال یمن",
       "category": "currency",
       "price": 11180,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -403,10 +403,10 @@
       "label": "نرخ فرانک پلی‌نزی",
       "category": "currency",
       "price": 24600,
-      "changePercent": 0.41,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T12:12:44.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -414,10 +414,10 @@
       "label": "نرخ فرانک آفریقای غربی",
       "category": "currency",
       "price": 4520,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -425,10 +425,10 @@
       "label": "نرخ دلار کارائیب شرقی",
       "category": "currency",
       "price": 974300,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -436,10 +436,10 @@
       "label": "نرخ فرانک آفریقای مرکزی",
       "category": "currency",
       "price": 4380,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -447,10 +447,10 @@
       "label": "نرخ واتوی وانواتو",
       "category": "currency",
       "price": 21300,
-      "changePercent": 0.47,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:06:54.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -480,10 +480,10 @@
       "label": "نرخ پزوی اروگوئه",
       "category": "currency",
       "price": 68000,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:58.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -502,10 +502,10 @@
       "label": "نرخ گریونای اوکراین",
       "category": "currency",
       "price": 56800,
-      "changePercent": 0.35,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -513,10 +513,10 @@
       "label": "نرخ شیلینگ تانزانیا",
       "category": "currency",
       "price": 1000,
-      "changePercent": 1,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -524,10 +524,10 @@
       "label": "نرخ دلار تایوان",
       "category": "currency",
       "price": 80900,
-      "changePercent": 0.37,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -535,10 +535,10 @@
       "label": "نرخ دلار ترینیداد",
       "category": "currency",
       "price": 374900,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -546,10 +546,10 @@
       "label": "نرخ لیر ترکیه",
       "category": "currency",
       "price": 53000,
-      "changePercent": 0.38,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:07.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -557,10 +557,10 @@
       "label": "نرخ دینار تونس",
       "category": "currency",
       "price": 883100,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -568,10 +568,10 @@
       "label": "نرخ مانات ترکمنستان",
       "category": "currency",
       "price": 726100,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -579,10 +579,10 @@
       "label": "نرخ سامانی تاجیکستان",
       "category": "currency",
       "price": 278600,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -590,10 +590,10 @@
       "label": "نرخ بات تایلند",
       "category": "currency",
       "price": 79120,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -601,10 +601,10 @@
       "label": "نرخ لیلانگنی سواتینی",
       "category": "currency",
       "price": 159200,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -612,21 +612,21 @@
       "label": "نرخ لیر سوریه",
       "category": "currency",
       "price": 21833,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
       "symbol": "price_svc",
       "label": "نرخ کولون السالوادور",
       "category": "currency",
-      "price": 291100,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "price": 291000,
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -634,10 +634,10 @@
       "label": "نرخ دوبرای سائوتومه",
       "category": "currency",
       "price": 118070,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -645,10 +645,10 @@
       "label": "نرخ شیلینگ سومالی",
       "category": "currency",
       "price": 4610,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -667,10 +667,10 @@
       "label": "نرخ دلار سنگاپور",
       "category": "currency",
       "price": 2069300,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -678,10 +678,10 @@
       "label": "نرخ کرون سوئد",
       "category": "currency",
       "price": 268200,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:22.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -689,10 +689,10 @@
       "label": "نرخ روپیه سیشل",
       "category": "currency",
       "price": 177700,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -700,10 +700,10 @@
       "label": "نرخ ریال عربستان",
       "category": "currency",
       "price": 705990,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:58.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -711,10 +711,10 @@
       "label": "نرخ فرانک رواندا",
       "category": "currency",
       "price": 1790,
-      "changePercent": 0.56,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:06:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -722,10 +722,10 @@
       "label": "نرخ روبل روسیه",
       "category": "currency",
       "price": 32330,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -733,10 +733,10 @@
       "label": "نرخ دینار صربستان",
       "category": "currency",
       "price": 25010,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -744,10 +744,10 @@
       "label": "نرخ لئوی رومانی",
       "category": "currency",
       "price": 552700,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -755,10 +755,10 @@
       "label": "نرخ ریال قطر",
       "category": "currency",
       "price": 746900,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -777,10 +777,10 @@
       "label": "نرخ زلوتی لهستان",
       "category": "currency",
       "price": 671000,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -788,10 +788,10 @@
       "label": "نرخ روپیه پاکستان",
       "category": "currency",
       "price": 9491,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:50.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -799,10 +799,10 @@
       "label": "نرخ پزوی فیلیپین",
       "category": "currency",
       "price": 42000,
-      "changePercent": 0.71,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:01.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -810,10 +810,10 @@
       "label": "نرخ کینای پاپوا",
       "category": "currency",
       "price": 578200,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -821,10 +821,10 @@
       "label": "نرخ سول پرو",
       "category": "currency",
       "price": 770100,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -832,10 +832,10 @@
       "label": "نرخ بالبوآی پاناما",
       "category": "currency",
       "price": 2590800,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -843,10 +843,10 @@
       "label": "نرخ ریال عمان",
       "category": "currency",
       "price": 6893600,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -854,10 +854,10 @@
       "label": "نرخ دلار نیوزیلند",
       "category": "currency",
       "price": 1470800,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -865,10 +865,10 @@
       "label": "نرخ روپیه نپال",
       "category": "currency",
       "price": 17100,
-      "changePercent": 0.58,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:06:58.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -876,10 +876,10 @@
       "label": "نرخ کرون نروژ",
       "category": "currency",
       "price": 280400,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -887,10 +887,10 @@
       "label": "نرخ کوردوبای نیکاراگوئه",
       "category": "currency",
       "price": 72000,
-      "changePercent": 0.42,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -898,10 +898,10 @@
       "label": "نرخ نایرای نیجریه",
       "category": "currency",
       "price": 1970,
-      "changePercent": 0.51,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T11:31:18.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -909,10 +909,10 @@
       "label": "نرخ دلار نامیبیا",
       "category": "currency",
       "price": 160100,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -920,10 +920,10 @@
       "label": "نرخ متیکال موزامبیک",
       "category": "currency",
       "price": 41500,
-      "changePercent": 0.24,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -931,10 +931,10 @@
       "label": "نرخ رینگیت مالزی",
       "category": "currency",
       "price": 653300,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:04.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -942,10 +942,10 @@
       "label": "نرخ پزوی مکزیک",
       "category": "currency",
       "price": 142400,
-      "changePercent": 0.42,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:01.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -953,10 +953,10 @@
       "label": "نرخ کواچای مالاوی",
       "category": "currency",
       "price": 1499,
-      "changePercent": 0.67,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:17.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -964,10 +964,10 @@
       "label": "نرخ روفیای مالدیو",
       "category": "currency",
       "price": 171000,
-      "changePercent": 0.41,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -975,10 +975,10 @@
       "label": "نرخ روپیه موریس",
       "category": "currency",
       "price": 55200,
-      "changePercent": 0.36,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -986,10 +986,10 @@
       "label": "نرخ اوگویای موریتانی",
       "category": "currency",
       "price": 65000,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -997,10 +997,10 @@
       "label": "نرخ پاتاکای ماکائو",
       "category": "currency",
       "price": 327800,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1011,7 +1011,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T09:07:42.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1019,10 +1019,10 @@
       "label": "نرخ دینار مقدونیه",
       "category": "currency",
       "price": 48100,
-      "changePercent": 0.42,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1030,10 +1030,10 @@
       "label": "نرخ آریاری ماداگاسکار",
       "category": "currency",
       "price": 570,
-      "changePercent": 1.75,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1041,10 +1041,10 @@
       "label": "نرخ لئوی مولداوی",
       "category": "currency",
       "price": 148500,
-      "changePercent": 0.4,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1052,10 +1052,10 @@
       "label": "نرخ درهم مراکش",
       "category": "currency",
       "price": 271500,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1063,10 +1063,10 @@
       "label": "نرخ دینار لیبی",
       "category": "currency",
       "price": 410900,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1074,10 +1074,10 @@
       "label": "نرخ لوتی لسوتو",
       "category": "currency",
       "price": 160300,
-      "changePercent": 0.5,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1088,7 +1088,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T09:07:42.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1096,10 +1096,10 @@
       "label": "نرخ روپیه سریلانکا",
       "category": "currency",
       "price": 7970,
-      "changePercent": 0.38,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1129,10 +1129,10 @@
       "label": "نرخ تنگه قزاقستان",
       "category": "currency",
       "price": 5910,
-      "changePercent": 0.51,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1140,10 +1140,10 @@
       "label": "نرخ دلار کیمن",
       "category": "currency",
       "price": 3202600,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1151,10 +1151,10 @@
       "label": "نرخ دینار کویت",
       "category": "currency",
       "price": 8533300,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:01.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1162,10 +1162,10 @@
       "label": "نرخ وون کره جنوبی",
       "category": "currency",
       "price": 1937,
-      "changePercent": 0.52,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1173,10 +1173,10 @@
       "label": "نرخ فرانک کومور",
       "category": "currency",
       "price": 5980,
-      "changePercent": 0.5,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:30:53.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1195,10 +1195,10 @@
       "label": "نرخ سام قرقیزستان",
       "category": "currency",
       "price": 30310,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:59.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1206,21 +1206,21 @@
       "label": "نرخ شیلینگ کنیا",
       "category": "currency",
       "price": 20400,
-      "changePercent": 0.49,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T12:12:43.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
       "symbol": "price_jpy",
       "label": "نرخ ین ژاپن",
       "category": "currency",
-      "price": 1673430,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "price": 1673460,
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1228,10 +1228,10 @@
       "label": "نرخ دینار اردن",
       "category": "currency",
       "price": 3743000,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:04.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1239,10 +1239,10 @@
       "label": "نرخ دلار جامائیکا",
       "category": "currency",
       "price": 16200,
-      "changePercent": 0.62,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T12:12:43.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1250,10 +1250,10 @@
       "label": "نرخ کرون ایسلند",
       "category": "currency",
       "price": 21600,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T11:31:17.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1261,10 +1261,10 @@
       "label": "نرخ دینار عراق",
       "category": "currency",
       "price": 1744,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1272,10 +1272,10 @@
       "label": "نرخ روپیه هند",
       "category": "currency",
       "price": 28150,
-      "changePercent": 0.43,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1294,10 +1294,10 @@
       "label": "نرخ فورینت مجارستان",
       "category": "currency",
       "price": 8150,
-      "changePercent": 0.37,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:01.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1305,10 +1305,10 @@
       "label": "نرخ گورد هائیتی",
       "category": "currency",
       "price": 20100,
-      "changePercent": 0.5,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T12:12:43.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1316,10 +1316,10 @@
       "label": "نرخ کرون کرواسی",
       "category": "currency",
       "price": 376600,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1327,10 +1327,10 @@
       "label": "نرخ لمپیرای هندوراس",
       "category": "currency",
       "price": 98500,
-      "changePercent": 0.51,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:30:53.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1338,10 +1338,10 @@
       "label": "نرخ دلار هنگ‌کنگ",
       "category": "currency",
       "price": 338200,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:04.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1349,10 +1349,10 @@
       "label": "نرخ دلار گویان",
       "category": "currency",
       "price": 13200,
-      "changePercent": 0.76,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T12:12:43.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1360,10 +1360,10 @@
       "label": "نرخ کتزال گواتمالا",
       "category": "currency",
       "price": 346400,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1371,10 +1371,10 @@
       "label": "نرخ دالاسی گامبیا",
       "category": "currency",
       "price": 35200,
-      "changePercent": 0.57,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1382,10 +1382,10 @@
       "label": "نرخ سدی غنا",
       "category": "currency",
       "price": 225100,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:25.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1393,10 +1393,10 @@
       "label": "نرخ لاری گرجستان",
       "category": "currency",
       "price": 1020300,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1404,10 +1404,10 @@
       "label": "نرخ پوند انگلیس",
       "category": "currency",
       "price": 3539200,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:07.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1415,10 +1415,10 @@
       "label": "نرخ دلار فیجی",
       "category": "currency",
       "price": 1139461,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1426,10 +1426,10 @@
       "label": "نرخ یورو",
       "category": "currency",
       "price": 2957500,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:07.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1437,10 +1437,10 @@
       "label": "نرخ بیر اتیوپی",
       "category": "currency",
       "price": 16400,
-      "changePercent": 0.61,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:07:02.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1448,10 +1448,10 @@
       "label": "نرخ پوند مصر",
       "category": "currency",
       "price": 49200,
-      "changePercent": 0.41,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1459,10 +1459,10 @@
       "label": "نرخ دینار الجزایر",
       "category": "currency",
       "price": 19300,
-      "changePercent": 0.52,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1470,10 +1470,10 @@
       "label": "نرخ پزوی دومینیکن",
       "category": "currency",
       "price": 43400,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:24.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1481,10 +1481,10 @@
       "label": "دلار آزاد",
       "category": "currency",
       "price": 2649000,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1492,10 +1492,10 @@
       "label": "نرخ کرون دانمارک",
       "category": "currency",
       "price": 395100,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1503,10 +1503,10 @@
       "label": "نرخ فرانک جیبوتی",
       "category": "currency",
       "price": 14800,
-      "changePercent": 0.68,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1514,10 +1514,10 @@
       "label": "نرخ کرون چک",
       "category": "currency",
       "price": 121400,
-      "changePercent": 0.41,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1525,10 +1525,10 @@
       "label": "نرخ اسکودو کیپ‌ورد",
       "category": "currency",
       "price": 27800,
-      "changePercent": 0.36,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:06:34.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1536,10 +1536,10 @@
       "label": "نرخ پزوی کوبا",
       "category": "currency",
       "price": 110300,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:57:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1561,7 +1561,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T09:13:48.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1569,10 +1569,10 @@
       "label": "نرخ یوان چین",
       "category": "currency",
       "price": 397000,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:50.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1580,10 +1580,10 @@
       "label": "نرخ پزوی شیلی",
       "category": "currency",
       "price": 2720,
-      "changePercent": 0.37,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1591,10 +1591,10 @@
       "label": "نرخ فرانک سوئیس",
       "category": "currency",
       "price": 3230900,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1613,10 +1613,10 @@
       "label": "نرخ دلار کانادا",
       "category": "currency",
       "price": 1876300,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:03.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1624,10 +1624,10 @@
       "label": "نرخ دلار بلیز",
       "category": "currency",
       "price": 1277700,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1635,10 +1635,10 @@
       "label": "نرخ روبل بلاروس",
       "category": "currency",
       "price": 913800,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:07.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1646,10 +1646,10 @@
       "label": "نرخ پولای بوتسوانا",
       "category": "currency",
       "price": 182600,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:31:17.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1657,10 +1657,10 @@
       "label": "نرخ نگولترم بوتان",
       "category": "currency",
       "price": 28200,
-      "changePercent": 0.35,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:47:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1668,10 +1668,10 @@
       "label": "نرخ دلار باهاما",
       "category": "currency",
       "price": 2569900,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1679,10 +1679,10 @@
       "label": "نرخ رئال برزیل",
       "category": "currency",
       "price": 479900,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1712,10 +1712,10 @@
       "label": "نرخ فرانک بوروندی",
       "category": "currency",
       "price": 879,
-      "changePercent": 0.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:48:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1723,10 +1723,10 @@
       "label": "نرخ دینار بحرین",
       "category": "currency",
       "price": 7039100,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:01.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1734,10 +1734,10 @@
       "label": "نرخ لوی بلغارستان",
       "category": "currency",
       "price": 1580500,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1745,10 +1745,10 @@
       "label": "نرخ تاکای بنگلادش",
       "category": "currency",
       "price": 21230,
-      "changePercent": 0.42,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1756,10 +1756,10 @@
       "label": "نرخ مارک بوسنی",
       "category": "currency",
       "price": 1511000,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1767,10 +1767,10 @@
       "label": "نرخ مانات آذربایجان",
       "category": "currency",
       "price": 1558300,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1778,10 +1778,10 @@
       "label": "نرخ فلورین آروبا",
       "category": "currency",
       "price": 1480500,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1789,10 +1789,10 @@
       "label": "نرخ دلار استرالیا",
       "category": "currency",
       "price": 1820900,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:58:02.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1803,7 +1803,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:51.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1811,10 +1811,10 @@
       "label": "نرخ گیلدر آنتیل هلند",
       "category": "currency",
       "price": 1470400,
-      "changePercent": 0.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1822,10 +1822,10 @@
       "label": "نرخ درام ارمنستان",
       "category": "currency",
       "price": 7350,
-      "changePercent": 0.54,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:56.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1833,10 +1833,10 @@
       "label": "نرخ لک آلبانی",
       "category": "currency",
       "price": 32500,
-      "changePercent": 0.31,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T13:06:34.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1844,10 +1844,10 @@
       "label": "نرخ افغانی افغانستان",
       "category": "currency",
       "price": 41150,
-      "changePercent": 0.41,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:58.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1855,10 +1855,10 @@
       "label": "نرخ درهم امارات",
       "category": "currency",
       "price": 724620,
-      "changePercent": 0.45,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:58.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1943,10 +1943,10 @@
       "label": "نیم سکه (پایین بازار)",
       "category": "gold",
       "price": 1240000000,
-      "changePercent": 0.81,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T08:28:33.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1954,10 +1954,10 @@
       "label": "حباب نیم سکه",
       "category": "gold",
       "price": 86000000,
-      "changePercent": 6.63,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1965,10 +1965,10 @@
       "label": "نیم سکه",
       "category": "gold",
       "price": 1355300000,
-      "changePercent": 0.84,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:52:45.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1987,10 +1987,10 @@
       "label": "مثقال طلا",
       "category": "gold",
       "price": 1101020000,
-      "changePercent": 0.7,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -1998,10 +1998,10 @@
       "label": "صندوق طلای زمرد",
       "category": "fund",
       "price": 33656,
-      "changePercent": 0.73,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2009,10 +2009,10 @@
       "label": "صندوق طلای زرافشان",
       "category": "fund",
       "price": 49700,
-      "changePercent": 0.78,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2020,10 +2020,10 @@
       "label": "صندوق طلای زرگر",
       "category": "fund",
       "price": 24873,
-      "changePercent": 0.53,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2031,10 +2031,10 @@
       "label": "صندوق طلای زرفام",
       "category": "fund",
       "price": 179999,
-      "changePercent": 0.28,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2042,10 +2042,10 @@
       "label": "صندوق طلای زر",
       "category": "fund",
       "price": 1042991,
-      "changePercent": 0.19,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2053,10 +2053,10 @@
       "label": "صندوق طلای تابش",
       "category": "fund",
       "price": 99389,
-      "changePercent": 0.33,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:29:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2064,10 +2064,10 @@
       "label": "صندوق نقره سیمین",
       "category": "fund",
       "price": 11656,
-      "changePercent": 1.21,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2075,10 +2075,10 @@
       "label": "صندوق نقره",
       "category": "fund",
       "price": 12093,
-      "changePercent": 1.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2086,10 +2086,10 @@
       "label": "صندوق طلای زعفران",
       "category": "fund",
       "price": 71397,
-      "changePercent": 2.25,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:04.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2097,10 +2097,10 @@
       "label": "صندوق طلای رزگلد",
       "category": "fund",
       "price": 22710,
-      "changePercent": 1.53,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:04.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2119,10 +2119,10 @@
       "label": "صندوق طلای ریتون",
       "category": "fund",
       "price": 23609,
-      "changePercent": 0.21,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2130,10 +2130,10 @@
       "label": "صندوق نقره نقرین",
       "category": "fund",
       "price": 9434,
-      "changePercent": 1.07,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2141,10 +2141,10 @@
       "label": "صندوق نقره نقران",
       "category": "fund",
       "price": 11410,
-      "changePercent": 2.08,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2152,10 +2152,10 @@
       "label": "صندوق نقره نقره‌بی",
       "category": "fund",
       "price": 12092,
-      "changePercent": 0.96,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2163,10 +2163,10 @@
       "label": "صندوق طلای نهال",
       "category": "fund",
       "price": 72761,
-      "changePercent": 0.33,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2174,10 +2174,10 @@
       "label": "صندوق طلای نفیس",
       "category": "fund",
       "price": 142439,
-      "changePercent": 0.18,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2185,10 +2185,10 @@
       "label": "صندوق طلای ناب",
       "category": "fund",
       "price": 84698,
-      "changePercent": 0.06,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2196,10 +2196,10 @@
       "label": "صندوق طلای میراث",
       "category": "fund",
       "price": 14745,
-      "changePercent": 0.24,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2207,10 +2207,10 @@
       "label": "صندوق طلای مثقال",
       "category": "fund",
       "price": 196912,
-      "changePercent": 0.33,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2240,10 +2240,10 @@
       "label": "صندوق طلای لیان",
       "category": "fund",
       "price": 45027,
-      "changePercent": 0.2,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2251,10 +2251,10 @@
       "label": "صندوق طلای کهربا",
       "category": "fund",
       "price": 236855,
-      "changePercent": 0.14,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2262,10 +2262,10 @@
       "label": "صندوق طلای جواهر",
       "category": "fund",
       "price": 90489,
-      "changePercent": 0.8,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2273,10 +2273,10 @@
       "label": "صندوق طلای همیان",
       "category": "fund",
       "price": 21909,
-      "changePercent": 0.19,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2284,10 +2284,10 @@
       "label": "صندوق طلای گلدیس",
       "category": "fund",
       "price": 48100,
-      "changePercent": 0.88,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:29:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2295,10 +2295,10 @@
       "label": "صندوق طلای گلدا",
       "category": "fund",
       "price": 22013,
-      "changePercent": 1.03,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2306,10 +2306,10 @@
       "label": "صندوق طلای گوهر",
       "category": "fund",
       "price": 14715,
-      "changePercent": 0.42,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:04.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2317,10 +2317,10 @@
       "label": "صندوق طلای قیراط",
       "category": "fund",
       "price": 44008,
-      "changePercent": 0.54,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2328,10 +2328,10 @@
       "label": "صندوق طلای گنج",
       "category": "fund",
       "price": 211500,
-      "changePercent": 0.13,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:29:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2339,10 +2339,10 @@
       "label": "صندوق طلای زمرد (Emerald)",
       "category": "fund",
       "price": 32998,
-      "changePercent": 0.82,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2350,10 +2350,10 @@
       "label": "صندوق طلای درنا",
       "category": "fund",
       "price": 28084,
-      "changePercent": 0.73,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:29:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2361,10 +2361,10 @@
       "label": "صندوق طلای درخشان",
       "category": "fund",
       "price": 44404,
-      "changePercent": 0.01,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2372,10 +2372,10 @@
       "label": "صندوق طلای عیار",
       "category": "fund",
       "price": 678000,
-      "changePercent": 0.18,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2383,10 +2383,10 @@
       "label": "صندوق طلای آتش",
       "category": "fund",
       "price": 44170,
-      "changePercent": 0.16,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:36:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2394,10 +2394,10 @@
       "label": "صندوق طلای آلتون",
       "category": "fund",
       "price": 78551,
-      "changePercent": 0.59,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:29:23.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2405,10 +2405,10 @@
       "label": "آبشده بنکداری",
       "category": "gold",
       "price": 1101520000,
-      "changePercent": 0.7,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2416,10 +2416,10 @@
       "label": "آبشده تحویل",
       "category": "gold",
       "price": 1101030000,
-      "changePercent": 0.69,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2427,10 +2427,10 @@
       "label": "آتی طلا",
       "category": "gold",
       "price": 1093580000,
-      "changePercent": 0.91,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2438,10 +2438,10 @@
       "label": "حباب سکه گرمی",
       "category": "gold",
       "price": 57830000,
-      "changePercent": 2.5,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2452,7 +2452,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T07:38:52.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2460,10 +2460,10 @@
       "label": "طلای ۲۴ عیار",
       "category": "gold",
       "price": 338892000,
-      "changePercent": 0.7,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2471,10 +2471,10 @@
       "label": "طلای ۱۸ عیار",
       "category": "gold",
       "price": 254171000,
-      "changePercent": 0.7,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2482,10 +2482,10 @@
       "label": "زی‌کش (دلار)",
       "category": "crypto",
       "price": 1276.97,
-      "changePercent": 1.23,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2493,10 +2493,10 @@
       "label": "ویوز (دلار)",
       "category": "crypto",
       "price": 0.21968097,
-      "changePercent": 0.76,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:53:20.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2504,10 +2504,10 @@
       "label": "یو‌اس‌دی کوین (ریال)",
       "category": "crypto",
       "price": 2660100,
-      "changePercent": 0.51,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:51:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2526,10 +2526,10 @@
       "label": "یونی‌سواپ (دلار)",
       "category": "crypto",
       "price": 6.99,
-      "changePercent": 1.57,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:48:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2537,10 +2537,10 @@
       "label": "ترون (ریال)",
       "category": "crypto",
       "price": 853000,
-      "changePercent": 0.4,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2548,10 +2548,10 @@
       "label": "ترون (دلار)",
       "category": "crypto",
       "price": 0.32066999,
-      "changePercent": 0.11,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2559,10 +2559,10 @@
       "label": "تون‌کوین (ریال)",
       "category": "crypto",
       "price": 5905000,
-      "changePercent": 0.52,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:54:53.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2581,10 +2581,10 @@
       "label": "تزوس (دلار)",
       "category": "crypto",
       "price": 0.25511286,
-      "changePercent": 4.11,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:12.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2592,10 +2592,10 @@
       "label": "تتر",
       "category": "crypto",
       "price": 2661020,
-      "changePercent": 0.47,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:57:52.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2606,7 +2606,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T07:55:55.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2614,10 +2614,10 @@
       "label": "استلار (ریال)",
       "category": "crypto",
       "price": 401700,
-      "changePercent": 0.47,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2625,10 +2625,10 @@
       "label": "استلار (دلار)",
       "category": "crypto",
       "price": 0.15100446,
-      "changePercent": 0.04,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2636,10 +2636,10 @@
       "label": "سولانا (ریال)",
       "category": "crypto",
       "price": 238398000,
-      "changePercent": 0.41,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2647,10 +2647,10 @@
       "label": "سولانا (دلار)",
       "category": "crypto",
       "price": 89.62,
-      "changePercent": 0.1,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2661,7 +2661,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T08:11:40.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2669,10 +2669,10 @@
       "label": "شیبا اینو (دلار)",
       "category": "crypto",
       "price": 0.00000447,
-      "changePercent": 0.22,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:52:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2680,10 +2680,10 @@
       "label": "سندباکس (دلار)",
       "category": "crypto",
       "price": 0.04190257,
-      "changePercent": 0.82,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:13.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2691,10 +2691,10 @@
       "label": "ریپل (ریال)",
       "category": "crypto",
       "price": 3085700,
-      "changePercent": 0.51,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:51:35.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2705,7 +2705,7 @@
       "changePercent": 0,
       "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T13:41:44.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2713,10 +2713,10 @@
       "label": "پولکادات (ریال)",
       "category": "crypto",
       "price": 2373000,
-      "changePercent": 1.26,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:10.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2724,10 +2724,10 @@
       "label": "پولکادات (دلار)",
       "category": "crypto",
       "price": 0.89225674,
-      "changePercent": 0.72,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:10.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2735,10 +2735,10 @@
       "label": "پنکیک‌سواپ (دلار)",
       "category": "crypto",
       "price": 1.89,
-      "changePercent": 0.53,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T13:34:48.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2746,10 +2746,10 @@
       "label": "نئو (دلار)",
       "category": "crypto",
       "price": 1.84,
-      "changePercent": 2.17,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:53:32.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2758,9 +2758,9 @@
       "category": "crypto",
       "price": 0.00031997,
       "changePercent": 0,
-      "changeDirection": "up",
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:53:59.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2768,10 +2768,10 @@
       "label": "مونرو (ریال)",
       "category": "crypto",
       "price": 1612446200,
-      "changePercent": 1.47,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2779,10 +2779,10 @@
       "label": "مونرو (دلار)",
       "category": "crypto",
       "price": 606.16,
-      "changePercent": 0.96,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2790,10 +2790,10 @@
       "label": "میکر (دلار)",
       "category": "crypto",
       "price": 1469.62,
-      "changePercent": 0.16,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:55:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2801,10 +2801,10 @@
       "label": "لوپ‌رینگ (دلار)",
       "category": "crypto",
       "price": 0.00729934,
-      "changePercent": 2.37,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:53:39.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2812,10 +2812,10 @@
       "label": "لایت‌کوین (ریال)",
       "category": "crypto",
       "price": 137553800,
-      "changePercent": 1.27,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2823,10 +2823,10 @@
       "label": "لایت‌کوین (دلار)",
       "category": "crypto",
       "price": 51.71,
-      "changePercent": 0.75,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2834,10 +2834,10 @@
       "label": "گالا (دلار)",
       "category": "crypto",
       "price": 0.00153125,
-      "changePercent": 1.44,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2845,10 +2845,10 @@
       "label": "فلو (دلار)",
       "category": "crypto",
       "price": 0.02029149,
-      "changePercent": 2.9,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:21.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2856,10 +2856,10 @@
       "label": "فایل‌کوین (دلار)",
       "category": "crypto",
       "price": 0.77008509,
-      "changePercent": 2.37,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:10.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2878,10 +2878,10 @@
       "label": "اتریوم",
       "category": "crypto",
       "price": 5962161900,
-      "changePercent": 0.12,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2889,10 +2889,10 @@
       "label": "اتریوم کلاسیک (دلار)",
       "category": "crypto",
       "price": 6.84,
-      "changePercent": 1.46,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:53:58.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2900,10 +2900,10 @@
       "label": "اتریوم (دلار)",
       "category": "crypto",
       "price": 2241.33,
-      "changePercent": 0.39,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2911,10 +2911,10 @@
       "label": "ایاواس (ریال)",
       "category": "crypto",
       "price": 208900,
-      "changePercent": 2.11,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:55:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2922,10 +2922,10 @@
       "label": "ایاواس (دلار)",
       "category": "crypto",
       "price": 0.07854947,
-      "changePercent": 1.54,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:55:00.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2933,10 +2933,10 @@
       "label": "مالتی‌ورس ایکس (دلار)",
       "category": "crypto",
       "price": 2.96,
-      "changePercent": 5.74,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:37:22.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2944,10 +2944,10 @@
       "label": "دوج‌کوین (ریال)",
       "category": "crypto",
       "price": 190000,
-      "changePercent": 0.89,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:53:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2955,10 +2955,10 @@
       "label": "دوج‌کوین (دلار)",
       "category": "crypto",
       "price": 0.07142831,
-      "changePercent": 0.37,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2966,10 +2966,10 @@
       "label": "دیکرد (دلار)",
       "category": "crypto",
       "price": 12.4,
-      "changePercent": 2.82,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:12.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2977,10 +2977,10 @@
       "label": "دش (ریال)",
       "category": "crypto",
       "price": 124492700,
-      "changePercent": 0.28,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:11.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2988,10 +2988,10 @@
       "label": "دش (دلار)",
       "category": "crypto",
       "price": 46.8,
-      "changePercent": 0.8,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:11.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -2999,10 +2999,10 @@
       "label": "کازماس (دلار)",
       "category": "crypto",
       "price": 1.35,
-      "changePercent": 1.48,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:48:07.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3010,10 +3010,10 @@
       "label": "چین‌لینک (ریال)",
       "category": "crypto",
       "price": 28569500,
-      "changePercent": 1.17,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:52:30.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3021,10 +3021,10 @@
       "label": "چین‌لینک (دلار)",
       "category": "crypto",
       "price": 10.74,
-      "changePercent": 0.65,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:37:14.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3032,10 +3032,10 @@
       "label": "کاردانو",
       "category": "crypto",
       "price": 480700,
-      "changePercent": 0.77,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:53:57.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3043,10 +3043,10 @@
       "label": "کاردانو (دلار)",
       "category": "crypto",
       "price": 0.18071713,
-      "changePercent": 0.26,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3054,10 +3054,10 @@
       "label": "بیت‌تورنت (دلار)",
       "category": "crypto",
       "price": 0.00035866,
-      "changePercent": 1.05,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:55:16.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3065,10 +3065,10 @@
       "label": "بیت‌کوین",
       "category": "crypto",
       "price": 202290204000,
-      "changePercent": 0.15,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3076,10 +3076,10 @@
       "label": "بیت‌کوین کش (ریال)",
       "category": "crypto",
       "price": 654304800,
-      "changePercent": 4.91,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3087,10 +3087,10 @@
       "label": "بیت‌کوین کش (دلار)",
       "category": "crypto",
       "price": 245.97,
-      "changePercent": 4.38,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:09.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3098,10 +3098,10 @@
       "label": "بیت‌کوین (دلار)",
       "category": "crypto",
       "price": 76046.09,
-      "changePercent": 0.36,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3109,10 +3109,10 @@
       "label": "بایننس کوین (ریال)",
       "category": "crypto",
       "price": 1857042400,
-      "changePercent": 0.3,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:56:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3120,10 +3120,10 @@
       "label": "بایننس کوین (دلار)",
       "category": "crypto",
       "price": 698.11,
-      "changePercent": 0.21,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:56:08.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3131,10 +3131,10 @@
       "label": "اولنچ (ریال)",
       "category": "crypto",
       "price": 21839000,
-      "changePercent": 0.39,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:52:32.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3142,10 +3142,10 @@
       "label": "اولنچ (دلار)",
       "category": "crypto",
       "price": 8.21,
-      "changePercent": 0.12,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "دلار",
-      "updatedAt": "2026-11-08T14:48:05.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3153,10 +3153,10 @@
       "label": "شاخص کل بورس تهران",
       "category": "index",
       "price": 8089993.5,
-      "changePercent": 0.08,
-      "changeDirection": "up",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "",
-      "updatedAt": "2026-11-08T11:56:06.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     },
     {
@@ -3164,10 +3164,10 @@
       "label": "دلار در بازار افغانستان",
       "category": "currency",
       "price": 2609000,
-      "changePercent": 0.25,
-      "changeDirection": "down",
+      "changePercent": 0,
+      "changeDirection": "neutral",
       "unit": "ریال",
-      "updatedAt": "2026-11-08T14:35:15.000Z",
+      "updatedAt": "2026-11-07T20:30:00.000Z",
       "source": "tgju"
     }
   ]
