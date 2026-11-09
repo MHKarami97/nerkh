@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/meat-chicken/",
-  "generatedAt": "2026-11-09T04:26:38.173Z",
-  "sourceUpdatedAt": "۱۷ آبان ۱۴۰۵",
+  "generatedAt": "2026-11-09T15:02:19.030Z",
+  "sourceUpdatedAt": "۱۸ آبان ۱۴۰۵",
   "category": "پروتئین - مرغ",
   "currency": "تومان",
   "items": [
@@ -10,15 +10,15 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۷/۰۸/۱۴۰۵",
-      "price": 314150
+      "date": "۱۸/۰۸/۱۴۰۵",
+      "price": 324450
     },
     {
       "title": "پولت",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "عدد",
-      "date": "۱۷/۰۸/۱۴۰۵",
+      "date": "۱۸/۰۸/۱۴۰۵",
       "price": 713730
     },
     {
@@ -26,7 +26,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۷/۰۸/۱۴۰۵",
+      "date": "۱۸/۰۸/۱۴۰۵",
       "price": 296710
     },
     {
@@ -34,24 +34,24 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۷/۰۸/۱۴۰۵",
-      "price": 278100
+      "date": "۱۸/۰۸/۱۴۰۵",
+      "price": 298700
     },
     {
       "title": "سینه مرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۷/۰۸/۱۴۰۵",
-      "price": 596520
+      "date": "۱۸/۰۸/۱۴۰۵",
+      "price": 586330
     },
     {
       "title": "فیله مرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۱۶/۰۸/۱۴۰۵",
-      "price": 695250
+      "date": "۱۸/۰۸/۱۴۰۵",
+      "price": 705550
     }
   ]
 }
