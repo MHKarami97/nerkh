@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "misc",
   "currency": "تومان",
-  "generatedAt": "2026-11-06T15:28:28.498Z",
+  "generatedAt": "2026-11-13T15:33:06.588Z",
   "types": [
     {
       "id": "legal",
@@ -10,8 +10,8 @@
       "slug": "مشاوره-حقوقی",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-11-06T15:28:28.498Z",
-      "sourceUpdatedAt": "15 آبان 1405"
+      "checkedAt": "2026-11-13T15:33:06.588Z",
+      "sourceUpdatedAt": "22 آبان 1405"
     },
     {
       "id": "subtitle",
@@ -19,8 +19,8 @@
       "slug": "زیرنویس-فیلم",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-11-06T15:28:28.498Z",
-      "sourceUpdatedAt": "15 آبان 1405"
+      "checkedAt": "2026-11-13T15:33:06.588Z",
+      "sourceUpdatedAt": "22 آبان 1405"
     },
     {
       "id": "child-photo",
@@ -28,8 +28,8 @@
       "slug": "عکاسی-کودک",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-11-06T15:28:28.498Z",
-      "sourceUpdatedAt": "15 آبان 1405"
+      "checkedAt": "2026-11-13T15:33:06.588Z",
+      "sourceUpdatedAt": "22 آبان 1405"
     },
     {
       "id": "bicycle",
@@ -37,8 +37,8 @@
       "slug": "سرویس-و-تعمیر-دوچرخه",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-11-06T15:28:28.498Z",
-      "sourceUpdatedAt": "15 آبان 1405"
+      "checkedAt": "2026-11-13T15:33:06.588Z",
+      "sourceUpdatedAt": "22 آبان 1405"
     }
   ],
   "items": [
@@ -84,11 +84,11 @@
       "type": "زیرنویس فیلم",
       "title": "ترجمه عمومی زیرنویس آماده",
       "unit": "دقیقه‌ای",
-      "minPrice": 12500,
+      "minPrice": 10000,
       "maxPrice": 25000,
-      "averagePrice": 18750,
-      "changePercent": 7.14,
-      "updatedAt": "2026-10-30T14:24:38.005Z"
+      "averagePrice": 17500,
+      "changePercent": -6.67,
+      "updatedAt": "2026-11-13T15:33:06.588Z"
     },
     {
       "id": "ترجمه-عمومی-در-فایل-Word",
@@ -121,10 +121,10 @@
       "title": "ترجمه عمومی به صورت هارد ساب در فرمت mp4",
       "unit": "دقیقه‌ای",
       "minPrice": 15000,
-      "maxPrice": 26000,
-      "averagePrice": 20500,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "maxPrice": 25500,
+      "averagePrice": 20250,
+      "changePercent": -1.22,
+      "updatedAt": "2026-11-13T15:33:06.588Z"
     },
     {
       "id": "ترجمه-تخصصی-زیرنویس-آماده",
@@ -133,10 +133,10 @@
       "title": "ترجمه تخصصی زیرنویس آماده",
       "unit": "دقیقه‌ای",
       "minPrice": 15000,
-      "maxPrice": 28000,
-      "averagePrice": 21500,
-      "changePercent": 1.18,
-      "updatedAt": "2026-10-30T14:24:38.005Z"
+      "maxPrice": 27500,
+      "averagePrice": 21250,
+      "changePercent": -1.16,
+      "updatedAt": "2026-11-13T15:33:06.588Z"
     },
     {
       "id": "ترجمه-تخصصی-در-فایل-Word",
@@ -168,11 +168,11 @@
       "type": "زیرنویس فیلم",
       "title": "ترجمه تخصصی به صورت هارد ساب در فرمت mp4",
       "unit": "دقیقه‌ای",
-      "minPrice": 26000,
-      "maxPrice": 38500,
-      "averagePrice": 32250,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "minPrice": 25000,
+      "maxPrice": 35000,
+      "averagePrice": 30000,
+      "changePercent": -6.98,
+      "updatedAt": "2026-11-13T15:33:06.588Z"
     },
     {
       "id": "عکاسی-نوزاد-در-محل-مشتری",
@@ -205,10 +205,10 @@
       "title": "عکاسی کودک در محل مشتری",
       "unit": "ساعتی",
       "minPrice": 2000000,
-      "maxPrice": 3000000,
-      "averagePrice": 2500000,
-      "changePercent": 0,
-      "updatedAt": "2026-10-25T07:53:17.884Z"
+      "maxPrice": 3150000,
+      "averagePrice": 2575000,
+      "changePercent": 3,
+      "updatedAt": "2026-11-13T15:33:06.588Z"
     },
     {
       "id": "عکاسی-کودک-در-آتلیه",
@@ -241,10 +241,10 @@
       "title": "ایاب و ذهاب درون‌شهری",
       "unit": "هر سرویس",
       "minPrice": 200000,
-      "maxPrice": 450000,
-      "averagePrice": 325000,
-      "changePercent": -7.14,
-      "updatedAt": "2026-11-06T15:28:28.498Z"
+      "maxPrice": 500000,
+      "averagePrice": 350000,
+      "changePercent": 7.69,
+      "updatedAt": "2026-11-13T15:33:06.588Z"
     },
     {
       "id": "ایاب-و-ذهاب-برون‌شهری",
