@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/meat-veal/",
-  "generatedAt": "2026-11-17T01:30:12.160Z",
-  "sourceUpdatedAt": "۲۵ آبان ۱۴۰۵",
+  "generatedAt": "2026-11-18T00:27:21.068Z",
+  "sourceUpdatedAt": "۲۶ آبان ۱۴۰۵",
   "category": "پروتئین - گوساله",
   "currency": "تومان",
   "items": [
@@ -10,7 +10,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۲۵/۰۸/۱۴۰۵",
+      "date": "۲۶/۰۸/۱۴۰۵",
       "price": 2400000
     },
     {
@@ -18,16 +18,16 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۲۵/۰۸/۱۴۰۵",
-      "price": 1540000
+      "date": "۲۶/۰۸/۱۴۰۵",
+      "price": 1850000
     },
     {
       "title": "سردست گوساله",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۲۵/۰۸/۱۴۰۵",
-      "price": 1900000
+      "date": "۲۶/۰۸/۱۴۰۵",
+      "price": 1950000
     },
     {
       "title": "فیله گوساله تازه",
@@ -42,16 +42,16 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۲۵/۰۸/۱۴۰۵",
-      "price": 1540000
+      "date": "۲۶/۰۸/۱۴۰۵",
+      "price": 1680000
     },
     {
       "title": "گردن گوساله",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۲۳/۰۸/۱۴۰۵",
-      "price": 1900000
+      "date": "۲۶/۰۸/۱۴۰۵",
+      "price": 1950000
     }
   ]
 }
