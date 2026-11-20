@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "home",
   "currency": "تومان",
-  "generatedAt": "2026-11-13T13:20:22.176Z",
+  "generatedAt": "2026-11-20T14:16:11.714Z",
   "types": [
     {
       "id": "moving",
@@ -10,8 +10,8 @@
       "slug": "کارگر-اسباب-کشی",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-11-13T13:20:22.176Z",
-      "sourceUpdatedAt": "22 آبان 1405"
+      "checkedAt": "2026-11-20T14:16:11.714Z",
+      "sourceUpdatedAt": "29 آبان 1405"
     },
     {
       "id": "dry-cleaning",
@@ -19,8 +19,8 @@
       "slug": "خشکشویی-لباس",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-11-13T13:20:22.176Z",
-      "sourceUpdatedAt": "22 آبان 1405"
+      "checkedAt": "2026-11-20T14:16:11.714Z",
+      "sourceUpdatedAt": "29 آبان 1405"
     },
     {
       "id": "sofa-cleaning",
@@ -28,8 +28,8 @@
       "slug": "مبل-شویی",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-11-13T13:20:22.176Z",
-      "sourceUpdatedAt": "22 آبان 1405"
+      "checkedAt": "2026-11-20T14:16:11.714Z",
+      "sourceUpdatedAt": "29 آبان 1405"
     }
   ],
   "items": [
@@ -52,10 +52,10 @@
       "title": "کارگر حمل بار به ازای هر یک ساعت اضافه",
       "unit": "کل کار",
       "minPrice": 500000,
-      "maxPrice": 650000,
-      "averagePrice": 575000,
-      "changePercent": 4.55,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "maxPrice": 690000,
+      "averagePrice": 595000,
+      "changePercent": 3.48,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "کت-و-شلوار",
@@ -351,11 +351,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی ست مبلمان ۵ نفره معمولی",
       "unit": "هر ست",
-      "minPrice": 1500000,
-      "maxPrice": 1600000,
-      "averagePrice": 1550000,
-      "changePercent": 6.9,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "minPrice": 1480000,
+      "maxPrice": 1650000,
+      "averagePrice": 1565000,
+      "changePercent": 0.97,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-ست-مبلمان-۵-نفره-تشک-دوبل",
@@ -364,10 +364,10 @@
       "title": "شستشوی ست مبلمان ۵ نفره تشک دوبل",
       "unit": "هر ست",
       "minPrice": 1600000,
-      "maxPrice": 1950000,
-      "averagePrice": 1775000,
-      "changePercent": 4.41,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "maxPrice": 1900000,
+      "averagePrice": 1750000,
+      "changePercent": -1.41,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-ست-مبلمان-۷-نفره-معمولی",
@@ -375,11 +375,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی ست مبلمان ۷ نفره معمولی",
       "unit": "هر ست",
-      "minPrice": 1930000,
-      "maxPrice": 2150000,
-      "averagePrice": 2040000,
-      "changePercent": 4.62,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "minPrice": 2000000,
+      "maxPrice": 2200000,
+      "averagePrice": 2100000,
+      "changePercent": 2.94,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-ست-مبلمان-۷-نفره-تشک-دوبل",
@@ -411,11 +411,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی ست مبلمان ۹ نفره تشک دوبل",
       "unit": "هر دست",
-      "minPrice": 2700000,
-      "maxPrice": 3180000,
-      "averagePrice": 2940000,
-      "changePercent": 0.51,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "minPrice": 2780000,
+      "maxPrice": 3200000,
+      "averagePrice": 2990000,
+      "changePercent": 1.7,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-صندلی-ناهار-خوری",
@@ -423,11 +423,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی صندلی ناهار خوری",
       "unit": "هر عدد",
-      "minPrice": 148000,
-      "maxPrice": 195000,
-      "averagePrice": 171500,
-      "changePercent": 13.2,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "minPrice": 152000,
+      "maxPrice": 201000,
+      "averagePrice": 176500,
+      "changePercent": 2.92,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-مبل-تختخوابشو-تک-نفره",
@@ -471,11 +471,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی خوشخواب تک نفره",
       "unit": "هر عدد",
-      "minPrice": 850000,
-      "maxPrice": 1150000,
-      "averagePrice": 1000000,
-      "changePercent": 2.56,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "minPrice": 900000,
+      "maxPrice": 1200000,
+      "averagePrice": 1050000,
+      "changePercent": 5,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-خوشخواب-دو-نفره",
@@ -484,10 +484,10 @@
       "title": "شستشوی خوشخواب دو نفره",
       "unit": "هر عدد",
       "minPrice": 1500000,
-      "maxPrice": 1730000,
-      "averagePrice": 1615000,
-      "changePercent": -2.12,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "maxPrice": 1800000,
+      "averagePrice": 1650000,
+      "changePercent": 2.17,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-بالشتک-(کوسن)",
@@ -496,10 +496,10 @@
       "title": "شستشوی بالشتک (کوسن)",
       "unit": "هر عدد",
       "minPrice": 50000,
-      "maxPrice": 80000,
-      "averagePrice": 65000,
-      "changePercent": 4,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "maxPrice": 75000,
+      "averagePrice": 62500,
+      "changePercent": -3.85,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-مبل-تک-نفره-تشک-دوبل",
@@ -507,11 +507,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی مبل تک نفره تشک دوبل",
       "unit": "هر عدد",
-      "minPrice": 300000,
-      "maxPrice": 380000,
-      "averagePrice": 340000,
-      "changePercent": -2.86,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "minPrice": 310000,
+      "maxPrice": 375000,
+      "averagePrice": 342500,
+      "changePercent": 0.74,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-مبل-تک-نفره-معمولی",
@@ -519,11 +519,11 @@
       "type": "مبل‌شویی",
       "title": "شستشوی مبل تک نفره معمولی",
       "unit": "هر عدد",
-      "minPrice": 265000,
+      "minPrice": 280000,
       "maxPrice": 310000,
-      "averagePrice": 287500,
-      "changePercent": 4.55,
-      "updatedAt": "2026-11-13T13:20:22.176Z"
+      "averagePrice": 295000,
+      "changePercent": 2.61,
+      "updatedAt": "2026-11-20T14:16:11.714Z"
     },
     {
       "id": "شستشوی-موکت-در-محل",
