@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/poultry/",
-  "generatedAt": "2026-11-24T03:51:16.304Z",
-  "sourceUpdatedAt": "۰۲ آذر ۱۴۰۵",
+  "generatedAt": "2026-11-24T16:55:07.292Z",
+  "sourceUpdatedAt": "۰۳ آذر ۱۴۰۵",
   "category": "پروتئین - ماکیان",
   "currency": "تومان",
   "items": [
@@ -26,15 +26,15 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۲/۰۹/۱۴۰۵",
-      "price": 286520
+      "date": "۰۳/۰۹/۱۴۰۵",
+      "price": 283360
     },
     {
       "title": "جوجه شترمرغ",
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "عدد",
-      "date": "۰۲/۰۹/۱۴۰۵",
+      "date": "۰۳/۰۹/۱۴۰۵",
       "price": 8000000
     },
     {
@@ -42,7 +42,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۲/۰۹/۱۴۰۵",
+      "date": "۰۳/۰۹/۱۴۰۵",
       "price": 730000
     },
     {
@@ -50,7 +50,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۲/۰۹/۱۴۰۵",
+      "date": "۰۳/۰۹/۱۴۰۵",
       "price": 990000
     },
     {
@@ -58,7 +58,7 @@
       "freshness": "گرم",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۲/۰۹/۱۴۰۵",
+      "date": "۰۳/۰۹/۱۴۰۵",
       "price": 1450000
     }
   ]
