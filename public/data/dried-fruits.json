@@ -1,7 +1,7 @@
 {
   "source": "https://stdt.ir/product-category/dried-fruits/",
-  "generatedAt": "2026-11-25T01:53:15.786Z",
-  "sourceUpdatedAt": "۰۳ آذر ۱۴۰۵",
+  "generatedAt": "2026-11-25T16:44:12.134Z",
+  "sourceUpdatedAt": "۰۴ آذر ۱۴۰۵",
   "category": "میوه خشک",
   "currency": "تومان",
   "items": [
@@ -10,7 +10,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۳/۰۹/۱۴۰۵",
+      "date": "۰۴/۰۹/۱۴۰۵",
       "price": 2080000
     },
     {
@@ -18,7 +18,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۳/۰۹/۱۴۰۵",
+      "date": "۰۴/۰۹/۱۴۰۵",
       "price": 680000
     },
     {
@@ -26,7 +26,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۳/۰۹/۱۴۰۵",
+      "date": "۰۴/۰۹/۱۴۰۵",
       "price": 2839840
     },
     {
@@ -34,15 +34,15 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۳/۰۹/۱۴۰۵",
-      "price": 495000
+      "date": "۰۴/۰۹/۱۴۰۵",
+      "price": 461250
     },
     {
       "title": "خرما خاصویی",
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۳/۰۹/۱۴۰۵",
+      "date": "۰۴/۰۹/۱۴۰۵",
       "price": 420000
     },
     {
@@ -50,7 +50,7 @@
       "freshness": "تازه",
       "origin": "داخلی",
       "unit": "کیلوگرم",
-      "date": "۰۳/۰۹/۱۴۰۵",
+      "date": "۰۴/۰۹/۱۴۰۵",
       "price": 202500
     }
   ]
