@@ -2,7 +2,7 @@
   "source": "sanjagh",
   "groupId": "misc",
   "currency": "تومان",
-  "generatedAt": "2026-11-20T16:17:20.405Z",
+  "generatedAt": "2026-11-27T17:34:31.505Z",
   "types": [
     {
       "id": "legal",
@@ -10,8 +10,8 @@
       "slug": "مشاوره-حقوقی",
       "order": 0,
       "status": "fresh",
-      "checkedAt": "2026-11-20T16:17:20.405Z",
-      "sourceUpdatedAt": "29 آبان 1405"
+      "checkedAt": "2026-11-27T17:34:31.505Z",
+      "sourceUpdatedAt": "6 آذر 1405"
     },
     {
       "id": "subtitle",
@@ -19,8 +19,8 @@
       "slug": "زیرنویس-فیلم",
       "order": 1,
       "status": "fresh",
-      "checkedAt": "2026-11-20T16:17:20.405Z",
-      "sourceUpdatedAt": "29 آبان 1405"
+      "checkedAt": "2026-11-27T17:34:31.505Z",
+      "sourceUpdatedAt": "6 آذر 1405"
     },
     {
       "id": "child-photo",
@@ -28,8 +28,8 @@
       "slug": "عکاسی-کودک",
       "order": 2,
       "status": "fresh",
-      "checkedAt": "2026-11-20T16:17:20.405Z",
-      "sourceUpdatedAt": "29 آبان 1405"
+      "checkedAt": "2026-11-27T17:34:31.505Z",
+      "sourceUpdatedAt": "6 آذر 1405"
     },
     {
       "id": "bicycle",
@@ -37,8 +37,8 @@
       "slug": "سرویس-و-تعمیر-دوچرخه",
       "order": 3,
       "status": "fresh",
-      "checkedAt": "2026-11-20T16:17:20.405Z",
-      "sourceUpdatedAt": "29 آبان 1405"
+      "checkedAt": "2026-11-27T17:34:31.505Z",
+      "sourceUpdatedAt": "6 آذر 1405"
     }
   ],
   "items": [
@@ -49,10 +49,10 @@
       "title": "مشاوره هر ۳۰ دقیقه",
       "unit": "کل کار",
       "minPrice": 500000,
-      "maxPrice": 1000000,
-      "averagePrice": 750000,
-      "changePercent": 50,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "maxPrice": 2000000,
+      "averagePrice": 1250000,
+      "changePercent": 66.67,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "جلسه-مشاوره-آنلاین-خصوصی",
@@ -60,11 +60,11 @@
       "type": "مشاوره حقوقی",
       "title": "جلسه مشاوره آنلاین خصوصی",
       "unit": "ساعتی",
-      "minPrice": 700000,
+      "minPrice": 685000,
       "maxPrice": 1000000,
-      "averagePrice": 850000,
-      "changePercent": 30.77,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "averagePrice": 842500,
+      "changePercent": -0.88,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "جلسه-مشاوره-حضوری-خصوصی",
@@ -72,11 +72,11 @@
       "type": "مشاوره حقوقی",
       "title": "جلسه مشاوره حضوری خصوصی",
       "unit": "ساعتی",
-      "minPrice": 1750000,
-      "maxPrice": 2750000,
-      "averagePrice": 2250000,
-      "changePercent": 104.55,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "minPrice": 2000000,
+      "maxPrice": 3000000,
+      "averagePrice": 2500000,
+      "changePercent": 11.11,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "ترجمه-عمومی-زیرنویس-آماده",
@@ -264,11 +264,11 @@
       "type": "تعمیر دوچرخه",
       "title": "بازدید و کارشناسی اولیه",
       "unit": "جلسه‌ای",
-      "minPrice": 150000,
-      "maxPrice": 300000,
-      "averagePrice": 225000,
-      "changePercent": 2.74,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "minPrice": 113000,
+      "maxPrice": 375000,
+      "averagePrice": 244000,
+      "changePercent": 8.44,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "پنچرگیری",
@@ -276,11 +276,11 @@
       "type": "تعمیر دوچرخه",
       "title": "پنچرگیری",
       "unit": "هر حلقه",
-      "minPrice": 300000,
-      "maxPrice": 400000,
-      "averagePrice": 350000,
-      "changePercent": 16.67,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "minPrice": 275000,
+      "maxPrice": 450000,
+      "averagePrice": 362500,
+      "changePercent": 3.57,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تعویض-لاستیک-و-تیوب",
@@ -288,11 +288,11 @@
       "type": "تعمیر دوچرخه",
       "title": "تعویض لاستیک و تیوب",
       "unit": "هر حلقه",
-      "minPrice": 300000,
+      "minPrice": 275000,
       "maxPrice": 500000,
-      "averagePrice": 400000,
-      "changePercent": 3.23,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "averagePrice": 387500,
+      "changePercent": -3.12,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تنظیم-دنده",
@@ -301,10 +301,10 @@
       "title": "تنظیم دنده",
       "unit": "هر سرویس",
       "minPrice": 150000,
-      "maxPrice": 350000,
-      "averagePrice": 250000,
-      "changePercent": 11.11,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "maxPrice": 375000,
+      "averagePrice": 262500,
+      "changePercent": 5,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تنظیم-ترمز",
@@ -312,11 +312,11 @@
       "type": "تعمیر دوچرخه",
       "title": "تنظیم ترمز",
       "unit": "هر سرویس",
-      "minPrice": 135000,
-      "maxPrice": 275000,
-      "averagePrice": 205000,
-      "changePercent": -2.38,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "minPrice": 150000,
+      "maxPrice": 250000,
+      "averagePrice": 200000,
+      "changePercent": -2.44,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "سرویس-کامل-دنده-(تنظیم،-تعویض-سیم،-روکش-و-روانکاری)",
@@ -325,10 +325,10 @@
       "title": "سرویس کامل دنده (تنظیم، تعویض سیم، روکش و روانکاری)",
       "unit": "هر دستگاه",
       "minPrice": 500000,
-      "maxPrice": 850000,
-      "averagePrice": 675000,
-      "changePercent": -3.57,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "maxPrice": 900000,
+      "averagePrice": 700000,
+      "changePercent": 3.7,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "سرویس-کامل-هر-ترمز",
@@ -336,11 +336,11 @@
       "type": "تعمیر دوچرخه",
       "title": "سرویس کامل هر ترمز",
       "unit": "هر سرویس",
-      "minPrice": 250000,
-      "maxPrice": 550000,
-      "averagePrice": 400000,
-      "changePercent": 14.29,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "minPrice": 200000,
+      "maxPrice": 475000,
+      "averagePrice": 337500,
+      "changePercent": -15.62,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تعویض-سیم-دنده-یا-ترمز",
@@ -348,11 +348,11 @@
       "type": "تعمیر دوچرخه",
       "title": "تعویض سیم دنده یا ترمز",
       "unit": "هر قطعه",
-      "minPrice": 150000,
-      "maxPrice": 300000,
+      "minPrice": 175000,
+      "maxPrice": 275000,
       "averagePrice": 225000,
-      "changePercent": 50,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "changePercent": 0,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تعویض-لنت-یا-لقمه-ترمز",
@@ -360,11 +360,11 @@
       "type": "تعمیر دوچرخه",
       "title": "تعویض لنت یا لقمه ترمز",
       "unit": "هر قطعه",
-      "minPrice": 125000,
-      "maxPrice": 176000,
-      "averagePrice": 150500,
-      "changePercent": -24.75,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "minPrice": 150000,
+      "maxPrice": 225000,
+      "averagePrice": 187500,
+      "changePercent": 24.58,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تعویض-دسته-ترمز",
@@ -373,10 +373,10 @@
       "title": "تعویض دسته ترمز",
       "unit": "هر قطعه",
       "minPrice": 275000,
-      "maxPrice": 400000,
-      "averagePrice": 337500,
-      "changePercent": -10,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "maxPrice": 350000,
+      "averagePrice": 312500,
+      "changePercent": -7.41,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     },
     {
       "id": "تعویض-زنجیر",
@@ -385,10 +385,10 @@
       "title": "تعویض زنجیر",
       "unit": "هر قطعه",
       "minPrice": 200000,
-      "maxPrice": 375000,
-      "averagePrice": 287500,
-      "changePercent": -11.54,
-      "updatedAt": "2026-11-20T16:17:20.405Z"
+      "maxPrice": 450000,
+      "averagePrice": 325000,
+      "changePercent": 13.04,
+      "updatedAt": "2026-11-27T17:34:31.505Z"
     }
   ]
 }
